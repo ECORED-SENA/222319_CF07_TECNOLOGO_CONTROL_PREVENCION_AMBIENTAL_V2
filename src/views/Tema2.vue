@@ -45,16 +45,18 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Macroanálisis:] sí la cantidad de muestra está comprendida aproximadamente entre 0.1 - 2 g.
+                span 
+                  b Macroanálisis: 
+                  | sí la cantidad de muestra está comprendida aproximadamente entre 0.1 - 2 g.
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Semimicroanálisis:] cantidad comprendida aproximadamente entre 0.01 a 0.05 g (10 a 50 mg).
+                span.mb-0 #[b Semimicroanálisis:] cantidad comprendida aproximadamente entre 0.01 a 0.05 g (10 a 50 mg).
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Microanálisis:] de 1 a unos pocos miligramos (0.001g).
+                span.mb-0 #[b Microanálisis:] de 1 a unos pocos miligramos (0.001g).
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Ultra Microanálisis:] Determina una cantidad de material del orden de unos cuantos miligramos (0.001 mg = 1 g).     
+                span.mb-0 #[b Ultra Microanálisis:] Determina una cantidad de material del orden de unos cuantos miligramos (0.001 mg = 1 g).     
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema2/tab3.png', alt='Los métodos')
@@ -67,10 +69,10 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Análisis químico cualitativo:]  tiene por objeto el reconocimiento o identificación de los elementos o de los grupos químicos presentes en una muestra. Las operaciones que se realizan son muy sencillas, entre las que podemos mencionar disolución de la muestra en un solvente adecuado, separación de impurezas, ya sea por decantación, filtración o centrifugación. El material que se requiere consiste en tubos de ensayos, vasos de precipitados, probetas, cápsulas de porcelana, papel de filtro.
+                span.mb-0 #[b Análisis químico cualitativo:]  tiene por objeto el reconocimiento o identificación de los elementos o de los grupos químicos presentes en una muestra. Las operaciones que se realizan son muy sencillas, entre las que podemos mencionar disolución de la muestra en un solvente adecuado, separación de impurezas, ya sea por decantación, filtración o centrifugación. El material que se requiere consiste en tubos de ensayos, vasos de precipitados, probetas, cápsulas de porcelana, papel de filtro.
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Análisis químico cuantitativo:] determina las cantidades de los elementos y compuestos que componen una muestra y sus posibles relaciones químicas e incluso estructurales.
+                span.mb-0 #[b Análisis químico cuantitativo:] determina las cantidades de los elementos y compuestos que componen una muestra y sus posibles relaciones químicas e incluso estructurales.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema2/tab4.png', alt='Ciencia creadora')

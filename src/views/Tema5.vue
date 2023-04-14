@@ -423,7 +423,7 @@
             | El CO2 se combina con el agua para formar un ácido débil, inestable, H2CO3, el cual se descompone muy fácilmente. Por ello todo el dióxido, aun combinado se considera CO2  libre.
           li 
             i.fas.fa-check
-            p La acidez se titula mediante la adición de iones OH- provenientes de una disolución de NaOH 0,02N. Dando paso a la siguiente reacción. #[br]#[br]
+            span La acidez se titula mediante la adición de iones OH- provenientes de una disolución de NaOH 0,02N. Dando paso a la siguiente reacción. #[br]#[br]
               strong.bg-green7.mb-0.p-2 2NaOH + CO2→ Na2CO3 + H2O #[br]
               strong.bg-green7.mb-0.p-2 Na2CO3 + CO2 + H2O -→ 2NaHCO3 #[br]
               strong.bg-green7.mb-0.p-2 NaOH + CO2 → -NaHCO3

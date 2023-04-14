@@ -26,16 +26,16 @@
                   ul.lista-ul
                     li
                       i.lista-ul__vineta
-                      p.mb-0 #[b Ordinarios:] los cuales son los que se producen en las actividades rutinarias en los hogares, oficinas, hospitales o centros educativos.
+                      span.mb-0 #[b Ordinarios:] los cuales son los que se producen en las actividades rutinarias en los hogares, oficinas, hospitales o centros educativos.
                     li
                       i.lista-ul__vineta
-                      p.mb-0 #[b Biodegradables:] son aquellos que se descomponen de forma sencilla en el medio ambiente. 
+                      span.mb-0 #[b Biodegradables:] son aquellos que se descomponen de forma sencilla en el medio ambiente. 
                     li
                       i.lista-ul__vineta
-                      p.mb-0 #[b Inertes:] tardan un poco más de tiempo en descomponerse, en estos se encuentra madera, papel o cartón. 
+                      span.mb-0 #[b Inertes:] tardan un poco más de tiempo en descomponerse, en estos se encuentra madera, papel o cartón. 
                     li
                       i.lista-ul__vineta
-                      p.mb-0 #[b Reciclables:] son aquellos que pueden tener un segundo periodo de uso, ya sea transformado o no.      
+                      span.mb-0 #[b Reciclables:] son aquellos que pueden tener un segundo periodo de uso, ya sea transformado o no.      
             .py-4.py-md-5(titulo="La gestión de residuos").bg-white
               .row.justify-content-center.align-items-center
                 .col-md-8.mb-4.mb-md-0
