@@ -10,7 +10,7 @@
       h1 Introducción
 
 
-    .row.justify-content-center.align-items-center.bg-1.py-4.px-4.px-md-0
+    .row.justify-content-center.align-items-center.bg-1.py-4.px-4.px-md-0.mb-5
       .col-md-4(data-aos="fade-right")
         figure
           img.mx-auto(src='@/assets/curso/temas/intro/img.svg' alt='Imagen introducción')
@@ -18,7 +18,13 @@
         p La importancia del análisis de las muestras que se llevan al laboratorio radica particularmente en el tratamiento que se le de a las mismas, desde la toma, el embalaje, el transporte y su respectiva identificación.
         p.mb-0 Puesto que, si las muestras son alteradas en alguno de los procesos de la muestra, su posterior análisis entra en un margen de baja confiabilidad que se traduce en un resultado de poca fiabilidad.
 
-    
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+
 </template>
 
 <script>

@@ -39,168 +39,84 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Inducción al análisis de muestras',
+        titulo: 'Bases conceptuales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Bases conceptuales',
+        titulo:
+          'Protocolos para análisis de agua, suelo, olores y residuos sólidos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Reacciones químicas analíticas',
-            hash: 't_3_1',
-          },
-          {
-            numero: '3.2',
-            titulo: 'Métodos analíticos volumétricos',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo:
-          'Protocolos para análisis de agua, suelo, olores y residuos sólidos',
+        titulo: 'Protocolos para análisis de agua',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo:
-              'Parámetros de análisis físicos, químicos y microbiológicos del agua',
+            titulo: 'Variables físicas, químicas y microbiológicas del agua',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo:
-              'Parámetros de análisis físicos, químicos y microbiológicos del suelo',
+            titulo: 'Manejo de residuos, características de peligrosidad',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo:
-              'Parámetros de análisis físicos, químicos y microbiológicos del olor',
+            titulo: 'Método <em>Biological Monitoring Working Party BMWP</em>',
             hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo:
-              'Parámetros de análisis físicos y químicos de los residuos sólidos',
-            hash: 't_4_4',
           },
         ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Protocolos para análisis de agua',
+        titulo: 'Protocolos de análisis de suelos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '5.1',
-            titulo: 'Variables físicas, químicas y microbiológicas del agua',
-            hash: 't_5_1',
-          },
-          {
-            numero: '5.2',
-            titulo: 'Manejo de residuos, características de peligrosidad',
-            hash: 't_5_2',
-          },
-          {
-            numero: '5.3',
-            titulo: 'Método Biological Monitoring Working Party BMWP',
-            hash: 't_5_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Equipos de análisis de agua',
+        titulo: 'Protocolo para análisis de olores',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Protocolos de análisis de suelos',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema8',
-        numero: '8',
-        titulo: 'Equipos para análisis de suelos',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema9',
-        numero: '9',
-        titulo: 'Protocolo para análisis de olores',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema10',
-        numero: '10',
         titulo: 'Protocolo de análisis de residuos sólidos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '10.1',
+            numero: '7.1',
             titulo: 'Muestreo y la preparación de la muestra',
-            hash: 't_10_1',
+            hash: 't_7_1',
           },
           {
-            numero: '10.2',
+            numero: '7.2',
             titulo: 'Equipos para análisis de muestras en residuos sólidos',
-            hash: 't_10_2',
+            hash: 't_7_2',
           },
         ],
       },
       {
-        nombreRuta: 'tema11',
-        numero: '11',
-        titulo: 'Tratamiento y disposición de residuos de laboratorio',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema12',
-        numero: '12',
+        nombreRuta: 'tema8',
+        numero: '8',
         titulo: 'Análisis de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '12.1',
-            titulo: 'Las cifras significativas',
-            hash: 't_12_1',
-          },
-          {
-            numero: '12.2',
-            titulo: 'Reglas para utilizar cifras significativas',
-            hash: 't_12_2',
-          },
-          {
-            numero: '12.3',
-            titulo: 'Exactitud y precisión',
-            hash: 't_12_3',
-          },
-          {
-            numero: '12.4',
-            titulo: 'Tratamiento matemático de los datos',
-            hash: 't_12_4',
-          },
-        ],
       },
     ],
     subMenu: [
-      /*{
+      {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',

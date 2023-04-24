@@ -5,422 +5,684 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Protocolos para análisis de agua, suelo, olores y residuos sólidos
+      h1 Protocolos para análisis de agua
     
-    
-    .row.justify-content-center
-      .col-md-4.mb-4(data-aos="fade-right")
-        figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img.png' alt='Imagen decorativa')
-      .col-md-8(data-aos="fade-left")
-        p La importancia que representa la calidad del agua, el suelo y la reducción de los malos olores emitidos por distintos tipos de fuentes es asegurado por los protocolos de análisis químicos, físicos y microbiológicos donde se identifica la información necesaria de los analitos en cuestión; para obtener datos de forma precisa y exacta de las características de la muestra analizada. Estos datos deben provenir de muestras representativas y análisis de acuerdo con protocolos que sigan estrictas normas técnicas y legales de control de calidad. Los análisis clásicos (volumétricos y gravimétricos) y las técnicas instrumentales de análisis cobran gran relevancia en el control y caracterización medioambiental; ofreciendo alternativas de solución a diversas problemáticas que surgen de los las prácticas de uso del agua y el suelo y de los procesos industriales de los diversos sectores de mundo. 
-
-    Separador
-
-    #t_4_1
-    .titulo-segundo.color-acento-contenido
-      h2 4.1 Parámetros de análisis físicos, químicos y microbiológicos el agua     
-
-    .row.justify-content-center.align-items-center
-      .col-md-7.mb-4(data-aos="fade-right")
-        p.mb-md-5 La calidad del agua superficial es una de las condiciones ambientales más importantes en el monitoreo actual del país y el mundo; la calidad del agua depende tanto de factores naturales, como de la acción humana, y se determina comparando las características físicas y químicas de una muestra de agua, con unas directrices legales de calidad del agua o estándares técnicos.
-        .tarjeta.bg-degrade-green.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2
-              img.px-2(src="@/assets/curso/temas/tema6/icono.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Parámetros análisis del agua
-                  p.text-small.mb-0 Conozca los Parámetros de análisis físico, químico y microbiológico del agua.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Parametros-analisis-agua.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-      .col-md-5(data-aos="fade-left")
-        figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-1.png' alt='Imagen decorativa')
-
-    Separador
-
-    #t_4_2
-    .titulo-segundo.color-acento-contenido
-      h2 4.2 Parámetros de análisis físicos, químicos y microbiológicos del suelo  
-
     .row.justify-content-center.align-items-center
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-2.png' alt='Imagen decorativa')
-      .col-md-7(data-aos="fade-left")
-        p.mb-md-5 La calidad del suelo ha sido definida por la Sociedad de Ciencias del Suelo de América, como “la capacidad de un tipo específico de suelo para funcionar, dentro de los límites de los ecosistemas naturales, para sostener la productividad vegetal y animal, mantener y/o mejorar la calidad del agua y del aire, y apoyar la salud y la vivienda”.
-          .tarjeta.bg-degrade-green.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-2
-                img.px-2(src="@/assets/curso/temas/tema6/icono.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0.text-white
-                    h4.mb-1 Parámetros análisis del suelo
-                    p.text-small.mb-0 Conozca los Parámetros de análisis físico, químico y microbiológico del suelo.
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Parametros analisis-suelo.pdf')" target="_blank")
-                      span Descargar
-                      i.fas.fa-file-download
+          img.mx-auto(src='@/assets/curso/temas/tema5/img.png' alt='Imagen decorativa')
+      .col-md-7.mb-4(data-aos="fade-left")
+        p El objetivo primordial de cualquier análisis relacionado con la calidad del agua es brindar la información necesaria para el manejo adecuado de los recursos hídricos para obtener datos de forma precisa y exacta de las características físicas, químicas y microbiológicas de la muestra de agua   evaluada; los datos deben provenir de muestras representativas y análisis de acuerdo con protocolos que sigan estrictas normas técnicas y legales de control de calidad.
+        .bg-green4.p-4.mb-4
+          p.mb-0 Recuerde que la calidad del agua depende tanto de factores naturales, como de la acción humana, y se determina comparando las características físicas, químicas y microbiológicas de una muestra de agua; con unas directrices legales de calidad del agua y estándares técnicos.
+        p La principal norma que rige el tema de calidad del agua en Colombia es el Decreto 1575 y resolución 2115 del año 2007, por medio del cual se establece el sistema para la protección y control de la calidad del agua para consumo humano.
 
     Separador
 
-    #t_4_3
-    .titulo-segundo.color-acento-contenido
-      h2 4.3 Parámetros de análisis físicos, químicos y microbiológicos del olor      
 
-    p.mb-md-5(data-aos="fade") Al hablar de calidad del aire atmosférico se debe recurrir, a la siguiente normatividad legal y técnica.       
+    #t_4_1
+    .titulo-segundo.color-acento-contenido(data-aos="fade")
+      h2 4.1 Variables físicas, químicas y microbiológicas del agua
+    
+    p.mb-5(data-aos="fade") Los parámetros físicos, químicos y microbiológicos del agua que se va analizar dependen de la carga de contaminantes y uso que se va dar a la misma; es así que se pueden agrupar protocolos de análisis.
 
-    .row.fondo-tema3-2-1.align-items-center.mb-5
+    h3.subt.text-white.mb-4(data-aos="fade") Parámetros físicos
+
+    p.mb-5(data-aos="fade") A continuación, le mostramos la forma en que los protocolos de análisis se encuentran agrupados o clasificados. ¡Adelante!
+
+    .row.fondo-tema4-4.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-between.align-items-center.py-5
-          .col-md-5.mb-4
-            h4 Normatividad legal y técnica para la calidad del aire atmosférico
-            p Es momento de revisar la normatividad que rige los parámetros de análisis físicos, químicos y microbiológicos del olor. Presione cada uno de los botones que aparecen en pantalla y estúdielos atentamente.
-          .col-md-6
-            ImagenInfografica.color-acento-botones
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/temas/tema4/img-infog.svg', alt='Normatividad legal y técnica para la calidad del aire atmosférico')
-
-              .tarjeta.bg-yellow.p-3(x="31%" y="28%" numero="+")
-                .h4.mb-2 Resoluciones
-                ul.lista-ul
-                  li.mb-1
-                    i.lista-ul__vineta
-                    | Resolución 601 de 2006
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Resolución 1541 de 2013
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Resolución 672 de 2014
-                  li.mb-1
-                    i.lista-ul__vineta
-                    | Resolución 1490 de 2014
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Resolución 2087 de 2014
-                p.mb-0 “Por la cual se establece la norma de calidad de aire o nivel de inmisión, para todo territorio nacional en condiciones de referencia”.
-              .tarjeta.bg-yellow.p-3(x="27%" y="75%" numero="+")
-                .h4.mb-2 Normas internacionales
-                ul.lista-ul
-                  li.mb-1
-                    i.lista-ul__vineta
-                    | Norma Europea UNE EN 13725 de 2004
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Norma Chilena NCh 3190 de 2010
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Norma Alemana VDI 3880 de 2011
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | Norma Alemana VDI 3884 de 2015  
-                p.mb-0 Citado de: tqi.co (s, f). Soluciones-confiables-olfatometría https://tqi.co/soluciones-confiables/olfatometria/#
-              .tarjeta.bg-yellow.p-3(x="71%" y="15.5%" numero="+")
-                .h4.mb-2 Normas técnicas colombianas
-                ul.lista-ul
-                  li.mb-1
-                    i.lista-ul__vineta
-                    | NTC 5880
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | NTC 6011
-                  li.mb-1 
-                    i.lista-ul__vineta
-                    | NTC 6012 – 1
-                p.mb-0 Calidad del aire. Determinación de la concentración de olor por olfatometría dinámica.
-              .tarjeta.bg-yellow.p-3(x="63%" y="72%" numero="+")
-                .h4.mb-2 Norma UNE-EN 13725: 2004
-                p.mb-0 Según la norma UNE-EN 13725: 2004 “Calidad del aire. Determinación de la concentración de olor por olfatometría dinámica”, define el olor como “la propiedad organoléptica perceptible por el órgano olfativo cuando inspira sustancias volátiles”. Esta norma desarrolla las cuestiones relacionadas con la toma de muestras, cuantificación de la concentración de olor y cálculo de la emisión de olor de los focos.
-
-
-    p(data-aos="fade") Para afianzar más y mejor los parámetros físicos, químicos y microbiológicos del olor, le presentamos algunos elementos conceptuales y técnicos, adicionales, de suma importancia.      
-
-    .row.fondo-tema4-3.align-items-center.mb-4
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center.py-5
-          .col-md-12.mb-4
-            h4 Parámetros de análisis físicos, químicos y microbiológicos del olor:
-            p El olor es una reacción sensorial de determinadas células situadas en la cavidad nasal. La relación entre olor y molestia percibida es compleja de definir. En esa confluyen factores físicos y químicos fáciles de determinar, pero también otros de carácter subjetivo más difícil de evaluar, como, por ejemplo, el carácter agradable o desagradable del olor (tono hedónico), la sensibilidad de cada persona, o el entorno en el que es percibido. 
-          
-          .col-md-6.mb-4
-            ImagenInfografica.color-acento-botones
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/temas/tema4/img-infog2.svg', alt='Parámetros de análisis físicos, químicos y microbiológicos del olor')
-
-              .tarjeta.bg-yellow.p-3(x="62%" y="7%" numero="+")
-                .h4.mb-2 Regulación Ambiental
-                p.mb-0 En los últimos años, la regulación ambiental ha aumentado significativamente, en paralelo a una sociedad más participativa y dotada de una mayor concienciación ambiental, que reclama la intervención de las administraciones públicas con el objetivo de garantizar el bienestar y la calidad de vida.
-              .tarjeta.bg-yellow.p-3(x="100%" y="35%" numero="+")
-                .h4.mb-2 Contaminación Ambiental
-                p.mb-0 Los malos olores causados por actividades tales como explotaciones de ganado, actividades industriales, depuradoras, vertederos, etc., se entienden como un tipo de contaminación ambiental debido a que, aunque los olores no lleguen a ser tóxicos, pueden llegar a provocar malestar, molestias respiratorias, alteraciones psicológicas.
-              .tarjeta.bg-yellow.p-3(x="99%" y="71%" numero="+")
-                .h4.mb-2 Los olores y la salud pública
-                p.mb-0 Al ser los olores un factor para la aceptación o rechazo, la población puede llegar a percibir los olores como un peligro para su salud, ocasionando niveles de descontento tan negativos como cualquier otro problema ambiental. Los problemas derivados de las molestias a la población de las actividades generadoras de los olores son difíciles de abordar por cuestiones de vacío legal o técnicas ya que por el momento no existe en nuestro país legislación estatal que regule o limite las emisiones de olor.
-              .tarjeta.bg-yellow.p-3(x="48%" y="100%" numero="+")
-                .h4.mb-2 Orígenes
-                p.mb-0 El olor puede tener varios orígenes en función de la fuente que lo genere. Esto implica que la forma de tratar las molestias asociadas se debe abordar de distintas formas. Se debe tener en consideración que la afectación sobre el entorno varía y tiene unas características específicas según el tipo de procedencia.
-              .tarjeta.bg-yellow.p-3(x="0%" y="71%" numero="+")
-                .h4.mb-2 Episodios de Olor
-                p.mb-0 Así, por ejemplo, se pueden producir desde situaciones en las que existan áreas extensas afectadas hasta fenómenos puntuales, tanto en el ámbito espacial como temporal. Es decir, que es necesario tener en cuenta que puede haber muchos tipos de episodios de olor: baja intensidad, pero larga duración, alta intensidad y corta duración, puntuales a lo largo de un período de tiempo, o de una alta frecuencia temporal. Este hecho obliga a objetivar la molestia ofreciendo unas garantías tanto al ciudadano como a las instalaciones generadoras de olor.
-              .tarjeta.bg-yellow.p-3(x="1%" y="33%" numero="+")
-                .h4.mb-2 Olfatometría
-                p.mb-0 La olfatometría es una técnica de toma de muestras y análisis de olores que, unida al desarrollo de sistemas de modelización de la dispersión, permite evaluar las molestias producidas por malos olores y determinar el origen de las mismas.
-          
-          .col-md-10
-            .row.justify-content-center.align-items-end.tarjeta.bg-gris.px-4.pt-3
-              .col-md-2.col-5.mb-3.mb-md-0
-                img.px-2(src="@/assets/curso/temas/tema4/icono.svg")
-              .col-md-10.p-md-3
-                p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación.
-                p.mb-0 Citado de: Asociación Española para la calidad AEC (2010) Contaminación Odorífera  p.1-2
-                p https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128
-
-    p Es momento de adentrarse en las Técnicas físico químicas de análisis olfatométricos. La caracterización de los olores se puede realizar mediante dos técnicas esencialmente: sensoriales y analíticas.
-
-    .row.fondo-tema4-3-1.align-items-center.mb-4
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center.pt-5
-          .col-md-7.mb-4(data-aos="fade-right")
-            h3.subt.text-white.mb-4 a. Técnicas sensoriales
-            p.mb-5 Se basan en la percepción de los olores por el olfato humano. También incluyen la determinación del carácter de un olor (mapeo) y el nivel de agrado o desagrado de un olor (tono hedónico). Las técnicas sensoriales utilizan asesores humanos para medir un olor, siendo la olfatometría, la técnica usada comúnmente. Dicha prueba evalúa las diluciones con aire limpio que un olor debe sufrir para no ser detectable por un humano promedio (umbral de detección).
-            h4.t-green Mapeo triangular
-            p Otras técnicas sensoriales incluyen la determinación del carácter de un olor (mapeo triangular) y el nivel de agrado o desagrado de un olor (tono hedónico) Las técnicas sensoriales tienen la ventaja de que proveen información útil sobre cómo las personas perciben los olores y el grado de molestia que provoca un olor determinado, o bien para evaluar la efectividad de un equipo de control de olores. La desventaja de este método es que no es específico y consecuentemente no identifica las especies químicas causantes del olor. Dentro de las técnicas sensoriales tenemos:
-          .col-md-5(data-aos="fade-left")
+        .row.align-items-center
+          .col-md-8(data-aos="fade-right")
+            h4.t-green.mb-4 Sólidos suspendidos totales en agua
+            p.mb-4 El agua puede contener tanto partículas en suspensión como compuestos solubilizados, definiéndose la suma de ambos como Sólidos Totales (ST) La determinación de ST se realiza, conforme a la norma UNE 77030:1982, evaporando un volumen conocido de muestra y secando el residuo en estufa a 105 ºC, hasta pesada constante, indicándose el resultado en mg/L.
+            p.mb-4 Esta medida nos permite conocer el contenido total de sustancias no volátiles presentes.
+          .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3.png' alt='Imagen decorativa')
-        .row.mb-4 
-          .col-md-6.mb-4(data-aos="fade-down")
-            .bg-color-acento-contenido.h-477.br-20.px-3.py-4 
-              .row.justify-content-center.mb-4
-                h4.t-green2.text-center.mb-4 Olfatometría dinámica
-                .col-3
-                  figure.px-md-2
-                    img.mx-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo')  
-              p.px-md-4 La norma UNE-EN 13725:2004 establece un marco normativo de regulación para la toma de muestras y ensayo por olfatometría dinámica, en los que se utiliza el olfato humano como sensor. Esta norma define una metodología para la determinación de la concentración de olor de una muestra gaseosa usando un panel de “evaluadores” humanos (panelistas) como sensor, así como la determinación de la emisión. 
-          .col-md-6.mb-4(data-aos="fade-down")
-            .bg-color-primario.h-477.br-20.px-3.py-4 
-              .row.justify-content-center.mb-3
-                h4.t-green.text-center.mb-4 Interpretación de Valores
-                .col-3
-                  figure.px-md-2
-                    img.mx-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='Icono decorativo')  
-              .bloque-texto-c.sin-cuadro.p-4
-                i.fas.fa-quote-right.mb-2
-                p.mb-3.text-white El objetivo primordial de un estudio olfatométricos es evaluar si las emisiones de una determinada instalación pueden ser responsables o no de quejas en la población vecina. A esta conclusión se llega con la interpretación de los valores de concentración de inmisión, habitualmente denominados mapas de olores.
-                span.text-bold.text-white.mb-0 - Según Monteiro T (2012)  (pp.51-52).      
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1.png' alt='Imagen decorativa')
 
-    .row.justify-content-center.align-items-center.pt-5
-      .col-md-8.mb-4(data-aos="fade-right")
-        h3.subt.text-white.mb-4 b.	Técnicas analíticas
-        p Son métodos tradicionales de análisis químico para medir la concentración de compuestos específicos presentes en un olor. Puede hacerse mediante cromatografía de gases y espectrometría de masas, mediante métodos húmedos (para mercaptanos) mediante narices electrónicas o mediante indicadores.
-        p.p-3.bg-green3 Las técnicas analíticas para caracterización de olores son relativamente fáciles de aplicar e identificar cuantitativamente las especies químicas presentes en un olor. La desventaja de la técnica es que no provee información alguna referente a la molestia que puede generar un olor.
-        p La contribución de las especies químicas aisladas puede sumarse para obtener la concentración global del olor. La presencia o ausencia de una especie química en la mezcla de gases, o las concentraciones de éstas pueden potenciar, disminuir o inclusive cambiar la percepción de un olor por completo.
-        p Debido a esto, las técnicas analíticas son usadas para definir criterios de diseño de métodos de control de olores, para determinar si las emisiones de una sustancia química específica están dentro de los niveles permitidos por las normas o para estimar la relación entre la concentración de una sustancia química y su equivalente en términos de percepción humana.
+    .row.align-items-center.mb-5
+      .col-md-8(data-aos="fade-right")
+        h4.t-green.mb-4 Conductividad eléctrica
+        p.mb-4 La conductividad es una medida de la propiedad que poseen las soluciones acuosas para conducir la corriente eléctrica. Esta propiedad depende de la presencia de iones, su concentración, movilidad, valencia y de la temperatura de la medición. Las soluciones de la mayor parte de los compuestos inorgánicos son buenas conductoras. Las moléculas orgánicas al no disociarse en el agua, conducen la corriente a muy baja escala. Para la determinación de la conductividad la medida física hecha en el laboratorio es la resistencia, en ohmios o megaohmios. 
+        p.mb-4 La conductividad es el inverso de la resistencia específica, y se expresa en micromho por centímetro (µmho/cm) equivalentes a microsiemens por centímetro (µS/cm) o milisiemens por centímetro (mS/cm) en el Sistema Internacional de Unidades.
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-2.png' alt='Imagen decorativa')
 
 
-    .row.justify-content-center.align-items-center.pt-5
+    .row.fondo-tema5-1.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center
+          h4.t-green.mb-4 El intervalo de aplicación del método
+          .col-md-8.mb-4(data-aos="fade-right")
+            .bloque-texto-c.bg-green2.box-shadow.p-3.px-4
+              i.fas.fa-quote-right.mb-2
+              p.mb-3 El intervalo de aplicación del método es de 10 a 10.000 (o hasta 50.000) µmho/cm, las conductividades fuera de estos valores son difíciles de medir con los componentes electrónicos y las celdas convencionales. El método es aplicable a aguas potables, superficiales, salinas, aguas residuales domésticas e industriales y lluvia ácida. El rango de trabajo en el IDEAM oscila entre 0.0 y 1999 µS/cm. (p.2) 
+              span.text-bold.mb-0 - Según IDEAM (2016)            
+          .col-md-4.mb-4(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-3.png' alt='Imagen decorativa')
+          .col-md-12.text-white
+            .bg-color-primario.p-4
+              h5 Sabía qué…
+              p.mb-0 En su estado puro el agua está formada por dos átomos de hidrógeno y uno de oxígeno, un enlace covalente que no permite el flujo de electrones. Sin embargo, el agua común que utilizamos para bañarnos, lavar o tomar agua, contiene sales minerales que están ionizadas, es decir que están cargadas eléctricamente, además de diferentes iones  como calcio, magnesio, nitratos, cloruros y nitratos, que permiten el paso de la corriente.
+
+    h4.t-green.mb-4(data-aos="fade") Potencial de hidrógeno pH
+    .row.justify-content-center.mb-5
+      .col-md-8
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-4.svg' alt='Imagen decorativa')
+
+    .row.fondo-tema4-4.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center
+          h4.t-green.mb-4 El pH
+          .col-md-9.mb-4(data-aos="fade-right")
+            p El término pH es una forma de expresar la concentración de ion hidrógeno o , más exactamente, la actividad del ión hidrógeno. En general se usa para expresar la intensidad de la condición ácida o alcalina de una solución, sin que esto quiera decir que mida la acidez total o la alcalinidad total.  
+            p Hasta este punto, le hemos mostrado 5 de los tipos de agrupación de los protocolos de análisis. Es momento de continuar con otros, adicionales, de suma importancia.             
+          .col-md-3(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-5.png' alt='Imagen decorativa')
+
+
+    h4.t-green.mb-4 Suministro de aguas
+    p.mb-4 El suministro de aguas es un factor que debe considerarse con respecto a la coagulación química, la desinfección, el ablandamiento y el control de corrosión. En las plantas de tratamiento de aguas residuales que emplean procesos biológicos, el pH debe controlarse dentro de un intervalo favorable a los organismos. Tanto por estos factores como por la relaciones que existen entre pH, alcalinidad y acidez es importante entender los aspectos teóricos y prácticos del pH. 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-8
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-6.svg' alt='Suministro de aguas')
+
+    .row.align-items-center.mb-5
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-3.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-7.png' alt='Imagen decorativa')
       .col-md-8(data-aos="fade-left")
-        AcordionA(data-aos="fade-down-right").mb-5(tipo="a" clase-tarjeta="tarjeta bg-green7")
-          .row.justify-content-center(titulo="Narices electrónicas")
-            .col-md-8.mb-4.mb-lg-0
-              p Las narices electrónicas son una serie de sensores de distintos materiales metálicos que reaccionan de forma distinta a un mismo componente químico.
-              p Cuando una muestra olorosa entra en contacto con estos, se produce una respuesta química que se evalúa de forma conjunta para la totalidad de los sensores. La respuesta se relaciona con la intensidad o concentración del olor a partir de los valores obtenidos por panelistas humanos que  trasladan los resultados a una base de datos que queda registrada.
-            .col-md-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema4/acord1.png')  
-          .row.justify-content-center(titulo="Espectrometría infrarroja")
-            .col-md-8.mb-4.mb-lg-0
-              p Los análisis químicos son métodos de investigación y tienen la ventaja de ser repetibles y seguros, y se usan para caracterizar los componentes químicos de episodios de olor, especialmente para compuestos desconocidos. Sin embargo, una muestra puntual para un periodo de tiempo con análisis químicos subsecuentes, provee sólo información integrada de tiempo, pero no información relacionada con la frecuencia, intensidad y duración de la exposición, la cual es requerida para identificar efectivamente la huella de los componentes del olor. 
-              p En décadas anteriores se han desarrollado mejores tecnologías para análisis de compuestos químicos, como el espectrómetro transformador infrarrojo de paso abierto de Fourier (Open-Path Fourier transforminfrared / OP-FTIR) el cual ofrece monitoreo remoto, análisis multicompuestos rápidos y mediciones promedio.
-            .col-md-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema4/acord2.png')       
-          .row.justify-content-center(titulo="Cromatografía de gases‐olfatometría, o GCO")
-            .col-md-8.mb-4.mb-lg-0
-              p La cromatografía de gases‐olfatometría, o GCO, consiste en evaluar con la nariz humana las cualidades aromáticas de los compuestos que eluyen de la columna cromatográfica, a la vez que el detector instrumental instalado proporciona un cromatograma.
-              p De esta manera se pueden asignar olores a los picos y/o determinarse a qué tiempos de retención se detectan olores. Así, tal y como puede verse en la siguiente figura, la detección olfatométrica y la instrumental son simultáneas, lo que permite relacionar la información sensorial con la información química.
-            .col-md-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema4/acord3.png')       
+        .bloque-texto-c.bg-blue2.p-3.px-4
+          i.fas.fa-quote-right.mb-2
+          p El principio básico de la medida electrométrica del pH se fundamenta en el registro potenciométrico de la actividad de los iones hidrógeno por el uso de un electrodo de vidrio y un electrodo de referencia, o un electrodo combinado. La fuerza electromotriz (fem) producida por el sistema electroquímico varía linealmente con el pH y puede verificarse por la obtención de una gráfica de pH vs. fem para diferentes soluciones de pH conocido.
+          p.mb-3 El pH de la muestra se determina por interpolación. Casi todos los aparatos usados hoy en día utilizan el electrodo de vidrio, en combinación con un electrodo de calomel, empleado como electrodo de referencia, para medir el pH. El potencial entre los electrodos es proporcional a la concentración de iones hidrógeno en solución. El sistema de electrodos se calibra siempre con soluciones de pH conocido. De acuerdo con el fabricante y el tipo de medidor de pH, cada aparato posee sus propias características e instrucciones de uso. (P.1).
+          span.text-bold.mb-0 - Según IDEAM (2007)
 
-    p.mb-5(data-aos="fade") En la siguiente tabla se enuncian algunos procedimientos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión:
+    .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center          
+          .col-md-8.mb-4(data-aos="fade-right")
+            h4.t-green.mb-4 Turbiedad
+            p La turbiedad en el agua es causada por materia suspendida y coloidal tal como arcilla, sedimento, materia orgánica e inorgánica dividida finamente, plancton y otros microorganismos microscópicos.
+            p La turbiedad es una expresión de la propiedad óptica que causa la luz al ser dispersada y absorbida en vez de transmitida sin cambios en la dirección del nivel de flujo a través de la muestra: en otras palabras, es la propiedad óptica de una suspensión que hace que la luz sea emitida y no transmitida a través de la suspensión. A mayor intensidad de dispersión de la luz, la turbidez será mayor.
+          .col-md-4(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-8.png' alt='Imagen decorativa')
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      h5 Tabla 1. 
-      span Elementos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión
+    .row.align-items-center.mb-5
+      .col-md-8.mb-4(data-aos="fade-right")
+        .bloque-texto-c.bg-blue2.p-3.px-4
+          i.fas.fa-quote-right.mb-2
+          p La correlación de la turbiedad con el peso o concentración del número de partículas de material suspendido es difícil debido a que el tamaño, forma e índice de refracción de las partículas afecta las propiedades de dispersión de la luz de la suspensión. La determinación de turbiedad es de gran importancia en aguas para consumo humano y en un gran número de industrias procesadoras de alimentos y bebidas. 
+          p.mb-3 Los valores de turbiedad sirven para establecer el grado de tratamiento requerido por una fuente de agua cruda, su filtrabilidad y consecuentemente, la tasa de filtración más adecuada, la efectividad de procesos de coagulación, sedimentación y filtración, así como para determinar la potabilidad del agua. (P.1)
+          span.text-bold.mb-0 - Según IDEAM (2007)
+      .col-md-4(data-aos="fade-left")        
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-9.png' alt='Imagen decorativa')  
 
-    .tabla-c.tema4.mb-4(data-aos="fade-down")
-      table
-        tr.bg-green8
-          td(colspan="2")
-            h4.text-center.mb-0 Elementos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión
-        tr
-          td(rowspan="5" class="text-center")
-            h5 Sustancia Evaluación analítica 
-            h5 Sulfuro de hidrógeno (H2S)
-          td 
-            p.mb-0 Sustancia Evaluación analítica.
-        tr
-          td 
-            p.mb-0 Método automático. Determinación de los niveles de sulfuro de hidrogeno y TRS en el aire por fluorescencia UV.
-        tr
-          td 
-            p.mb-0 Método 701. Determinación de sulfuro de hidrógeno en la atmósfera.
-        tr
-          td 
-            p.mb-0 Métodos de muestreo y análisis de aire, 3a edición.
-        tr
-          td 
-            p.mb-0 Método MFC/FD/FPD. Determinación de las emisiones de azufre.
-        tr
-          td 
-            h5.text-center Azufre total reducido (TRS)
-          td 
-            p.mb-0 Azufre total reducido Método automático. Determinación de los niveles de sulfuro de hidrogeno y TRS en el aire por fluorescencia UV.
-        tr
-          td(rowspan="4" class="text-center")
-            h5 Amoniaco (NH3)
-          td 
-            p.mb-0 Método 401. Determinación de amoniaco en la atmósfera - Método del indofenol. Métodos de muestreo y análisis de aire, 3a edición.
-        tr
-          td 
-            p.mb-0 Método Automático. Determinación de amoniaco en la atmósfera.
-        tr
-          td 
-            p.mb-0 Método trampas de ácido. Determinación de las concentraciones de amoniaco en aire por trampas de ácido.
-        tr
-          td 
-            p.mb-0 Método Denuders. Medición de amoniaco por muestreo denuder anular con análisis en línea.
+    .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center          
+          .col-md-9.mb-4(data-aos="fade-right")
+            h4.t-green.mb-4 Temperatura
+            p La temperatura es un parámetro físico que afecta mediciones de otros como pH, alcalinidad o conductividad. Las temperaturas elevadas resultantes de descargas de agua caliente, pueden tener un impacto ecológico significativo por lo que la medición de la temperatura del cuerpo receptor, resulta útil para evaluar los efectos sobre éste. 
+            p El método se aplica a todo tipo de aguas: potables, residuales y superficiales, incluyendo las marinas. 
+          .col-md-3(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-10.png' alt='Imagen decorativa')
 
-    .bg-gris3.text-small.p-2 
-      p.mb-1 Citado de: fenavi.org. (2014). Resolución-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf. Colombia.p.9
-      p.mb-0 https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf         
+    .row.align-items-center.mb-5         
+      .col-md-9.mb-4(data-aos="fade-right")
+        h4.t-green.mb-4 Color, olor y sabor
+        p Son las propiedades organolépticas que se evalúan a través de los sentidos. No se evalúan  de forma  experimental a nivel de contaminación, pero  su presencia es una señal de que la depuración de un efluente no está siendo correcta. Son de gran relevancia en aguas potabilizadas, por el rechazo que puede darse en el consumidor al detectar colores, olores o sabores que no asocie con agua apta para el consumo humano. 
+      .col-md-3(data-aos="fade-left")
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-11.png' alt='Imagen decorativa')
+
+    .row.fondo-tema5-2.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center.mb-4          
+          .col-md-7.mb-4(data-aos="fade-right")
+            h3.subt.text-white.mb-4 Parámetros químicos
+            p La calidad química del agua está determinada por las sustancias químicas presentes en la muestra   analizada en un tiempo determinado y un punto específico.
+            h4.t-green.mb-4 Oxígeno disuelto
+            ul.lista-ul--color.color-primario.ps-3
+              li 
+                i.fas.fa-check
+                | El oxígeno disuelto (OD) es necesario para la respiración de los microorganismos aerobios así como para otras formas de vida aerobia. No obstante, el oxígeno es ligeramente soluble en el agua; la cantidad real de oxígeno que puede estar presente en la solución está determinada por:
+              ol.lista-ol.ps-4
+                li 
+                  span.text-bold a. 
+                  | La solubilidad del gas.
+                li 
+                  span.text-bold b. 
+                  | La presión parcial del gas en la atmósfera.
+                li 
+                  span.text-bold c. 
+                  | La temperatura.
+                li 
+                  span.text-bold d. 
+                  | La pureza del agua (salinidad, sólidos suspendidos).    
+          .col-md-5(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-12.png' alt='Imagen decorativa')
+          
+        p.text-center.mb-4 Según IDEAM (2004):
+
+        .row.justify-content-center(data-aos="fade-down") 
+          .col-md-10
+            SlyderF.align-items-center(columnas="col-lg-6 col-xl-6")
+              .tarjeta.h-tem5-tarj.color-acento-contenido.fondo-tema3-tarj.p-4.align-items-center.d-flex
+                p.text-center La interrelación de estas variables debe ser consultada en textos apropiados (ver bibliografía) para conocer los efectos de la temperatura y la salinidad sobre la concentración de OD.
+              .tarjeta.h-tem5-tarj.color-acento-contenido.fondo-tema3-tarj.p-4.align-items-center.d-flex
+                p.text-center Las concentraciones de OD en aguas naturales dependen de las características fisicoquímicas y la actividad bioquímica de los organismos en los cuerpos de agua. El análisis del OD es clave en el control de la contaminación en las aguas naturales y en los procesos de tratamiento de las aguas residuales industriales o domésticas.
+              .tarjeta.h-tem5-tarj.color-acento-contenido.fondo-tema3-tarj.p-4.align-items-center.d-flex
+                p.text-center La muestra obtenida se trata con sulfato manganeso (MnSO4), hidróxido de sodio (NaOH) y yoduro de potasio (KI) estos dos últimos reactivos combinados en una solución única, y finalmente se acidifica con ácido sulfúrico (H2SO4).
+              .tarjeta.h-tem5-tarj.color-acento-contenido.fondo-tema3-tarj.p-4.align-items-center.d-flex
+                p.text-center Inicialmente se obtiene un precipitado de hidróxido manganoso, Mn(OH)2, el cual se combina con el OD presente en la muestra para formar un precipitado carmelito de hidróxido mangánico, MnO(OH)2; con la acidificación, el hidróxido mangánico forma el sulfato mangánico que actúa como agente oxidante, para liberar yodo del yoduro de potasio. El yodo libre es el equivalente estequiométrico del OD en la muestra y se valora con una solución estándar de tiosulfato de sodio 0.025N.
+              .tarjeta.h-tem5-tarj.color-acento-contenido.fondo-tema3-tarj.p-4.align-items-center.d-flex
+                p.text-center Para minimizar el efecto de los materiales interferentes existen algunas modificaciones del método yodométrico. La modificación de la azida elimina la interferencia causada por los nitritos (esta es la más común en efluentes tratados biológicamente y en muestras incubadas para la prueba de la DBO) se emplea en el análisis del OD en la mayoría de aguas residuales, efluentes y aguas superficiales, especialmente si las muestras tienen concentraciones mayores de 50 µg NO2 – - N/L y no más de 1 mg de hierro ferroso/L. Los compuestos oxidantes y reductores interfieren en la determinación.  (p.1).
+
+
+    .row.align-items-center.mb-5         
+      .col-md-8.mb-4(data-aos="fade-right")
+        h4.t-green.mb-4 Demanda química de oxígeno DQO
+        p La Demanda Química de Oxígeno (DQO) determina la cantidad de oxígeno requerido para oxidar la materia orgánica en una muestra de agua, bajo condiciones específicas de agente oxidante, temperatura y tiempo. 
+        p Las sustancias orgánicas e inorgánicas oxidables presentes en la muestra, se oxidan mediante reflujo cerrado en solución fuertemente ácida (H2SO4) con un exceso de dicromato de potasio (K2Cr2O7) en presencia de sulfato de plata (Ag2SO4) que actúa como agente catalizador, y de sulfato mercúrico (HgSO4) adicionado para eliminar la interferencia de los cloruros. Después de la digestión, el K2Cr2O7 remanente se titula con sulfato ferroso amoniacal para determinar la cantidad de K2Cr2O7 consumido.
+        .cajon.color-primario.row.align-items-center.p-4.mb-4
+          .col-md-2
+            img.mx-auto(src='@/assets/curso/temas/tema5/ico.svg' alt='Imagen decorativa')
+          .col-md-10
+            p.mb-0 La materia orgánica se calcula en términos de oxígeno equivalente. Para muestras de un origen específico, la DQO se puede relacionar empíricamente con la DBO, el carbono orgánico o la materia orgánica. El método es aplicable a aguas superficiales y residuales, usando el dicromato de 0,025 N en un rango de 2.0 mg O2/L a 100 mg O2/L, usando el dicromato de 0,10 N en un rango de 10 mg O2/L a 450 mg O2/L y con el dicromato de 0,25 N tiene un intervalo de lectura de 10 mg O2/L a 1000 mg O2/L.
+      .col-md-4(data-aos="fade-left")
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-13.png' alt='Imagen decorativa')
+
+
+    .row.align-items-center.mb-5
+      .col-md-4(data-aos="fade-right")        
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-14.svg' alt='Imagen decorativa')  
+      .col-md-8.mb-4(data-aos="fade-left")
+        p También, la oxidación microbiana o mineralización de la materia orgánica es una de las principales reacciones que ocurren en los cuerpos naturales de agua y constituye una de las demandas de oxígeno, ejercida por los microorganismos heterotróficos, que hay que cuantificar. 
+        p Uno de los ensayos más importantes para determinar la concentración de la materia orgánica de aguas residuales es el ensayo de DBO a cinco días. Esencialmente, la DBO es una medida de la cantidad de oxígeno utilizado por los microorganismos en la estabilización de la materia orgánica biodegradable, en condiciones aeróbicas, en un periodo de cinco días a 20 °C.
+        .bloque-texto-c.bg-blue2.p-3.px-4
+          i.fas.fa-quote-right.mb-2
+          p En aguas residuales domésticas, el valor de la DBO a cinco días representa en promedio un 65 a 70% del total de la materia orgánica oxidable. La DBO, como todo ensayo biológico, requiere cuidado especial en su realización, así como conocimiento de las características esenciales que deben cumplirse, con el fin de obtener valores representativos confiables.  
+          p El ensayo supone la medida de la cantidad de oxígeno consumido por organismos vivos en la utilización de la materia orgánica presente en un residuo; por tanto, es necesario garantizar que durante todo el periodo de ensayo exista suficiente oxígeno disuelto para ser utilizado por los organismos. Además, debe garantizarse que se suministran las condiciones ambientales adecuadas para el desarrollo y trabajo de los microorganismos, así que hay que proporcionar los nutrientes necesarios para el desarrollo bacteriano, tales como N y P y eliminar cualquier sustancia tóxica de la muestra.  
+          p Es también necesario que exista una población de organismos suficiente en cantidad y en variedad de especies, llamada “Cepa” o “semilla”, durante la realización del ensayo, para la degradación de la materia orgánica. El método se aplica en este laboratorio para la matriz aguas naturales superficiales y residuales industriales. Es empleado para el intervalo de 2 a 5000 mg/L. Es un método electrométrico, en el que se determina el oxígeno disuelto consumido, en sus procesos metabólicos, por los microorganismos, en la degradación de la materia orgánica, incubando la muestra en la oscuridad a 20 ± 30C, por cinco días. (P.2) 
+          span.text-bold.mb-0 - Según IDEAM (2007)
+
+
+    .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center          
+          .col-md-7.mb-4(data-aos="fade-right")
+            h4.t-green.mb-4 Alcalinidad
+            p La alcalinidad del agua es su capacidad de neutralizar ácidos, y es la suma de todas las bases titulables; el valor medido puede variar significativamente con el pH de punto final empleado. La alcalinidad es una medida de una propiedad agregada del agua y se puede interpretar en términos de sustancias específicas sólo cuando se conoce la composición química de la muestra. 
+            p Debido a que la alcalinidad de muchas aguas superficiales es primariamente una función del contenido de carbonato, bicarbonato e hidróxido, se toma como un indicador de la concentración de estos constituyentes. Los valores medidos también pueden incluir contribuciones de boratos, fosfatos, silicatos, u otras bases que estén presentes.  
+            .cajon.color-primario.color2.row.align-items-center.p-4.mb-4
+              p La alcalinidad superior a las concentraciones de metales alcalinotérreos es significante para determinar la aptitud de un agua para irrigación. Las mediciones de alcalinidad se emplean en la interpretación y control de los procesos de tratamiento de aguas. Las aguas residuales domésticas tienen una alcalinidad menor, o ligeramente mayor, que la del agua de suministro.
+          .col-md-5(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-15.png' alt='Imagen decorativa')
+
+        p Los iones hidroxilo presentes en una muestra como resultado de disociación o hidrólisis de solutos reaccionan con adiciones de ácido estándar. En consecuencia la alcalinidad depende del pH de punto final empleado. La alcalinidad de una muestra se determina mediante el volumen de un ácido estándar requerido para titular una porción a un pH seleccionado.
+
+        .row.align-items-center          
+          .col-md-5.mb-4(data-aos="fade-right")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-16.png' alt='Imagen decorativa')
+          .col-md-7(data-aos="fade-left")
+            p La titulación se efectúa a temperatura ambiente con un pH metro o un titulador automático calibrados, o mediante indicadores coloreados. En este último caso, se debe preparar y titular un blanco del indicador. La construcción de una curva de titulación permite la identificación de puntos de inflexión y capacidad tampón, si existe, y permite determinar la alcalinidad con respecto a cualquier pH de interés.
+            p En la titulación de especies básicas simples, como en la estandarización de reactivos, el punto final más exacto se obtiene del punto de inflexión de una curva de titulación. Debido a que la identificación exacta de puntos de inflexión puede ser difícil o imposible en mezclas tamponadas o complejas, la titulación en tales casos se lleva a cabo hasta un punto final de pH arbitrario basado en consideraciones prácticas.
+
+        .row.align-items-center
+          .col-md-8.mb-4(data-aos="fade-right")
+            .bloque-texto-c.bg-white.box-shadow.p-3.px-4
+              i.fas.fa-quote-right.mb-2
+              p Para titulaciones de control rutinarias o estimaciones preliminares rápidas de la alcalinidad, se puede usar el cambio de color de un indicador como punto final. Para muestras de baja alcalinidad (menor de 20 mg CaCO3/L) se aplica una técnica de extrapolación basada en la proporcionalidad aproximada de la concentración de iones hidrógeno por el exceso de titulante más allá del punto de equivalencia. Se mide cuidadosamente la cantidad de ácido estándar requerido para reducir el pH exactamente en 0,30 unidades.  
+              p Debido a que este cambio de pH corresponde al doble de la concentración de iones hidrógeno, se puede hacer una simple extrapolación del punto de equivalencia. La alcalinidad está expresada como alcalinidad a la fenolftaleína (P), o como alcalinidad total (T) La primera corresponde al contenido total de hidróxido y carbonato presentes en la muestra, y la segunda, además de los anteriores, incluye el contenido de bicarbonato. 
+              p.mb-3 Sabía que: consumir agua alcalina puede ayudar a aliviar el reflujo gastroesofágico, donde el líquido permite contrarrestar la acidez al impedir la activación de la pepsina y ejercer un efecto antiácido, reduciendo las molestas agruras. Sin embargo, no es aconsejable beber grandes cantidades de agua alcalina  pues al  alcalinizar el estómago puede traer como consecuencia dificultad al digerir la comida. Imagen. (pp.2-3) 
+              span.text-bold.mb-0 - Según IDEAM (2007)            
+          .col-md-4.mb-4(data-aos="fade-left")
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-17.png' alt='Imagen decorativa')      
+    
+    
+    h4.t-green.mb-4(data-aos="fade") Dureza
+    p(data-aos="fade") En la práctica se considera que la dureza es causada por iones metálicos divalentes, capaces de reaccionar con el jabón para formar precipitados y con ciertos aniones presentes en el agua para formar incrustaciones.
+
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-md-6.col-sm-8.col-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 2.] Cationes y aniones
+        table(data-aos="fade-down")
+          caption
+            p.mb-0 Nota. Lievano E, (2020)
+          tr.bg-green8
+            td
+              h4.text-center.mb-0 Cationes
+            td
+              h4.text-center.mb-0 Aniones
+          tr
+            td
+              p.mb-0.text-center Ca++
+            td
+              p.mb-0.text-center HCO3 -
+          tr
+            td
+              p.mb-0.text-center Mg++
+            td
+              p.mb-0.text-center SO4 =
+          tr
+            td
+              p.mb-0.text-center Sr++
+            td
+              p.mb-0.text-center Cl -
+          tr
+            td
+              p.mb-0.text-center Mn++
+            td
+              p.mb-0.text-center NO3 -
+          tr
+            td
+              p.mb-0 
+            td
+              p.mb-0.text-center SIO3=
+
+    p(data-aos="fade") Los principales cationes que causan dureza en el agua y los principales aniones asociados con ellos son los siguientes:
+
+    .row.fondo-tema5-3.align-items-center.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center.justify-content-center
+          .col-md-10.mb-5 
+            .row.tarjeta.bg-blue2.align-items-center.p-4
+              .col-md-10
+                p.mb-0 En menor grado, Al +++ y Fe +++ son considerados como iones causantes de dureza. En general, la dureza es igual a la concentración de cationes polivalentes del agua. Desde el punto de vista sanitario, las aguas duras son tan satisfactorias para el consumo humano como las aguas blandas; sin embargo, un agua dura requiere demasiado jabón para la formación de espuma y crea problemas de lavado; además deposita lodo e incrustaciones sobre las superficies con las cuales entra en contacto, así como en los recipientes, calderas o calentadores en los cuales se calienta.
+              .col-md-2
+                img.mx-2(src="@/assets/curso/temas/tema5/ico2.svg")
+          h5.text-center.mb-5 Según IDEAM (2007):
+          .col-md-8
+            .row.align-items-center.justify-content-center
+              .col-md-4.mx-0.px-0
+                img(src="@/assets/curso/temas/tema5/img5-1-18.svg")
+              .col-md-8.mx-0.px-0
+                SlyderE.bg-white.box-shadow.p-4(indicadores="derecha")
+                  .row
+                    p El límite para dureza en agua potable es de 160 mg CaCO3/L. Para aguas de caldera de presión intermedia el límite es 1 mg/L y de presión alta, 0.07 mg CaCO3/L, en aguas de enfriamiento 650 mg CaCO3/L. Este método es aplicable a aguas potables, superficiales, contaminadas y aguas residuales. El ácido etilendiaminotetraacético y sus sales de sodio (EDTA) forman un complejo de quelato soluble al añadirlo a las soluciones de algunos cationes metálicos. Cuando se añade EDTA al agua que contiene calcio y magnesio, aquél se combina primero con el calcio. 
+                  .row
+                    p De acuerdo con los criterios actuales, la dureza total se define como la suma de las concentraciones de calcio y magnesio, ambos expresados como carbonato de calcio, en miligramos por litro. La nitidez del punto final en el método volumétrico de EDTA, aumenta con los incrementos de pH.
+                  .row
+                    p Sin embargo, el pH no puede aumentar indefinidamente debido al peligro de precipitación de carbonato de calcio (CaCO3) o hidróxido magnésico, Mg (OH)2, y por que la titulación cambia de color a pH alto. El valor de pH especificado de 10 constituye una solución satisfactoria. (P.1).
+
+
+    .row.fondo-tema5-4.align-items-center.mb-4.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center.justify-content-center
+          h4.t-green.mb-4(data-aos="fade") Grasas y aceites
+          p Le presentamos, ahora, elementos importantes sobre el método de extracción Soxhlet para la determinación de grasas y aceites.
+          p.mb-4 El método de extracción Soxhlet para la determinación de grasas y aceites es aplicable para determinar lípidos biológicos, hidrocarburos ya sea fracciones pesadas o relativamente polares del petróleo y cuando los niveles de grasas no volátiles pueden alterar el límite de solubilidad del solvente. 
+
+          SlyderF(columnas="col-lg-6 col-xl-4" data-aos="fade-down")
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico1.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p El método es aplicable en aguas residuales o afluentes tratados que contengan estos materiales, aunque la complejidad de la muestra puede producir resultados desviados a causa de la falta de especificidad Los jabones metálicos solubles son hidrolizados por acidificación. Sólo los aceites y las grasas sólidas o viscosas presentes se separan de la muestra líquida por filtración sobre una matriz sólida absorbente.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico2.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p Después de la extracción en un aparato soxhlet con solvente orgánico, se pesa el residuo que queda de la evaporación del solvente para determinar el contenido en grasa y aceite. En la determinación de grasas y aceites no se mide una cantidad absoluta de una sustancia específica; se determinan grupos de sustancias con características físicas similares con base en su solubilidad en el solvente.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico3.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p Así, el término “grasas y aceites” comprende cualquier material recuperado como una sustancia soluble en el solvente (n-hexano). Esto incluye otros materiales extraídos por el solvente de la muestra acidificada, tales como compuestos azufrados, algunos colorantes orgánicos y clorofila, no volatilizados durante el ensayo.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico4.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p Cloruros: El cloruro (Cl - ) es uno de los aniones inorgánicos que se encuentran en mayor concentración en aguas de consumo y aguas de desecho. En agua potable el sabor salino producido por la presencia de cloruros es variable y depende de la composición química del agua. Un alto contenido de cloruros en las aguas puede dañar estructuras y tuberías metálicas, al igual que afecta el crecimiento de la flora.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico5.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p El método argentométrico para la determinación de cloruros es útil en aguas relativamente claras que contengan de 0,15 a 10 mg Cl - en la alícuota de muestra titulada.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico6.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p El cloruro puede titularse con una solución de nitrato de plata utilizando cromato de potasio como indicador del punto final, en medio neutro o ligeramente alcalino, el cloruro de plata se precipita cuantitativamente antes de formarse el color rojo del cromato de plata.
+            row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico7.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p Interferencias y limitaciones: Los yoduros, bromuros y cianuros reaccionan con cloruros. Los iones sulfuros, tiosulfatos y sulfitos interfieren pero pueden ser eliminados por tratamiento con peróxido de hidrógeno.
+            .row
+              .tarjeta-avatar.text-center.h-tem5-tarj3
+                img(src='@/assets/curso/temas/tema5/slide-f-ico8.svg' alt='Grasas y aceites')
+                .tarjeta.bg-green11
+                  .p-4
+                    p Las concentraciones de ortofosfatos mayores de 25 mg/L interfieren por precipitación de fosfato de plata. Las concentraciones de hierro mayores de 10 mg/L interfieren enmascarando el punto final en la titulación.
+
+
+    p.mb-5(data-aos="fade") Luego de conocer sobre el método de extracción Soxhlet para la determinación de grasas y aceites, le invitamos a conocer, en la siguiente gráfica, algunos factores de importancia respecto a Sulfatos y Nitritos.
+    
+    h4.t-green.mb-4(data-aos="fade") Factores de importancia respecto a sulfatos, nitritos y nitratos
+
+    AcordionA.mb-4(data-aos="fade-down" tipo="a" clase-tarjeta="tarjeta bg-gris3")
+      .row.justify-content-center(titulo="Sulfatos")
+        .col-md-11
+          p #[b El sulfato (SO4 2–)] se encuentra ampliamente distribuido en la naturaleza y puede estar presente en aguas naturales en concentraciones que van desde unos pocos miligramos por litro hasta algunos gramos por litro. Algunos drenajes de minería pueden contribuir con grandes cantidades de sulfatos a través de la oxidación de piritas. Como los sulfatos de sodio y de magnesio tienen un efecto purgante, especialmente entre los niños, se recomienda un límite superior en aguas potables de 250 mg/L de sulfatos. 
+          p.mb-0 #[b Contenido:] El contenido es también importante, porque las aguas con alto contenido de sulfatos tienden a formar incrustaciones en las calderas y en los intercambiadores de calor. El ion SO4 2– forma una suspensión con cloruro de bario (BaCl2) en presencia de ácido acético para formar cristales de sulfato de bario (BaSO4) de tamaño uniforme. Se mide la dispersión de luz de la suspensión de BaSO4 con un turbidímetro, y la concentración de SO4 2– se determina por comparación de la lectura contra una curva estándar. Reacción: 
+          p.mb-0 #[b SO4 = + 2 HCl  → H2SO4 + 2 Cl - ]
+          p #[b H2SO4 + BaCl2 → BaSO4 + 2 HCl ]
+          p #[b Intervalo:] El intervalo de aplicación de este método va de 3 a 40 mg SO4 2–/L. Para muestras con concentraciones superiores, use una alícuota que contenga menos de 40 mg SO4 2–/L. Este método es aplicable a aguas potables, lluvia, superficiales, y efluentes domésticos e industriales.
+      .row.justify-content-center(titulo="Nitritos")
+        .col-md-11
+          p El nitrógeno de nitritos raras veces aparece en concentraciones mayores de 1 mg/L, aún en fuentes de plantas de tratamiento de aguas residuales. En aguas superficiales y subterráneas su concentración por lo general es menor de 0.1 mg/L. Su presencia indica, por lo regular, procesos activos biológicos en el agua, ya que es fácil y rápidamente convertido en nitrato. Los nitritos en concentraciones elevadas reaccionan dentro del organismo con aminas y amidas secundarias y terciarias formando nitrosominas de alto poder cancerígeno
+          p #[b NO2:] El nitrito (NO2 – ) se determina mediante la formación de un colorante azo de color púrpura rojizo por reacción de diazotación-copulación de sulfanílamida con diclorhidrato de N-(1-naftil)-etilendiamina (NED diclorhidrato) a pH entre 2,0 y 2,5. Según el Standard Methods este método es adecuado para determinar nitrito en concentraciones de 10 a 1000 µg NO2 – -N/L. El sistema de color obedece la Ley de Beer en concentraciones hasta de 180 µg NO2 – -N/L a 543 nm si se emplea celda de 1 cm de longitud; se pueden hacer mediciones en el intervalo de 5 a 50 µg NO2 – -N/L con una celda de 5 cm de paso de luz y un filtro de color verde.
+          p #[b Concentración:] Se pueden determinar concentraciones más altas por dilución de la muestra. En el laboratorio se analizan con éste método muestras de agua superficial, en un rango de concentraciones entre 0.006 y 0.20 mg N - NO2 – /L Según el Decreto 475 del 10 marzo de 1998 del Ministerio de Salud, en el artículo 8 parte b) se especifica como criterio de calidad química para agua con implicaciones de tipo económico o acción indirecta sobre la salud, un valor máximo admisible de 0,2 mg/L de nitritos.
+      .row.justify-content-center(titulo="Nitratos")
+        .col-md-11
+          p La técnica de monitoreo espectrofotométrico ultravioleta (UV) mide la absorbancia del nitrato (NO3 – ) a 220 nm y es adecuada para la determinación rápida de NO3 – y el monitoreo de aguas con bajo contenido de materia orgánica, como aguas naturales sin contaminar y fuentes de agua potable. Debido a que la materia orgánica disuelta también puede absorber a 220 nm y a que el NO3 – no absorbe a 275 nm, se usa una segunda medición a 275 nm para corregir el valor de NO3 –
+          p #[b Corrección Empírica:] La aplicación de esta corrección empírica está relacionada con la naturaleza y concentración de materia orgánica y puede variar de una muestra a otra. Consecuentemente, este método no es recomendado si se requiere una corrección significativa para absorbancia de materia orgánica, aunque puede usarse en el monitoreo de niveles de NO3 – en un cuerpo de agua con un tipo constante de materia orgánica.
+          p #[b Absorbancia:] Los factores de corrección para la absorbancia de la materia orgánica se pueden establecer por el método de adiciones en combinación con el análisis del contenido original de NO3 – por otro método. La filtración de muestra tiene la intención de remover la posible interferencia de partículas suspendidas.
+          p #[b Acidificación:] La acidificación con HCl 1 N está designada para prevenir la interferencia de concentraciones de hidróxido o carbonato hasta de 1000 mg CaCO3/L. El cloruro no tiene efecto en la determinación. La técnica de monitoreo espectrofotométrico ultravioleta de NO3 – obedece la Ley de Beer entre 0.03 y 5 mg NO3 – -N/L.
+
+    
+    p.mb-5(data-aos="fade") Para continuar el apartado Parámetros químicos, Conozca a continuación otros elementos de suma importancia referentes al mismo.
+    
+    h4.t-green.mb-4(data-aos="fade") Acidez
+    
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down") 
+      .col-md-7.mb-4
+        p La acidez del agua puede definirse como su capacidad para neutralizar bases o también como su capacidad para reaccionar con iones hidróxido o su capacidad para ceder protones o como la medida de su contenido total de sustancias ácidas. Las aguas excesivamente ácidas atacan los dientes.
+        p De acuerdo al SENA (2019):
+        ul.lista-ul--color.color-primario.ps-3
+          li 
+            i.fas.fa-check
+            | La causa más común de acidez en aguas es el CO2 el cual puede estar disuelto en el agua como resultado de las reacciones de los coagulantes químicos usados en el tratamiento o de la oxidación de la materia orgánica, o por disolución de dióxido de carbono atmosférico, pero en residuos industriales es la acidez mineral.
+          li 
+            i.fas.fa-check
+            | El CO2 se combina con el agua para formar un ácido débil, inestable, H2CO3, el cual se descompone muy fácilmente. Por ello todo el dióxido, aun combinado se considera CO2  libre.
+          li 
+            i.fas.fa-check
+            span La acidez se titula mediante la adición de iones OH- provenientes de una disolución de NaOH 0,02N. Dando paso a la siguiente reacción. #[br]#[br]
+              strong.bg-green7.mb-0.p-2 2NaOH + CO2→ Na2CO3 + H2O #[br]
+              strong.bg-green7.mb-0.p-2 Na2CO3 + CO2 + H2O -→ 2NaHCO3 #[br]
+              strong.bg-green7.mb-0.p-2 NaOH + CO2 → -NaHCO3
+          li 
+            i.fas.fa-check
+            | En una muestra que contenga únicamente dióxido de carbono, bicarbonatos y carbonatos, la titulación hasta pH 8.3 a 25ºC corresponde a la neutralización estequiometria del ácido carbónico a bicarbonato, por esta razón, el cambio de color del indicador. (P.1).
+
+      .col-md-5.mb-4
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-19.png' alt='Formula')
+
+
+    .row.fondo-tema5-5.align-items-center.mb-5.py-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center(data-aos="fade-down")
+          p.mb-5 Le invitamos ahora a finalizar el apartado Parámetros químicos, estudiando, atentamente, algunos factores referentes a Carbono total y Nitrógeno total.
+          h4.text-center.mb-4 Carbono total
+          .row.justify-content-center.mb-5
+            .col-md-6.col-lg-5.mb-5.mb-lg-0(data-aos="fade-right")
+              .tarjeta-avatar.text-center
+                img(src='@/assets/curso/temas/tema5/icono1.svg' alt='Carbono total')
+                .tarjeta.bg-color-acento-contenido
+                  .p-4
+                    p Indica la cantidad total de carbono orgánico presente en una muestra, expresada en mg/L. En la actualidad existen equipos comerciales que proporcionan simultáneamente y como valores independientes el contenido total de carbono orgánico, junto al inorgánico y CO2 disuelto. Es un método instrumental, basado en la combustión total del carbono por oxidación a CO2 (Tª > 900 ºC) en presencia, si es necesario, de catalizadores de oxidación (V2O5).
+            .col-md-6.col-lg-5.mb-5.mb-lg-0(data-aos="fade-right")
+              .tarjeta-avatar.text-center
+                img(src='@/assets/curso/temas/tema5/icono2.svg' alt='Carbono total')
+                .tarjeta.bg-color-acento-contenido
+                  .p-4
+                    p Es un método rápido, siendo su principal inconveniente el coste del equipo y que en la actualidad no es un parámetro aceptado en la legislación vigente para aguas, situación que puede modificarse en un futuro próximo. Los métodos de muestreo son similares a los descritos para la determinación de DQO y DBO, debiendo tener especial cuidado en no someter las muestras a la luz.
+
+          h4.text-center.mb-4 Nitrógeno total
+          .row.justify-content-center.mb-5
+            .col-md-10
+              SlyderF(columnas="col-lg-6 col-xl-6")
+                .row
+                  .tarjeta-avatar.text-center.h-tem5-tarj2
+                    img(src='@/assets/curso/temas/tema5/slide-ico1.svg' alt='Nitrógeno total')
+                    .tarjeta.bg-green4
+                      .p-4
+                        p De acuerdo con el ciclo del nitrógeno, una concentración alta de nitrógeno orgánico es característica de una contaminación fresca o reciente, y por consiguiente de gran peligro potencial.
+                        p Todo el nitrógeno presente en compuestos orgánicos puede considerarse nitrógeno orgánico. 
+                .row
+                  .tarjeta-avatar.text-center.h-tem5-tarj2
+                    img(src='@/assets/curso/temas/tema5/slide-ico2.svg' alt='Nitrógeno total')
+                    .tarjeta.bg-green4
+                      .p-4
+                        p El contenido de nitrógeno orgánico en un agua incluye el nitrógeno de aminoácidos, aminas, polipéptidos, proteínas y otros compuestos orgánicos del nitrógeno.
+                        p El nitrógeno amino de la mayoría de materiales orgánicos y el amoniaco libre son convertidos a amonio en presencia de H2SO4, sulfato de potasio (K2SO4), y sulfato de Cobre II (CuSO4) como catalizador.
+                .row
+                  .tarjeta-avatar.text-center.h-tem5-tarj2
+                    img(src='@/assets/curso/temas/tema5/slide-ico3.svg' alt='Nitrógeno total')
+                    .tarjeta.bg-green4
+                      .p-4
+                        p Durante la digestión, el carbono y el hidrógeno son oxidados a dióxido de carbono y agua, mientras el sulfato es reducido a dióxido de azufre y el grupo amino es liberado como amoníaco, el cual no puede escapar del medio ácido y permanece como una sal de amonio. Después de la adición de hidróxido, el amoniaco es destilado desde el medio alcalino y absorbido en ácido sulfúrico 0.02M, de la solución ácida el amoniaco es liberado por adición de NaOH a pH 11 y es leído con un electrodo selectivo de amoníaco.
+                .row
+                  .tarjeta-avatar.text-center.h-tem5-tarj2
+                    img(src='@/assets/curso/temas/tema5/slide-ico4.svg' alt='Nitrógeno total')
+                    .tarjeta.bg-green4
+                      .p-4
+                        p El método se aplica en este laboratorio para la matriz aguas residuales industriales y superficiales. Se emplea para el intervalo de 0,50 a 1.000 mg de N/L. Es un método electrométrico, en el que se determina el amoniaco y se expresa como nitrógeno (N). El método Kjeldahl determina el nitrógeno en estado tri negativo; el “Nitrógeno Kjeldahl” es la suma del nitrógeno Orgánico y el nitrógeno amoniacal.
+
+
+    h3.subt.text-white.mb-4(data-aos="fade") Parámetros microbiológicos
+    p.mb-4(data-aos="fade") El objetivo de la prueba microbiológica del agua es proveer subsidio acerca de su potabilidad, es decir, ausencia de riesgo de ingestión de microorganismos causadores de enfermedades, mayormente provenientes de la contaminación por excrementos humanos y de otros animales de sangre caliente. Vale resaltar que los microorganismos presentes en aguas naturales son, en su mayoría, inofensivos a la salud humana. Pero en la contaminación por desecho sanitario están presentes microorganismos que podrán perjudicar la salud humana. Los microorganismos patogénicos incluyen virus, bacterias, protozoarios y helmintos, coliformes totales y E.Coli. Bajo el Método NMP pueden encontrarse:
+
+    SlyderA.bg-blue2.br-20.p-4.mb-5(tipo="b" data-aos="fade-down")
+      .row.justify-content-center
+        .col-md-5.mb-4.mb-md-0
+          p La Escherichia coli forma la mayor parte de la flora comensal aerobia y anaerobia facultativa del tubo digestivo, y se elimina por las heces al exterior, por lo tanto, no es Infrecuente que se encuentre en el medio ambiente, donde son capaces de sobrevivir durante cierto tiempo en el agua y los alimentos, de manera que su aislamiento constituye un indicador de contaminación fecal reciente.      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema5/slide-b-1.png', alt='Imagen decorativa')
+      .row.justify-content-center
+        .col-md-5.mb-4.mb-md-0
+          p Puede intervenir en procesos patológicos como la producción de cuadros intestinales, diarreas e infecciones extra intestinales diversas.
+          p Los coliformes totales, se encuentran con más frecuencia en el medio ambiente, pueden estar en el suelo y en las superficies del agua dulce, por lo que no son siempre intestinales, su identificación en estas fuentes sugiere fallas en la eficiencia del tratamiento y la integridad del sistema de distribución.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema5/slide-b-2.png', alt='Imagen decorativa')   
+      .row.justify-content-center
+        .col-md-5.mb-4.mb-md-0
+          p La prueba de enzima – sustrato definido, se fundamenta en la actividad enzimática de los Coliformes totales y los coliformes fecales (E. coli) Los coliformes totales se diferencian según su capacidad para fermentar lactosa, así:
+          p Fermentadores rápidos: E. coli, klebsiella, enterobacter, poseen 2 enzimas, la betagalactósido - permeasa, su actividad es permitir que la lactosa se difunda a través de la membrana celular. La otra es la beta-galactosidasa la cual descompone por hidrólisis el enlace beta - galactósido que une las moléculas de glucosa y galactosa para formar el disacárido de lactosa, liberando así la glucosa que de esta manera puede ser fermentada. Los fermentadores lentos: carecen de la enzima beta -galactósido - permeasa.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema5/slide-b-3.png', alt='Imagen decorativa')               
+      .row.justify-content-center
+        .col-md-5.mb-4.mb-md-0
+          p Los no fermentadores, no poseen ninguna de las enzimas. En los medios sólidos con lactosa se comportan en general como no fermentadoras y solo puede detectarse demostrando la presencia de beta - galactosidasa por la reacción del ONPG (ortonitrofenil – galactopiranósido) compuesto capaz de atravesar la pared celular y que la beta -galactosidasa descompone en galactosa y ortonitrofenil, que al liberarse en medio alcalino toma un color amarillo pálido.
+          p El método está recomendado para análisis microbiológico para las muestras de agua en general, ya sea potable, de consumo humano, no tratadas, residuales, aguas de alberca y de playa. El método es aplicable en un rango de 1 a 1800 NMP/100mL para detectar y cuantificar la concentración de coliformes totales y E.coli para evaluar la calidad microbiológica de estas.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema5/slide-b-4.png', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-5
+      .col-md-10(data-aos="fade")
+        .cajon.color-acento-contenido.row.align-items-center.p-4
+          .col-md-2
+            img.mx-auto.px-4(src='@/assets/curso/temas/tema5/cajon-ico2.svg' alt='Imagen decorativa')
+          .col-md-10
+            p.mb-0 La materia Según el Decreto 475 de 1998, por el cual se expiden normas técnicas de calidad de agua potable:
+            p Artículo 25. El agua para consumo humano debe cumplir con los siguientes valores admisibles desde el punto de vista microbiológico. Número más probable:
+            ol.lista-ol
+              li 
+                span.text-bold a. 
+                | Coliformes totales.  microorganismos 0/100 mL
+              li 
+                span.text-bold b. 
+                | E. coli. 0 microorganismos /100mL
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/bloque-img.jpg')})`}")
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Otro método por el cual se puede identificar presencia de microorganismos es el Método de filtración por membrana en agar chromocult. La filtración por membrana es el mecanismo mediante el cual se atrapan en la superficie de la membrana microorganismos cuyo tamaño es mayor que el tamaño del poro 0.45 um, esto gracias a que una bomba eléctrica ejerce una presión diferencial sobre la muestra de agua haciendo que se filtre.
+
+    .row.mb-4
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Los contaminantes de tamaño menor que el específico del poro atraviesan la membrana o se quedan retenidos en su interior, las bacterias quedan en la superficie de la membrana y luego está es llevada a un medio de enriquecimiento selectivo. En el IDEAM se utiliza el medio de cultivo Chromocult el cual promueve el crecimiento y la identificación.
+        p El medio de cultivo contiene el sutrato Salmon GAL – 6 cloro – 3 indol y βD galactopiranosido es un sustrato cromogénico que es usado para la detección de la enzima galactosidasa de colonias bacterianas en un ensayo colorimétrico; que da como resultado el cambio de la colonia a un color rojo salmón.
+        p Esta reacción se observa cuando hay coliformes totales. Para diferenciar la E.coli de los coliformes totales se hace por medio del sustrato cromogénico X-Glucorósido, que reacciona con la enzima glucuronidasa pero estas también reaccionan con el sustrato Salmón- GAL produciendo un color azul - violeta en la colonia.
+      .col-md-5(data-aos="fade-left")   
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-20.png' alt='Imagen decorativa')
+
+    .row.align-items-center.mb-4
+      .col-md-4.mb-4(data-aos="fade-right")
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-21.png' alt='Imagen decorativa')
+      .col-md-8(data-aos="fade-left")   
+        .bloque-texto-c.bg-green2.box-shadow.p-3.px-4.mb-4
+          i.fas.fa-quote-right.mb-2
+          p.mb-3 El método es aplicable a aguas superficiales y residuales en el IDEAM en un rango de 1 a 200000 UFC/100mL. Según el Decreto 1575 de 2007 “Por el cual se expiden normas técnicas de calidad de agua potable”. Artículo 25. El agua para consumo humano debe cumplir con los siguientes valores admisibles desde el punto de vista microbiológico. Filtración por membrana: 
+          p.mb-0 • Coliformes totales. 0 UFC/100mL y
+          p.mb-3 • E. coli, 0 UFC/100mL. (pp.2-3)
+          span.text-bold.mb-0 - Según IDEAM (2007)
+
+    p.mb-5 Le invitamos a continuar con el estudio de los ítems Macroinvertebrados y Bioindicadores para se ha preparado una gráfica interactiva. ¡Adelante!
+
+
+    h4.t-green.mb-4 Macroinvertebrados y Bioindicadores
+
+    .row.align-items-center.mb-4
+      .col-md-7.mb-4(data-aos="fade-right")
+        SlyderA.bg-blue2.br-20.p-4(tipo="b" data-aos="fade-down")
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-1.png' alt='Imagen decorativa')
+            p Los macroinvertebrados bénticos son animales que habitan en el sustrato de lagos, cursos de agua, estuarios y aguas marinas. Pueden construir camisas, tubos o redes fijas, viviendo dentro o sobre ellos, o vagar libremente sobre las rocas, residuos orgánicos y otros sustratos durante todo o parte de su ciclo vital. 
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-2.png' alt='Imagen decorativa')
+            p Las respuestas de la comunidad macroinvertebrada a las perturbaciones ambientales son útiles para evaluar el impacto de los residuos municipales, agrícolas, de la industria petrolífera y los impactos de otros usos del suelo sobre los cursos de agua superficiales.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-3.png' alt='Imagen decorativa')
+            p Por otra parte, el cieno y la contaminación química tóxica pueden no sólo reducir, sino incluso eliminar la comunidad macroinvertebrada completa de una zona afectada.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-4.png' alt='Imagen decorativa')
+            p Aunque los macroinvertebrados por definición se consideran visibles a simple vista, y quedan retenidos en un tamiz del número 30 U. S. Standard (abertura de 0.595mm). (APHA,1995).
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-5.png' alt='Imagen decorativa')
+            p Existe documentación acerca de tres situaciones en las que cambia el tipo estructural de la comunidad macroinvertebrada, y son la carga orgánica, alteración del sustrato y contaminación química tóxica. La contaminación orgánica tóxica suele restringir la variedad de macroinvertebrados, quedando los más resistentes, y da lugar al correspondiente aumento de densidad de los que toleran las condiciones contaminadas, normalmente una baja concentración de oxígeno disuelto.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-6.png' alt='Imagen decorativa')
+            p Limitaciones e interferencias. Limitaciones en la separación: dado el gran volumen de muestra y para economizar tiempo en una labor tan dispendiosa algunos investigadores recomiendan no observar toda la muestra, sino la separación y observación de submuestras de la muestra integrada. Sin embargo, otros científicos desaprueban esta práctica. Debido a que el nivel de conocimiento en Colombia de la flora y fauna acuática de agua dulce es aún escaso e incompleto, se propone utilizar un método intermedio.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-7.png' alt='Imagen decorativa')
+            p Limitación por el nivel de determinación: debe tenerse en cuenta que dentro de los métodos existentes los hay desde los más simples, en los cuales bastaría utilizar sólo grupos mayores de organismos (por ejemplo, al nivel de órdenes y familias), hasta los más complejos como el sistema saprobio alemán, el cual exige llegar hasta el nivel de especie.    
+      .col-md-5(data-aos="fade-left")   
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-22.png' alt='Imagen decorativa')
+
+
+
+
+
+
 
 
     Separador
 
-    #t_4_4
-    .titulo-segundo.color-acento-contenido
-      h2 4.4 Parámetros de análisis físicos y químicos de los residuos sólidos
 
-    p(data-aos="fade") Entre los diversos temas que guardan relación con una problemática de tanta actualidad como la protección y conservación del medio ambiente, la gestión de residuos sólidos ocupa un lugar principal dentro de la gestión ambiental. Esta gestión integrada es el término aplicado a todas las actividades asociadas con el manejo de los diversos flujos de residuos dentro de la industria y sociedad.
+    #t_4_2
+    .titulo-segundo.color-acento-contenido(data-aos="fade")
+      h2 4.2 Manejo de residuos, características de peligrosidad 
 
-    h3.subt.text-white.mb-4(data-aos="fade") Caracterización física y peso específico
+    p(data-aos="fade") Los residuos de laboratorios de análisis de agua se clasifican en diversas categorías en función de su naturaleza, peligrosidad y destino final. Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
 
-    .row.mb-4 
-      .col-md-6.mb-4(data-aos="fade-down")
-        .bg-gris.h-410.br-20.px-3.py-4 
-          .row.px-md-3.mb-4
-            .col-3
-              figure.px-md-2
-                img(src='@/assets/curso/temas/tema4/ico3.svg' alt='Icono decorativo')  
-          h5.px-md-4.mb-4 Caracterización física
-          p.px-md-4 Las características físicas más importantes de los residuos sólidos incluyen: peso específico o, contenido de humedad, tamaño de partícula y distribución del tamaño, capacidad de campo y porosidad de los residuos compactados.
-      .col-md-6.mb-4(data-aos="fade-down")
-        .bg-color-secundario.h-410.br-20.px-3.py-4 
-          .row.px-md-3.mb-3
-            .col-3
-              figure.px-md-2
-                img(src='@/assets/curso/temas/tema4/ico4.svg' alt='Icono decorativo') 
-          h5.px-md-4.mb-4 Peso específico
-          p.px-md-4 El peso específico se define como el peso de un material por unidad de volumen (por ejemplo, kg/m3) Como el peso específico de los RS frecuentemente se refiere a residuos sueltos, encontrados en los contenedores, no compactados, compactados, etc., la base utilizada para los valores presentados siempre debe ser citada. Los datos sobre el peso específico a menudo son necesarios para valorar la masa y el volumen total de los residuos que tienen que ser gestionados.
+    Separador
 
 
-    .row.fondo-tema4-4.align-items-center.mb-5.py-5
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center
-          .col-md-7.mb-4(data-aos="fade-right")
-              h3.subt.text-white.mb-4 Caracterización física y peso específico
-              p.text-bold #[em M= (w-d) X 100]
-              p donde:
-              p.mb-0 #[em M] = Contenido de humedad, porcentaje.
-              p.mb-0 #[em w] = Peso inicial de la muestra según se entrega (kg)
-              p #[em d] = Peso de la muestra después de secarse a 105 ºC (kg)
-              p El contenido de humedad de los residuos sólidos normalmente se expresa de dos formas. En el método de medición peso-húmedo, la humedad de una muestra se expresa como un porcentaje del peso del material húmedo; en el método peso-seco, se expresa como un porcentaje del peso seco del material. El método peso-húmedo se usa más frecuentemente en el campo de la gestión de residuos sólidos. En forma de ecuación, el contenido de humedad peso­-húmedo se expresa de la siguiente forma: 
-              p.text-center.text-bold.bg-color-secundario2  #[em M= (w-d) X 100]
-          .col-md-5(data-aos="fade-left")
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-4.png' alt='Imagen decorativa')
+    #t_4_3
+    .titulo-segundo.color-acento-contenido(data-aos="fade")
+      h2 4.3 Método <em>Biological Monitoring Working Party BMWP</em>
 
-
-    h3.subt.text-white.mb-4(data-aos="fade") Tamaño de partícula y distribución del tamaño
-    p.mb-4(data-aos="fade") El tamaño y la distribución del tamaño de los componentes de los materiales en los residuos sólidos son una consideración importante dentro de la recuperación de materiales, especialmente con medios mecánicos, como cribas, tromeles y separadores magnéticos. El tamaño de un componente puede definirse mediante una de las siguientes medidas:
+    p.mb-4 Este método se basa en el principio de que diferentes invertebrados acuáticos tienen distinta tolerancia a los contaminantes . En el caso de BMWP, esto se basa en la sensibilidad / tolerancia a la contaminación orgánica (es decir, enriquecimiento de nutrientes que puede afectar la disponibilidad de oxígeno disuelto) Es importante reconocer que la clasificación de sensibilidad / tolerancia variará para los diferentes tipos de contaminación.  
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-3.mb-4
+      .col-md-3.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/form1.svg' alt='Formula')
-      .col-md-5.mb-4
-        p donde:
-        p.mb-0 #[em M] = Contenido de humedad, porcentaje.
-        p.mb-0 #[em w] = Peso inicial de la muestra según se entrega (kg)
-        p #[em d] = Peso de la muestra después de secarse a 105 ºC (kg)
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-1.png' alt='Imagen decorativa')
+      .col-md-9.mb-4(data-aos="fade-left")
+        AcordionA(data-aos="fade-down" tipo="a" clase-tarjeta="tarjeta bg-gris3")
+          .row.justify-content-center(titulo="BMWP / Clasificación de contaminación orgánica")
+            .col-md-11
+              p En el caso de BMWP / Clasificación de contaminación orgánica, la presencia de moscas de mayo o moscas de piedra, por ejemplo, indica las vías fluviales más limpias y se les da un puntaje de tolerancia de 10. [2] Los invertebrados con menor puntuación son los gusanos (Oligochaeta) que puntúan 1. El número de macroinvertebrados diferentes también es un factor importante, porque se supone que una mejor calidad del agua contiene menos contaminantes que incluirían especies “sensibles”, lo que da como resultado una mayor diversidad.
+          .row.justify-content-center(titulo="Muestreo de patada")
+            .col-md-11
+              p Se emplea el muestreo de patada, donde se coloca una red de aguas abajo del muestreador y el lecho del río se agita con el pie durante un período de tiempo determinado (el estándar es de 3 minutos) Todos los macroinvertebrados atrapados en la red se almacenan y conservan con una solución de alcohol, y se identifican a nivel familiar , esto también se puede hacer con los organismos vivos.
 
-    .row.fondo-tema4-4.align-items-center.mb-5.py-5
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center
-          .col-md-7.mb-4(data-aos="fade-right")
-              h3.subt.text-white.mb-4 Capacidad de campo
-              p La capacidad de campo de los residuos sólidos es la cantidad total de humedad que puede ser retenida por una muestra de residuo sometida a la acción de la gravedad. La capacidad de campo de los residuos es de una importancia crítica para determinar la formación de la lixiviación en los vertederos. El exceso de agua sobre la capacidad de campo se emitirá en forma de lixiviación. La capacidad de campo varía con el grado de presión aplicada y el estado de descomposición del residuo. Una capacidad de campo de un 30 por 100 en volumen se corresponde con 76,2 cm/256 cm. La capacidad de campo de los residuos no seleccionados y no compactados de orígenes domésticos y comerciales está en la gama del 50 al 60 por 100.
-          .col-md-5(data-aos="fade-left")
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-5.png' alt='Imagen decorativa')
+    p.text-center.mb-5(data-aos="fade") Recolección de macroinvertebrados. 
 
-
-    h3.subt.text-white.mb-4(data-aos="fade") Permeabilidad de los residuos compactados
-    p.mb-4(data-aos="fade") La conductividad hidrológica de los residuos compactados es una propiedad física importante que, en gran parte, gobierna el movimiento de líquidos y gases dentro de un vertedero. El coeficiente de permeabilidad normalmente se escribe como la imagen a continuación, donde:
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-3.mb-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-9.mb-4(data-aos="fade-right")
+        AcordionA(data-aos="fade-down-right" tipo="a" clase-tarjeta="tarjeta bg-gris3")
+          .row.justify-content-center(titulo="Puntaje de BMWP")
+            .col-md-11
+              p El puntaje de BMWP es igual a la suma de los puntajes de tolerancia de todas las familias de macroinvertebrados en la muestra. Se considera que un puntaje BMWP más alto refleja una mejor calidad del agua. Alternativamente, también se calcula el puntaje promedio de puntaje por taxón (ASPT) El ASPT es igual al promedio de los puntajes de tolerancia de todas las familias de macroinvertebrados encontrados, y varía de 0 a 10. 
+          .row.justify-content-center(titulo="Índice de Calidad de Lincoln (LQI)")
+            .col-md-11
+              p La principal diferencia entre ambos índices es que el ASPT no depende de la riqueza familiar. Una vez que se calculan BMWP y ASPT, se utiliza el Índice de Calidad de Lincoln (LQI) para evaluar la calidad del agua en el área de la Autoridad de Agua de Anglian.
+      .col-md-3.mb-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/form2.svg' alt='Formula')
-      .col-md-5.mb-4
-        p donde:
-        p.mb-0 #[em K] = Coeficiente de permeabilidad.
-        p.mb-0 #[em C] = Constante sin dimensiones o factor de forma.
-        p.mb-0 #[em d] = Tamaño medio de los poros.
-        p.mb-0 #[em y] =  Peso específico del agua.
-        p.mb-0 #[em µ] = Viscosidad dinámica del agua.
-        p #[em K] = Permeabilidad intrínseca.
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-2.png' alt='Imagen decorativa')
+        
 
 
-    .row.fondo-tema4-4.align-items-center.mb-5.py-5
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center
-          .col-md-7.mb-4(data-aos="fade-right")
-              h3.subt.text-white.mb-4 Caracterización fisicoquímica 
-              p.mb-4 La información sobre la composición química de los componentes que conforman los RS es importante para evaluar las opciones de procesamiento y recuperación. Por ejemplo, la viabilidad de la incineración depende de la composición química de los residuos sólidos. Normalmente, se puede pensar que los residuos son una combinación de materiales semihúmedos combustibles y no combustibles. Si los residuos sólidos van a utilizarse como combustible, las cuatro propiedades más importantes que es preciso conocer son de acuerdo a Propiedades físicas, químicas y biológicas de los residuos sólidos urbanos capítulo 4:
-              ul.lista-ul--color.color-primario.ps-3
-                li 
-                  i.fas.fa-check
-                  | Humedad (pérdida de humedad cuando se calienta a 105 ºC durante una hora).
-                li 
-                  i.fas.fa-check
-                  | Materia volátil combustible (pérdida de peso adicional con la ignición a 950 ºC en un crisol cubierto).
-                li 
-                  i.fas.fa-check
-                  | Carbono fijo (rechazo combustible dejado después de retirar la materia volátil).
-                li 
-                  i.fas.fa-check
-                  | Ceniza (peso del rechazo después de la incineración en un crisol abierto). (pp.4-5)   
 
-          .col-md-5(data-aos="fade-left")
-            figure
-              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-6.png' alt='Imagen decorativa')
+
+    h3.subt.text-white.mb-4(data-aos="fade") Equipos de análisis de agua    
+
+    .row.justify-content-center.mb-5
+      .col-md-6(data-aos="fade-right")
+        p Las técnicas instrumentales de análisis tienen gran relevancia en el monitoreo de la calidad del agua, como también durante el proceso de tratamiento de agua residual. La concentración de metales y aniones en el agua se pueden detectar, empleando técnicas modernas de análisis.
+        p.bg-green3.p-4.mb-0 Es de gran importancia hallar las concentraciones de estos componentes para tener un conocimiento de su calidad y corroborar si se cumple con los límites máximos permisibles nacionales e internacionales.
+        p.mt-3 Visita la tabla 7 en el anexo 8 donde se muestran algunos equipos utilizados en los análisis de agua.
+        .tarjeta.bg-degrade-green.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema6/icono.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h4.mb-1 Equipos utilizados en los análisis de agua
+                  p.text-small.mb-0 Visita la tabla 7 en el anexo 8 donde se muestran algunos equipos utilizados en los análisis de agua.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla7-Equipos-instrumentales-analisis.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-md-6(data-aos="fade-left")
+        figure
+          img.mx-auto(src='@/assets/curso/temas/tema6/img.png' alt='Imagen tema6')
+    
 
 </template>
 
