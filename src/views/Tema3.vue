@@ -266,12 +266,13 @@
           td(colspan="2")
             h4.text-center.mb-0 Elementos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión
         tr
-          td(rowspan="5" class="text-center")
-            h5 Sustancia Evaluación analítica 
-            h5 Sulfuro de hidrógeno (H2S)
+          td.text-center
+            h5.mb-0 Sustancia Evaluación analítica
           td 
             p.mb-0 Sustancia Evaluación analítica.
         tr
+          td(rowspan="4" class="text-center")
+            h5 Sulfuro de hidrógeno (H2S)
           td 
             p.mb-0 Método automático. Determinación de los niveles de sulfuro de hidrogeno y TRS en el aire por fluorescencia UV.
         tr
