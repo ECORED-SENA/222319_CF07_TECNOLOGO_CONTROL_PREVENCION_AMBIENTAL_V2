@@ -128,11 +128,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      /*{
+      {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },*/
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -152,16 +152,35 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Protocolos para análisis de agua, suelo, olores y residuos sólidos',
+      referencia:
+        'Bascón, M (2016). La cromatografía de gases-olfatometría como herramienta en la evaluación del aroma de los alimentos. Trabajo de grado.',
+      tipo: 'Documento',
+      link:
+        'https://idus.us.es/bitstream/handle/11441/54627/La%20cromatograf%C3%ADa.pdf?sequence=1&isAllowed=y',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Aplicación de protocolos de análisis de muestras',
+      referencia:
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales (s.f.). <em>Métodos analíticos</em>. IDEAM.',
+      tipo: 'Página web',
+      link: 'http://www.ideam.gov.co/web/agua/metodos-analiticos',
+    },
+    {
+      tema: 'Protocolos de análisis de suelos',
+      referencia:
+        'Servicio Nacional de Aprendizaje (2013). <em>Manual de prácticas de campo y del laboratorio de suelos</em>.',
+      tipo: 'Manual',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/11404/2785/1/practicas_campo_laboratorio_suelos.pdf',
+    },
+    {
+      tema: 'Equipos de análisis de agua',
+      referencia:
+        'Universidad Politécnica de Cartagena (s.f.). <em>Análisis de aguas</em>. UPCT. ',
+      tipo: 'Informe técnico',
+      link: 'https://www.upct.es/~minaeees/analisis_aguas.pdf',
     },
   ],
   glosario: [
@@ -348,9 +367,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila Garcia Santamaria',
+          nombre: 'Claudia Patricia Aristizabal',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable ecosistema de producción de RED Santander	',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -358,10 +383,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Evaluador instruccional',
+          centro: 'CENIGRAF',
+        },
+        {
+          nombre: 'Martha Isabel Martínez Vargas',
+          cargo: 'Productora audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro para la Industria de la Comunicación Gráfica',
         },
       ],
     },
@@ -369,49 +425,63 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Diseño web',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Desarrollo Front-End',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Producción audiovisual',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Validación de diseño y contenido',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
     {
-      titulo: 'GESTORES DE REPOSITORIO',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

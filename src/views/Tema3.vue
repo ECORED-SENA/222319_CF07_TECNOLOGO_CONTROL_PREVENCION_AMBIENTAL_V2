@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-5
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema4/img.png' alt='')
       .col-md-8(data-aos="fade-left")
         p La importancia que representa la calidad del agua, el suelo y la reducción de los malos olores emitidos por distintos tipos de fuentes es asegurado por los protocolos de análisis químicos, físicos y microbiológicos donde se identifica la información necesaria de los analitos en cuestión; para obtener datos de forma precisa y exacta de las características de la muestra analizada. Estos datos deben provenir de muestras representativas y análisis de acuerdo con protocolos que sigan estrictas normas técnicas y legales de control de calidad. Los análisis clásicos (volumétricos y gravimétricos) y las técnicas instrumentales de análisis cobran gran relevancia en el control y caracterización medioambiental; ofreciendo alternativas de solución a diversas problemáticas que surgen de los las prácticas de uso del agua y el suelo y de los procesos industriales de los diversos sectores de mundo. 
 
@@ -37,7 +37,7 @@
                     i.fas.fa-file-download
       .col-md-5(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-1.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema4/img4-1.png' alt='')
 
     
 
@@ -46,7 +46,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema4/img4-2.png' alt='')
       .col-md-7(data-aos="fade-left")
         p.mb-md-5 La calidad del suelo ha sido definida por la Sociedad de Ciencias del Suelo de América, como “la capacidad de un tipo específico de suelo para funcionar, dentro de los límites de los ecosistemas naturales, para sostener la productividad vegetal y animal, mantener y/o mejorar la calidad del agua y del aire, y apoyar la salud y la vivienda”.
           .tarjeta.bg-degrade-green.p-3
@@ -82,7 +82,7 @@
 
               .tarjeta.bg-yellow.p-3(x="31%" y="28%" numero="+")
                 .h4.mb-2 Resoluciones
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li.mb-1
                     i.lista-ul__vineta
                     | Resolución 601 de 2006
@@ -101,7 +101,7 @@
                 p.mb-0 “Por la cual se establece la norma de calidad de aire o nivel de inmisión, para todo territorio nacional en condiciones de referencia”.
               .tarjeta.bg-yellow.p-3(x="27%" y="75%" numero="+")
                 .h4.mb-2 Normas internacionales
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li.mb-1
                     i.lista-ul__vineta
                     | Norma Europea UNE EN 13725 de 2004
@@ -114,10 +114,11 @@
                   li.mb-1 
                     i.lista-ul__vineta
                     | Norma Alemana VDI 3884 de 2015  
-                p.mb-0 Citado de: tqi.co (s, f). Soluciones-confiables-olfatometría https://tqi.co/soluciones-confiables/olfatometria/#
+                p.mb-0 Citado de: tqi.co (s, f). Soluciones-confiables-olfatometría 
+                a(:href="('https://tqi.co/soluciones-confiables/olfatometria/#')" target="_blank") https://tqi.co/soluciones-confiables/olfatometria/#
               .tarjeta.bg-yellow.p-3(x="71%" y="15.5%" numero="+")
                 .h4.mb-2 Normas técnicas colombianas
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li.mb-1
                     i.lista-ul__vineta
                     | NTC 5880
@@ -174,7 +175,7 @@
               .col-md-10.p-md-3
                 p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación.
                 p.mb-0 Citado de: Asociación Española para la calidad AEC (2010) Contaminación Odorífera  p.1-2
-                p https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128
+                a(:href="('https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128')" target="_blank") https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128
 
     p Es momento de adentrarse en las Técnicas físico químicas de análisis olfatométricos. La caracterización de los olores se puede realizar mediante dos técnicas esencialmente: sensoriales y analíticas.
 
@@ -183,12 +184,13 @@
         .row.justify-content-center.align-items-center.pt-5
           .col-md-7.mb-4(data-aos="fade-right")
             h3.subt.text-white.mb-4 a. Técnicas sensoriales
-            p.mb-5 Se basan en la percepción de los olores por el olfato humano. También incluyen la determinación del carácter de un olor (mapeo) y el nivel de agrado o desagrado de un olor (tono hedónico). Las técnicas sensoriales utilizan asesores humanos para medir un olor, siendo la olfatometría, la técnica usada comúnmente. Dicha prueba evalúa las diluciones con aire limpio que un olor debe sufrir para no ser detectable por un humano promedio (umbral de detección).
+            p Se basan en la percepción de los olores por el olfato humano. También incluyen la determinación del carácter de un olor (mapeo) y el nivel de agrado o desagrado de un olor (tono hedónico). Las técnicas sensoriales utilizan asesores humanos para medir un olor, siendo la olfatometría, la técnica usada comúnmente. Dicha prueba evalúa las diluciones con aire limpio que un olor debe sufrir para no ser detectable por un humano promedio (umbral de detección).
+            p.mb-5 En las técnicas sensoriales encontramos:
             h4.t-green Mapeo triangular
             p Otras técnicas sensoriales incluyen la determinación del carácter de un olor (mapeo triangular) y el nivel de agrado o desagrado de un olor (tono hedónico) Las técnicas sensoriales tienen la ventaja de que proveen información útil sobre cómo las personas perciben los olores y el grado de molestia que provoca un olor determinado, o bien para evaluar la efectividad de un equipo de control de olores. La desventaja de este método es que no es específico y consecuentemente no identifica las especies químicas causantes del olor. Dentro de las técnicas sensoriales tenemos:
           .col-md-5(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema4/img4-3.png' alt='')
         .row.mb-4 
           .col-md-6.mb-4(data-aos="fade-down")
             .bg-color-acento-contenido.h-477.br-20.px-3.py-4 
@@ -196,7 +198,7 @@
                 h4.t-green2.text-center.mb-4 Olfatometría dinámica
                 .col-3
                   figure.px-md-2
-                    img.mx-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo')  
+                    img.mx-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='')  
               p.px-md-4 La norma UNE-EN 13725:2004 establece un marco normativo de regulación para la toma de muestras y ensayo por olfatometría dinámica, en los que se utiliza el olfato humano como sensor. Esta norma define una metodología para la determinación de la concentración de olor de una muestra gaseosa usando un panel de “evaluadores” humanos (panelistas) como sensor, así como la determinación de la emisión. 
           .col-md-6.mb-4(data-aos="fade-down")
             .bg-color-primario.h-477.br-20.px-3.py-4 
@@ -204,7 +206,7 @@
                 h4.t-green.text-center.mb-4 Interpretación de Valores
                 .col-3
                   figure.px-md-2
-                    img.mx-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='Icono decorativo')  
+                    img.mx-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='')  
               .bloque-texto-c.sin-cuadro.p-4
                 i.fas.fa-quote-right.mb-2
                 p.mb-3.text-white El objetivo primordial de un estudio olfatométricos es evaluar si las emisiones de una determinada instalación pueden ser responsables o no de quejas en la población vecina. A esta conclusión se llega con la interpretación de los valores de concentración de inmisión, habitualmente denominados mapas de olores.
@@ -219,13 +221,13 @@
         p Debido a esto, las técnicas analíticas son usadas para definir criterios de diseño de métodos de control de olores, para determinar si las emisiones de una sustancia química específica están dentro de los niveles permitidos por las normas o para estimar la relación entre la concentración de una sustancia química y su equivalente en términos de percepción humana.
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-2.png' alt='')
 
 
     .row.justify-content-center.align-items-center.pt-5
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-3.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-3.png' alt='')
       .col-md-8(data-aos="fade-left")
         AcordionA(data-aos="fade-down-right").mb-5(tipo="a" clase-tarjeta="tarjeta bg-green7")
           .row.justify-content-center(titulo="Narices electrónicas")
@@ -238,7 +240,9 @@
           .row.justify-content-center(titulo="Espectrometría infrarroja")
             .col-md-8.mb-4.mb-lg-0
               p Los análisis químicos son métodos de investigación y tienen la ventaja de ser repetibles y seguros, y se usan para caracterizar los componentes químicos de episodios de olor, especialmente para compuestos desconocidos. Sin embargo, una muestra puntual para un periodo de tiempo con análisis químicos subsecuentes, provee sólo información integrada de tiempo, pero no información relacionada con la frecuencia, intensidad y duración de la exposición, la cual es requerida para identificar efectivamente la huella de los componentes del olor. 
-              p En décadas anteriores se han desarrollado mejores tecnologías para análisis de compuestos químicos, como el espectrómetro transformador infrarrojo de paso abierto de Fourier (Open-Path Fourier transforminfrared / OP-FTIR) el cual ofrece monitoreo remoto, análisis multicompuestos rápidos y mediciones promedio.
+              p En décadas anteriores se han desarrollado mejores tecnologías para análisis de compuestos químicos, como el espectrómetro transformador infrarrojo de paso abierto de Fourier (
+                em Open-Path Fourier transforminfrared 
+                |/ OP-FTIR) el cual ofrece monitoreo remoto, análisis multicompuestos rápidos y mediciones promedio.
             .col-md-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema4/acord2.png')       
@@ -301,7 +305,7 @@
 
     .bg-gris3.text-small.p-2.mb-5
       p.mb-1 Citado de: fenavi.org. (2014). Resolución-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf. Colombia.p.9
-      p.mb-0 https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf         
+      a(:href="('https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf')" target="_blank").mb-0 https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf         
 
 
 
@@ -316,13 +320,13 @@
         .col-md-8
           p Las características físicas más importantes de los residuos sólidos incluyen: peso específico o, contenido de humedad, tamaño de partícula y distribución del tamaño, capacidad de campo y porosidad de los residuos compactados.
         .col-md-3
-          img(src='@/assets/curso/temas/tema3/img-acord.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img-acord.png' alt='')
 
       .row.justify-content-center(titulo="Peso específico")
         .col-md-8
-          p El peso específico se define como el peso de un material por unidad de volumen (por ejemplo, kg/m3) Como el peso específico de los RS frecuentemente se refiere a residuos sueltos, encontrados en los contenedores, no compactados, compactados, etc., la base utilizada para los valores presentados siempre debe ser citada. Los datos sobre el peso específico a menudo son necesarios para valorar la masa y el volumen total de los residuos que tienen que ser gestionados.
+          p El peso específico se define como el peso de un material por unidad de volumen (por ejemplo, kg/m<sup>3</sup>) Como el peso específico de los RS frecuentemente se refiere a residuos sueltos, encontrados en los contenedores, no compactados, compactados, etc., la base utilizada para los valores presentados siempre debe ser citada. Los datos sobre el peso específico a menudo son necesarios para valorar la masa y el volumen total de los residuos que tienen que ser gestionados.
         .col-md-3
-          img(src='@/assets/curso/temas/tema3/img-acord.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img-acord.png' alt='')
 
       .row.justify-content-center(titulo="Caracterización física y peso específico")
         .col-md-7.mb-4
@@ -335,7 +339,7 @@
           p.text-center.text-bold.bg-color-secundario2  #[em M= (w-d) X 100]
         .col-md-4
           figure
-            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-4.png' alt='Imagen decorativa')
+            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-4.png' alt='')
 
       .row.justify-content-center(titulo="Tamaño de partícula y distribución del tamaño")
         .col-md-11
@@ -355,7 +359,7 @@
           p La capacidad de campo de los residuos sólidos es la cantidad total de humedad que puede ser retenida por una muestra de residuo sometida a la acción de la gravedad. La capacidad de campo de los residuos es de una importancia crítica para determinar la formación de la lixiviación en los vertederos. El exceso de agua sobre la capacidad de campo se emitirá en forma de lixiviación. La capacidad de campo varía con el grado de presión aplicada y el estado de descomposición del residuo. Una capacidad de campo de un 30 por 100 en volumen se corresponde con 76,2 cm/256 cm. La capacidad de campo de los residuos no seleccionados y no compactados de orígenes domésticos y comerciales está en la gama del 50 al 60 por 100.
         .col-md-5
           figure
-            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-5.png' alt='Imagen decorativa')
+            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-5.png' alt='')
 
       .row.justify-content-center(titulo="Permeabilidad de los residuos compactados")
         .col-md-11
@@ -376,7 +380,7 @@
       .row.justify-content-center(titulo="Caracterización fisicoquímica")
         .col-md-6.mb-4
             p.mb-4 La información sobre la composición química de los componentes que conforman los RS es importante para evaluar las opciones de procesamiento y recuperación. Por ejemplo, la viabilidad de la incineración depende de la composición química de los residuos sólidos. Normalmente, se puede pensar que los residuos son una combinación de materiales semihúmedos combustibles y no combustibles. Si los residuos sólidos van a utilizarse como combustible, las cuatro propiedades más importantes que es preciso conocer son de acuerdo a Propiedades físicas, químicas y biológicas de los residuos sólidos urbanos capítulo 4:
-            ul.lista-ul--color.color-primario.ps-3
+            ul.lista-ul--color.color-primario.ps-3.fa-ul
               li 
                 i.fas.fa-check
                 | Humedad (pérdida de humedad cuando se calienta a 105 ºC durante una hora).
@@ -391,7 +395,7 @@
                 | Ceniza (peso del rechazo después de la incineración en un crisol abierto). (pp.4-5)   
         .col-md-5
           figure
-            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-6.png' alt='Imagen decorativa')
+            img.mx-auto(src='@/assets/curso/temas/tema4/img4-3-6.png' alt='')
     
 
 

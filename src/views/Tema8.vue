@@ -25,7 +25,7 @@
         p “Las cifras significativas son los dígitos significativos en una cantidad medida o calculada”) y se sobreentiende que el último dígito es incierto o inexacto. En el caso mostrado en la siguiente imagen, con la pipeta A (4 mL) se está reportando una sola cifra significativa; con la pipeta B (4,0 mL) se están reportando dos cifras significativas.
       .col-md-7(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema12/img12-1.svg' alt='Imagen decorativa')    
+          img.mx-auto(src='@/assets/curso/temas/tema12/img12-1.svg' alt='')    
 
     
 
@@ -148,10 +148,10 @@
     .row.align-items-center.mb-1
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema12/img12-3.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema12/img12-3.png' alt='')
       .col-md-8(data-aos="fade-left")   
         p Cuando se analizan los datos obtenidos en un análisis es importante tomar en cuenta la exactitud y la precisión de los valores obtenidos experimentalmente.
-        p.bg-green4.px-4.py-3.mb-3 Se denomina #[b #[em exactitud]] a la cercanía de un resultado al valor considerado como verdadero. Una medida será más exacta mientras más cerca del valor verdadero se encuentre. Para determinar la exactitud de un resultado es necesario conocer previamente el valor verdadero (valor real) de la medida.Se denomina precisión de un grupo de medidas a la dispersión o separación de las mismas. Un grupo de medidas tendrá mayor precisión cuanto más cercanas se encuentren unas de otras. Se puede determinar la precisión sin necesidad de conocer el valor verdadero o real.
+        p.bg-green4.px-4.py-3.mb-3 Se denomina #[b #[em exactitud]] a la cercanía de un resultado al valor considerado como verdadero. Una medida será más exacta mientras más cerca del valor verdadero se encuentre. Para determinar la exactitud de un resultado es necesario conocer previamente el valor verdadero (valor real) de la medida. Se denomina precisión de un grupo de medidas a la dispersión o separación de las mismas. Un grupo de medidas tendrá mayor precisión cuanto más cercanas se encuentren unas de otras. Se puede determinar la precisión sin necesidad de conocer el valor verdadero o real.
         p La exactitud y la precisión no son dependientes entre sí: puede existir precisión sin exactitud y viceversa.
 
     p.mb-5 Para comprender mejor estos términos, se utilizará como ejemplo una “diana” de tiro al blanco. El valor considerado como valor real o valor verdadero es el centro de la diana y los puntos corresponden a los lanzamientos realizados que equivaldrían a los resultados de los análisis.
@@ -229,8 +229,8 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center
           h4.t-green.mb-4 Media
-          p.mb-3 Es el promedio matemático de los valores. Se representa con el símbolo: X
-          p.mb-0 #[b X = 224,3+240,4+246,3+239,4+253,1+ 261,7+229,4+255,5+235,5+ 249,7   = 243,53 mg Cl 10]
+          p.mb-3 Es el promedio matemático de los valores. Se representa con el símbolo: X̅
+          p.mb-0 #[b X̅ = 224,3+240,4+246,3+239,4+253,1+ 261,7+229,4+255,5+235,5+ 249,7   = 243,53 mg Cl 10]
 
     
     h4.t-green.mb-4 Mediana
@@ -572,7 +572,7 @@
           img(src='@/assets/curso/temas/tema12/ico2.svg' alt='ER')
           .tarjeta.bg-green11
             .p-4
-              h4.text-center.mb-4 Error relativo (Er):
+              h4.text-center.mb-4 Error relativo (Er)
               p.text-center Se relaciona con el valor verdadero y se reporta como porcentaje.
               p.text-center.mb-5 El signo negativo indica un error por defecto, el valor reportado es menor que el valor considerado como verdadero.
               figure.mb-4
@@ -640,7 +640,7 @@
         p El valor considerado como verdadero es #[b 250,0 mg Cl/L] (reportado por el laboratorio control), se encuentra dentro el intervalo de confianza para el nivel de confianza del 90%      
       .col-md-5(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema12/img12-4-1.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema12/img12-4-1.png' alt='')
 
     .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -672,7 +672,7 @@
               figcaption.bg-gris3    
                 p.mb-0 Nota. Autores (2020) Disoluciones del analito de concentración conocida y creciente
           .col-md-6
-            ul.lista-ul--color.color-primario.ps-3
+            ul.lista-ul--color.color-primario.ps-3.fa-ul
               li 
                 i.fas.fa-check
                 | Paso 1: preparación de los patrones.
@@ -703,28 +703,15 @@
       .col-md-7.mb-4(data-aos="fade-right")
         h4.t-green.mb-4 Cálculo excel
         p En la actualidad las calculadoras científicas realizan el ajuste por mínimos cuadrados y, dicho ajuste, también puede realizarse en el ordenador mediante la hoja de cálculo EXCEL.
-        p.mb-4 A continuación, se brinda una plantilla para el ajuste por mínimos cuadrados mediante la hoja de cálculo EXCEL y dos tutoriales que le ayudarán a utilizar dicha plantilla y la herramienta de gráficos de dicho programa.
-        .row 
-          .col-md-5
-            a.anexo.mb-4.mb-lg-3(href="https://drive.google.com/file/d/1gWslpfJG7dhGpToHu2ZdkZefn1oPCcJl/view?usp=sharing" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p #[b Enlace web.] Pantalla EXCEL para el ajuste por mínimos cuadrados. 
-          .col-md-7
-            a.anexo.mb-4.mb-lg-3(href="http://mmedia.uv.es/buildhtml?lang=es_ES&user=martiny&name=tutorial_excel_plantilla.swf&path=/&id=6534" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p #[b Enlace web.] Tutorial 1 que explica cómo utilizar la plantilla de EXCEL
-        a.anexo.mb-4.mb-lg-3(href="http://mmedia.uv.es/buildhtml?lang=es_ES&user=martiny&name=tutorial_excel_graficos.swf&path=/&id=6530" target="_blank")
+        p.mb-4 En el siguiente enlace, podrá conocer cómo se realiza el ajuste por mínimos cuadrador en EXCEL:
+        a.anexo.mb-4.mb-lg-3(href="https://www.youtube.com/watch?v=r7D2lgI2hQE" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web.] Tutorial 2 que explica cómo utilizar la herramienta gráficos de EXCEL, para obtener una recta ajustada por mínimos cuadrados.
+            p #[b Enlace web.] https://www.youtube.com/watch?v=r7D2lgI2hQE
       .col-md-5(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema12/img12-4-5.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema12/img12-4-5.png' alt='') 
 
 
     h4.t-green.mb-4(data-aos="fade") Señal analítica

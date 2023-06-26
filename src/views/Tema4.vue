@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img.png' alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         p El objetivo primordial de cualquier análisis relacionado con la calidad del agua es brindar la información necesaria para el manejo adecuado de los recursos hídricos para obtener datos de forma precisa y exacta de las características físicas, químicas y microbiológicas de la muestra de agua   evaluada; los datos deben provenir de muestras representativas y análisis de acuerdo con protocolos que sigan estrictas normas técnicas y legales de control de calidad.
         .bg-green4.p-4.mb-4
@@ -28,18 +28,18 @@
 
     h3.subt.text-white.mb-4(data-aos="fade") Parámetros físicos
 
-    p.mb-5(data-aos="fade") A continuación, le mostramos la forma en que los protocolos de análisis se encuentran agrupados o clasificados. ¡Adelante!
+    p.mb-5(data-aos="fade") A continuación, le mostramos la forma en que los protocolos de análisis se encuentran agrupados o clasificados.
 
     .row.fondo-tema4-4.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center
           .col-md-8(data-aos="fade-right")
-            h4.t-green.mb-4 Sólidos suspendidos totales en agua
+            h4.mb-4 Sólidos suspendidos totales en agua
             p.mb-4 El agua puede contener tanto partículas en suspensión como compuestos solubilizados, definiéndose la suma de ambos como Sólidos Totales (ST) La determinación de ST se realiza, conforme a la norma UNE 77030:1982, evaporando un volumen conocido de muestra y secando el residuo en estufa a 105 ºC, hasta pesada constante, indicándose el resultado en mg/L.
             p.mb-4 Esta medida nos permite conocer el contenido total de sustancias no volátiles presentes.
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1.png' alt='')
 
     .row.align-items-center.mb-5
       .col-md-8(data-aos="fade-right")
@@ -48,7 +48,7 @@
         p.mb-4 La conductividad es el inverso de la resistencia específica, y se expresa en micromho por centímetro (µmho/cm) equivalentes a microsiemens por centímetro (µS/cm) o milisiemens por centímetro (mS/cm) en el Sistema Internacional de Unidades.
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-2.png' alt='')
 
 
     .row.fondo-tema5-1.align-items-center.mb-5.py-5
@@ -62,17 +62,17 @@
               span.text-bold.mb-0 - Según IDEAM (2016)            
           .col-md-4.mb-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-3.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-3.png' alt='')
           .col-md-12.text-white
             .bg-color-primario.p-4
               h5 Sabía qué…
-              p.mb-0 En su estado puro el agua está formada por dos átomos de hidrógeno y uno de oxígeno, un enlace covalente que no permite el flujo de electrones. Sin embargo, el agua común que utilizamos para bañarnos, lavar o tomar agua, contiene sales minerales que están ionizadas, es decir que están cargadas eléctricamente, además de diferentes iones  como calcio, magnesio, nitratos, cloruros y nitratos, que permiten el paso de la corriente.
+              p.mb-0 En su estado puro el agua está formada por dos átomos de hidrógeno y uno de oxígeno, un enlace covalente que no permite el flujo de electrones. Sin embargo, el agua común que utilizamos para bañarnos, lavar o tomar agua, contiene sales minerales que están ionizadas, es decir que están cargadas eléctricamente, además de diferentes iones como: calcio, magnesio, nitratos, cloruros y nitratos, que permiten el paso de la corriente.
 
     h4.t-green.mb-4(data-aos="fade") Potencial de hidrógeno pH
     .row.justify-content-center.mb-5
       .col-md-8
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-4.svg' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-4.svg' alt='')
 
     .row.fondo-tema4-4.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -83,11 +83,11 @@
             p Hasta este punto, le hemos mostrado 5 de los tipos de agrupación de los protocolos de análisis. Es momento de continuar con otros, adicionales, de suma importancia.             
           .col-md-3(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-5.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-5.png' alt='')
 
 
     h4.t-green.mb-4 Suministro de aguas
-    p.mb-4 El suministro de aguas es un factor que debe considerarse con respecto a la coagulación química, la desinfección, el ablandamiento y el control de corrosión. En las plantas de tratamiento de aguas residuales que emplean procesos biológicos, el pH debe controlarse dentro de un intervalo favorable a los organismos. Tanto por estos factores como por la relaciones que existen entre pH, alcalinidad y acidez es importante entender los aspectos teóricos y prácticos del pH. 
+    p.mb-4 El suministro de aguas es un factor que debe considerarse con respecto a la coagulación química, la desinfección, el ablandamiento y el control de corrosión. En las plantas de tratamiento de aguas residuales que emplean procesos biológicos, el pH debe controlarse dentro de un intervalo favorable a los organismos. Tanto por estos factores como por las relaciones que existen entre pH, alcalinidad y acidez es importante entender los aspectos teóricos y prácticos del pH. 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         figure
@@ -96,7 +96,7 @@
     .row.align-items-center.mb-5
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-7.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-7.png' alt='')
       .col-md-8(data-aos="fade-left")
         .bloque-texto-c.bg-blue2.p-3.px-4
           i.fas.fa-quote-right.mb-2
@@ -113,9 +113,10 @@
             p La turbiedad es una expresión de la propiedad óptica que causa la luz al ser dispersada y absorbida en vez de transmitida sin cambios en la dirección del nivel de flujo a través de la muestra: en otras palabras, es la propiedad óptica de una suspensión que hace que la luz sea emitida y no transmitida a través de la suspensión. A mayor intensidad de dispersión de la luz, la turbidez será mayor.
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-8.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-8.png' alt='')
 
     .row.align-items-center.mb-5
+      h4.t-green.mb-4 La correlación de la turbiedad con el peso 
       .col-md-8.mb-4(data-aos="fade-right")
         .bloque-texto-c.bg-blue2.p-3.px-4
           i.fas.fa-quote-right.mb-2
@@ -124,7 +125,7 @@
           span.text-bold.mb-0 - Según IDEAM (2007)
       .col-md-4(data-aos="fade-left")        
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-9.png' alt='Imagen decorativa')  
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-9.png' alt='')  
 
     .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -135,7 +136,7 @@
             p El método se aplica a todo tipo de aguas: potables, residuales y superficiales, incluyendo las marinas. 
           .col-md-3(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-10.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-10.png' alt='')
 
     .row.align-items-center.mb-5         
       .col-md-9.mb-4(data-aos="fade-right")
@@ -143,7 +144,7 @@
         p Son las propiedades organolépticas que se evalúan a través de los sentidos. No se evalúan  de forma  experimental a nivel de contaminación, pero  su presencia es una señal de que la depuración de un efluente no está siendo correcta. Son de gran relevancia en aguas potabilizadas, por el rechazo que puede darse en el consumidor al detectar colores, olores o sabores que no asocie con agua apta para el consumo humano. 
       .col-md-3(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-11.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-11.png' alt='')
 
     .row.fondo-tema5-2.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -152,26 +153,23 @@
             h3.subt.text-white.mb-4 Parámetros químicos
             p La calidad química del agua está determinada por las sustancias químicas presentes en la muestra   analizada en un tiempo determinado y un punto específico.
             h4.t-green.mb-4 Oxígeno disuelto
-            ul.lista-ul--color.color-primario.ps-3
+            p El oxígeno disuelto (OD) es necesario para la respiración de los microorganismos aerobios así como para otras formas de vida aerobia. No obstante, el oxígeno es ligeramente soluble en el agua; la cantidad real de oxígeno que puede estar presente en la solución está determinada por:
+            ol.lista-ol.ps-4.fa-ul
               li 
-                i.fas.fa-check
-                | El oxígeno disuelto (OD) es necesario para la respiración de los microorganismos aerobios así como para otras formas de vida aerobia. No obstante, el oxígeno es ligeramente soluble en el agua; la cantidad real de oxígeno que puede estar presente en la solución está determinada por:
-              ol.lista-ol.ps-4
-                li 
-                  span.text-bold a. 
-                  | La solubilidad del gas.
-                li 
-                  span.text-bold b. 
-                  | La presión parcial del gas en la atmósfera.
-                li 
-                  span.text-bold c. 
-                  | La temperatura.
-                li 
-                  span.text-bold d. 
-                  | La pureza del agua (salinidad, sólidos suspendidos).    
+                span.text-bold a. 
+                | La solubilidad del gas.
+              li 
+                span.text-bold b. 
+                | La presión parcial del gas en la atmósfera.
+              li 
+                span.text-bold c. 
+                | La temperatura.
+              li 
+                span.text-bold d. 
+                | La pureza del agua (salinidad, sólidos suspendidos).    
           .col-md-5(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-12.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-12.png' alt='')
           
         p.text-center.mb-4 Según IDEAM (2004):
 
@@ -197,18 +195,18 @@
         p Las sustancias orgánicas e inorgánicas oxidables presentes en la muestra, se oxidan mediante reflujo cerrado en solución fuertemente ácida (H2SO4) con un exceso de dicromato de potasio (K2Cr2O7) en presencia de sulfato de plata (Ag2SO4) que actúa como agente catalizador, y de sulfato mercúrico (HgSO4) adicionado para eliminar la interferencia de los cloruros. Después de la digestión, el K2Cr2O7 remanente se titula con sulfato ferroso amoniacal para determinar la cantidad de K2Cr2O7 consumido.
         .cajon.color-primario.row.align-items-center.p-4.mb-4
           .col-md-2
-            img.mx-auto(src='@/assets/curso/temas/tema5/ico.svg' alt='Imagen decorativa')
+            img.mx-auto(src='@/assets/curso/temas/tema5/ico.svg' alt='')
           .col-md-10
             p.mb-0 La materia orgánica se calcula en términos de oxígeno equivalente. Para muestras de un origen específico, la DQO se puede relacionar empíricamente con la DBO, el carbono orgánico o la materia orgánica. El método es aplicable a aguas superficiales y residuales, usando el dicromato de 0,025 N en un rango de 2.0 mg O2/L a 100 mg O2/L, usando el dicromato de 0,10 N en un rango de 10 mg O2/L a 450 mg O2/L y con el dicromato de 0,25 N tiene un intervalo de lectura de 10 mg O2/L a 1000 mg O2/L.
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-13.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-13.png' alt='')
 
 
     .row.align-items-center.mb-5
       .col-md-4(data-aos="fade-right")        
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-14.svg' alt='Imagen decorativa')  
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-14.svg' alt='')  
       .col-md-8.mb-4(data-aos="fade-left")
         p También, la oxidación microbiana o mineralización de la materia orgánica es una de las principales reacciones que ocurren en los cuerpos naturales de agua y constituye una de las demandas de oxígeno, ejercida por los microorganismos heterotróficos, que hay que cuantificar. 
         p Uno de los ensayos más importantes para determinar la concentración de la materia orgánica de aguas residuales es el ensayo de DBO a cinco días. Esencialmente, la DBO es una medida de la cantidad de oxígeno utilizado por los microorganismos en la estabilización de la materia orgánica biodegradable, en condiciones aeróbicas, en un periodo de cinco días a 20 °C.
@@ -231,14 +229,14 @@
               p La alcalinidad superior a las concentraciones de metales alcalinotérreos es significante para determinar la aptitud de un agua para irrigación. Las mediciones de alcalinidad se emplean en la interpretación y control de los procesos de tratamiento de aguas. Las aguas residuales domésticas tienen una alcalinidad menor, o ligeramente mayor, que la del agua de suministro.
           .col-md-5(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-15.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-15.png' alt='')
 
         p Los iones hidroxilo presentes en una muestra como resultado de disociación o hidrólisis de solutos reaccionan con adiciones de ácido estándar. En consecuencia la alcalinidad depende del pH de punto final empleado. La alcalinidad de una muestra se determina mediante el volumen de un ácido estándar requerido para titular una porción a un pH seleccionado.
 
         .row.align-items-center          
           .col-md-5.mb-4(data-aos="fade-right")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-16.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-16.png' alt='')
           .col-md-7(data-aos="fade-left")
             p La titulación se efectúa a temperatura ambiente con un pH metro o un titulador automático calibrados, o mediante indicadores coloreados. En este último caso, se debe preparar y titular un blanco del indicador. La construcción de una curva de titulación permite la identificación de puntos de inflexión y capacidad tampón, si existe, y permite determinar la alcalinidad con respecto a cualquier pH de interés.
             p En la titulación de especies básicas simples, como en la estandarización de reactivos, el punto final más exacto se obtiene del punto de inflexión de una curva de titulación. Debido a que la identificación exacta de puntos de inflexión puede ser difícil o imposible en mezclas tamponadas o complejas, la titulación en tales casos se lleva a cabo hasta un punto final de pH arbitrario basado en consideraciones prácticas.
@@ -253,7 +251,7 @@
               span.text-bold.mb-0 - Según IDEAM (2007)            
           .col-md-4.mb-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-17.png' alt='Imagen decorativa')      
+              img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-17.png' alt='')      
     
     
     h4.t-green.mb-4(data-aos="fade") Dureza
@@ -342,7 +340,7 @@
                 img(src='@/assets/curso/temas/tema5/slide-f-ico2.svg' alt='Grasas y aceites')
                 .tarjeta.bg-green11
                   .p-4
-                    p Después de la extracción en un aparato soxhlet con solvente orgánico, se pesa el residuo que queda de la evaporación del solvente para determinar el contenido en grasa y aceite. En la determinación de grasas y aceites no se mide una cantidad absoluta de una sustancia específica; se determinan grupos de sustancias con características físicas similares con base en su solubilidad en el solvente.
+                    p Después de la extracción en un aparato Soxhlet con solvente orgánico, se pesa el residuo que queda de la evaporación del solvente para determinar el contenido en grasa y aceite. En la determinación de grasas y aceites no se mide una cantidad absoluta de una sustancia específica; se determinan grupos de sustancias con características físicas similares con base en su solubilidad en el solvente.
             .row
               .tarjeta-avatar.text-center.h-tem5-tarj3
                 img(src='@/assets/curso/temas/tema5/slide-f-ico3.svg' alt='Grasas y aceites')
@@ -389,21 +387,21 @@
       .row.justify-content-center(titulo="Sulfatos")
         .col-md-11
           p #[b El sulfato (SO4 2–)] se encuentra ampliamente distribuido en la naturaleza y puede estar presente en aguas naturales en concentraciones que van desde unos pocos miligramos por litro hasta algunos gramos por litro. Algunos drenajes de minería pueden contribuir con grandes cantidades de sulfatos a través de la oxidación de piritas. Como los sulfatos de sodio y de magnesio tienen un efecto purgante, especialmente entre los niños, se recomienda un límite superior en aguas potables de 250 mg/L de sulfatos. 
-          p.mb-0 #[b Contenido:] El contenido es también importante, porque las aguas con alto contenido de sulfatos tienden a formar incrustaciones en las calderas y en los intercambiadores de calor. El ion SO4 2– forma una suspensión con cloruro de bario (BaCl2) en presencia de ácido acético para formar cristales de sulfato de bario (BaSO4) de tamaño uniforme. Se mide la dispersión de luz de la suspensión de BaSO4 con un turbidímetro, y la concentración de SO4 2– se determina por comparación de la lectura contra una curva estándar. Reacción: 
+          p.mb-0 #[b Contenido:] el contenido es también importante, porque las aguas con alto contenido de sulfatos tienden a formar incrustaciones en las calderas y en los intercambiadores de calor. El ion SO4 2– forma una suspensión con cloruro de bario (BaCl2) en presencia de ácido acético para formar cristales de sulfato de bario (BaSO4) de tamaño uniforme. Se mide la dispersión de luz de la suspensión de BaSO4 con un turbidímetro, y la concentración de SO4 2– se determina por comparación de la lectura contra una curva estándar. Reacción: 
           p.mb-0 #[b SO4 = + 2 HCl  → H2SO4 + 2 Cl - ]
           p #[b H2SO4 + BaCl2 → BaSO4 + 2 HCl ]
-          p #[b Intervalo:] El intervalo de aplicación de este método va de 3 a 40 mg SO4 2–/L. Para muestras con concentraciones superiores, use una alícuota que contenga menos de 40 mg SO4 2–/L. Este método es aplicable a aguas potables, lluvia, superficiales, y efluentes domésticos e industriales.
+          p #[b Intervalo:] el intervalo de aplicación de este método va de 3 a 40 mg SO4 2–/L. Para muestras con concentraciones superiores, use una alícuota que contenga menos de 40 mg SO4 2–/L. Este método es aplicable a aguas potables, lluvia, superficiales, y efluentes domésticos e industriales.
       .row.justify-content-center(titulo="Nitritos")
         .col-md-11
           p El nitrógeno de nitritos raras veces aparece en concentraciones mayores de 1 mg/L, aún en fuentes de plantas de tratamiento de aguas residuales. En aguas superficiales y subterráneas su concentración por lo general es menor de 0.1 mg/L. Su presencia indica, por lo regular, procesos activos biológicos en el agua, ya que es fácil y rápidamente convertido en nitrato. Los nitritos en concentraciones elevadas reaccionan dentro del organismo con aminas y amidas secundarias y terciarias formando nitrosominas de alto poder cancerígeno
-          p #[b NO2:] El nitrito (NO2 – ) se determina mediante la formación de un colorante azo de color púrpura rojizo por reacción de diazotación-copulación de sulfanílamida con diclorhidrato de N-(1-naftil)-etilendiamina (NED diclorhidrato) a pH entre 2,0 y 2,5. Según el Standard Methods este método es adecuado para determinar nitrito en concentraciones de 10 a 1000 µg NO2 – -N/L. El sistema de color obedece la Ley de Beer en concentraciones hasta de 180 µg NO2 – -N/L a 543 nm si se emplea celda de 1 cm de longitud; se pueden hacer mediciones en el intervalo de 5 a 50 µg NO2 – -N/L con una celda de 5 cm de paso de luz y un filtro de color verde.
-          p #[b Concentración:] Se pueden determinar concentraciones más altas por dilución de la muestra. En el laboratorio se analizan con éste método muestras de agua superficial, en un rango de concentraciones entre 0.006 y 0.20 mg N - NO2 – /L Según el Decreto 475 del 10 marzo de 1998 del Ministerio de Salud, en el artículo 8 parte b) se especifica como criterio de calidad química para agua con implicaciones de tipo económico o acción indirecta sobre la salud, un valor máximo admisible de 0,2 mg/L de nitritos.
+          p #[b NO2:] el nitrito (NO2 – ) se determina mediante la formación de un colorante azo de color púrpura rojizo por reacción de diazotación-copulación de sulfanílamida con diclorhidrato de N-(1-naftil)-etilendiamina (NED diclorhidrato) a pH entre 2,0 y 2,5. Según el Standard Methods este método es adecuado para determinar nitrito en concentraciones de 10 a 1000 µg NO2 – -N/L. El sistema de color obedece la Ley de Beer en concentraciones hasta de 180 µg NO2 – -N/L a 543 nm si se emplea celda de 1 cm de longitud; se pueden hacer mediciones en el intervalo de 5 a 50 µg NO2 – -N/L con una celda de 5 cm de paso de luz y un filtro de color verde.
+          p #[b Concentración:] se pueden determinar concentraciones más altas por dilución de la muestra. En el laboratorio se analizan con éste método muestras de agua superficial, en un rango de concentraciones entre 0.006 y 0.20 mg N - NO2 – /L Según el Decreto 475 del 10 marzo de 1998 del Ministerio de Salud, en el artículo 8 parte b) se especifica como criterio de calidad química para agua con implicaciones de tipo económico o acción indirecta sobre la salud, un valor máximo admisible de 0,2 mg/L de nitritos.
       .row.justify-content-center(titulo="Nitratos")
         .col-md-11
           p La técnica de monitoreo espectrofotométrico ultravioleta (UV) mide la absorbancia del nitrato (NO3 – ) a 220 nm y es adecuada para la determinación rápida de NO3 – y el monitoreo de aguas con bajo contenido de materia orgánica, como aguas naturales sin contaminar y fuentes de agua potable. Debido a que la materia orgánica disuelta también puede absorber a 220 nm y a que el NO3 – no absorbe a 275 nm, se usa una segunda medición a 275 nm para corregir el valor de NO3 –
-          p #[b Corrección Empírica:] La aplicación de esta corrección empírica está relacionada con la naturaleza y concentración de materia orgánica y puede variar de una muestra a otra. Consecuentemente, este método no es recomendado si se requiere una corrección significativa para absorbancia de materia orgánica, aunque puede usarse en el monitoreo de niveles de NO3 – en un cuerpo de agua con un tipo constante de materia orgánica.
-          p #[b Absorbancia:] Los factores de corrección para la absorbancia de la materia orgánica se pueden establecer por el método de adiciones en combinación con el análisis del contenido original de NO3 – por otro método. La filtración de muestra tiene la intención de remover la posible interferencia de partículas suspendidas.
-          p #[b Acidificación:] La acidificación con HCl 1 N está designada para prevenir la interferencia de concentraciones de hidróxido o carbonato hasta de 1000 mg CaCO3/L. El cloruro no tiene efecto en la determinación. La técnica de monitoreo espectrofotométrico ultravioleta de NO3 – obedece la Ley de Beer entre 0.03 y 5 mg NO3 – -N/L.
+          p #[b Corrección Empírica:] la aplicación de esta corrección empírica está relacionada con la naturaleza y concentración de materia orgánica y puede variar de una muestra a otra. Consecuentemente, este método no es recomendado si se requiere una corrección significativa para absorbancia de materia orgánica, aunque puede usarse en el monitoreo de niveles de NO3 – en un cuerpo de agua con un tipo constante de materia orgánica.
+          p #[b Absorbancia:] los factores de corrección para la absorbancia de la materia orgánica se pueden establecer por el método de adiciones en combinación con el análisis del contenido original de NO3 – por otro método. La filtración de muestra tiene la intención de remover la posible interferencia de partículas suspendidas.
+          p #[b Acidificación:] la acidificación con HCl 1 N está designada para prevenir la interferencia de concentraciones de hidróxido o carbonato hasta de 1000 mg CaCO3/L. El cloruro no tiene efecto en la determinación. La técnica de monitoreo espectrofotométrico ultravioleta de NO3 – obedece la Ley de Beer entre 0.03 y 5 mg NO3 – -N/L.
 
     
     p.mb-5(data-aos="fade") Para continuar el apartado Parámetros químicos, Conozca a continuación otros elementos de suma importancia referentes al mismo.
@@ -414,19 +412,19 @@
       .col-md-7.mb-4
         p La acidez del agua puede definirse como su capacidad para neutralizar bases o también como su capacidad para reaccionar con iones hidróxido o su capacidad para ceder protones o como la medida de su contenido total de sustancias ácidas. Las aguas excesivamente ácidas atacan los dientes.
         p De acuerdo al SENA (2019):
-        ul.lista-ul--color.color-primario.ps-3
+        ul.lista-ul--color.color-primario.ps-3.fa-ul
           li 
             i.fas.fa-check
-            | La causa más común de acidez en aguas es el CO2 el cual puede estar disuelto en el agua como resultado de las reacciones de los coagulantes químicos usados en el tratamiento o de la oxidación de la materia orgánica, o por disolución de dióxido de carbono atmosférico, pero en residuos industriales es la acidez mineral.
+            span.mb-0 La causa más común de acidez en aguas es el CO<sub>2</sub> el cual puede estar disuelto en el agua como resultado de las reacciones de los coagulantes químicos usados en el tratamiento o de la oxidación de la materia orgánica, o por disolución de dióxido de carbono atmosférico, pero en residuos industriales es la acidez mineral.
           li 
             i.fas.fa-check
-            | El CO2 se combina con el agua para formar un ácido débil, inestable, H2CO3, el cual se descompone muy fácilmente. Por ello todo el dióxido, aun combinado se considera CO2  libre.
+            span.mb-0 El CO<sub>2</sub> se combina con el agua para formar un ácido débil, inestable, H<sub>2</sub>CO<sub>3</sub>, el cual se descompone muy fácilmente. Por ello todo el dióxido, aun combinado se considera CO<sub>2</sub> libre.
           li 
             i.fas.fa-check
             span La acidez se titula mediante la adición de iones OH- provenientes de una disolución de NaOH 0,02N. Dando paso a la siguiente reacción. #[br]#[br]
-              strong.bg-green7.mb-0.p-2 2NaOH + CO2→ Na2CO3 + H2O #[br]
-              strong.bg-green7.mb-0.p-2 Na2CO3 + CO2 + H2O -→ 2NaHCO3 #[br]
-              strong.bg-green7.mb-0.p-2 NaOH + CO2 → -NaHCO3
+              strong.bg-green7.mb-0.p-2 2NaOH + CO<sub>2</sub>→ Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O #[br]
+              strong.bg-green7.mb-0.p-2 Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O -→ 2NaHCO<sub>3</sub> #[br]
+              strong.bg-green7.mb-0.p-2 NaOH + CO<sub>2</sub> → -NaHCO<sub>3</sub>
           li 
             i.fas.fa-check
             | En una muestra que contenga únicamente dióxido de carbono, bicarbonatos y carbonatos, la titulación hasta pH 8.3 a 25ºC corresponde a la neutralización estequiometria del ácido carbónico a bicarbonato, por esta razón, el cambio de color del indicador. (P.1).
@@ -496,38 +494,38 @@
           p La Escherichia coli forma la mayor parte de la flora comensal aerobia y anaerobia facultativa del tubo digestivo, y se elimina por las heces al exterior, por lo tanto, no es Infrecuente que se encuentre en el medio ambiente, donde son capaces de sobrevivir durante cierto tiempo en el agua y los alimentos, de manera que su aislamiento constituye un indicador de contaminación fecal reciente.      
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema5/slide-b-1.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema5/slide-b-1.png', alt='')
       .row.justify-content-center
         .col-md-5.mb-4.mb-md-0
           p Puede intervenir en procesos patológicos como la producción de cuadros intestinales, diarreas e infecciones extra intestinales diversas.
           p Los coliformes totales, se encuentran con más frecuencia en el medio ambiente, pueden estar en el suelo y en las superficies del agua dulce, por lo que no son siempre intestinales, su identificación en estas fuentes sugiere fallas en la eficiencia del tratamiento y la integridad del sistema de distribución.
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema5/slide-b-2.png', alt='Imagen decorativa')   
+            img(src='@/assets/curso/temas/tema5/slide-b-2.png', alt='')   
       .row.justify-content-center
         .col-md-5.mb-4.mb-md-0
           p La prueba de enzima – sustrato definido, se fundamenta en la actividad enzimática de los Coliformes totales y los coliformes fecales (E. coli) Los coliformes totales se diferencian según su capacidad para fermentar lactosa, así:
           p Fermentadores rápidos: E. coli, klebsiella, enterobacter, poseen 2 enzimas, la betagalactósido - permeasa, su actividad es permitir que la lactosa se difunda a través de la membrana celular. La otra es la beta-galactosidasa la cual descompone por hidrólisis el enlace beta - galactósido que une las moléculas de glucosa y galactosa para formar el disacárido de lactosa, liberando así la glucosa que de esta manera puede ser fermentada. Los fermentadores lentos: carecen de la enzima beta -galactósido - permeasa.
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema5/slide-b-3.png', alt='Imagen decorativa')               
+            img(src='@/assets/curso/temas/tema5/slide-b-3.png', alt='')               
       .row.justify-content-center
         .col-md-5.mb-4.mb-md-0
           p Los no fermentadores, no poseen ninguna de las enzimas. En los medios sólidos con lactosa se comportan en general como no fermentadoras y solo puede detectarse demostrando la presencia de beta - galactosidasa por la reacción del ONPG (ortonitrofenil – galactopiranósido) compuesto capaz de atravesar la pared celular y que la beta -galactosidasa descompone en galactosa y ortonitrofenil, que al liberarse en medio alcalino toma un color amarillo pálido.
           p El método está recomendado para análisis microbiológico para las muestras de agua en general, ya sea potable, de consumo humano, no tratadas, residuales, aguas de alberca y de playa. El método es aplicable en un rango de 1 a 1800 NMP/100mL para detectar y cuantificar la concentración de coliformes totales y E.coli para evaluar la calidad microbiológica de estas.
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema5/slide-b-4.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema5/slide-b-4.png', alt='')
 
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="fade")
         .cajon.color-acento-contenido.row.align-items-center.p-4
           .col-md-2
-            img.mx-auto.px-4(src='@/assets/curso/temas/tema5/cajon-ico2.svg' alt='Imagen decorativa')
+            img.mx-auto.px-4(src='@/assets/curso/temas/tema5/cajon-ico2.svg' alt='')
           .col-md-10
             p.mb-0 La materia Según el Decreto 475 de 1998, por el cual se expiden normas técnicas de calidad de agua potable:
             p Artículo 25. El agua para consumo humano debe cumplir con los siguientes valores admisibles desde el punto de vista microbiológico. Número más probable:
-            ol.lista-ol
+            ol.lista-ol.fa-ul
               li 
                 span.text-bold a. 
                 | Coliformes totales.  microorganismos 0/100 mL
@@ -548,12 +546,12 @@
         p Esta reacción se observa cuando hay coliformes totales. Para diferenciar la E.coli de los coliformes totales se hace por medio del sustrato cromogénico X-Glucorósido, que reacciona con la enzima glucuronidasa pero estas también reaccionan con el sustrato Salmón- GAL produciendo un color azul - violeta en la colonia.
       .col-md-5(data-aos="fade-left")   
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-20.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-20.png' alt='')
 
     .row.align-items-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-21.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-21.png' alt='')
       .col-md-8(data-aos="fade-left")   
         .bloque-texto-c.bg-green2.box-shadow.p-3.px-4.mb-4
           i.fas.fa-quote-right.mb-2
@@ -572,39 +570,37 @@
         SlyderA.bg-blue2.br-20.p-4(tipo="b" data-aos="fade-down")
           .row.justify-content-center
             .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-1.png' alt='Imagen decorativa')
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-1.png' alt='')
             p Los macroinvertebrados bénticos son animales que habitan en el sustrato de lagos, cursos de agua, estuarios y aguas marinas. Pueden construir camisas, tubos o redes fijas, viviendo dentro o sobre ellos, o vagar libremente sobre las rocas, residuos orgánicos y otros sustratos durante todo o parte de su ciclo vital. 
           .row.justify-content-center
             .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-2.png' alt='Imagen decorativa')
-            p Las respuestas de la comunidad macroinvertebrada a las perturbaciones ambientales son útiles para evaluar el impacto de los residuos municipales, agrícolas, de la industria petrolífera y los impactos de otros usos del suelo sobre los cursos de agua superficiales.
-          .row.justify-content-center
-            .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-3.png' alt='Imagen decorativa')
-            p Por otra parte, el cieno y la contaminación química tóxica pueden no sólo reducir, sino incluso eliminar la comunidad macroinvertebrada completa de una zona afectada.
-          .row.justify-content-center
-            .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-4.png' alt='Imagen decorativa')
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-4.png' alt='')
             p Aunque los macroinvertebrados por definición se consideran visibles a simple vista, y quedan retenidos en un tamiz del número 30 U. S. Standard (abertura de 0.595mm). (APHA,1995).
           .row.justify-content-center
             .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-5.png' alt='Imagen decorativa')
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-2.png' alt='')
+            p Las respuestas de la comunidad macroinvertebrada a las perturbaciones ambientales son útiles para evaluar el impacto de los residuos municipales, agrícolas, de la industria petrolífera y los impactos de otros usos del suelo sobre los cursos de agua superficiales.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-5.png' alt='')
             p Existe documentación acerca de tres situaciones en las que cambia el tipo estructural de la comunidad macroinvertebrada, y son la carga orgánica, alteración del sustrato y contaminación química tóxica. La contaminación orgánica tóxica suele restringir la variedad de macroinvertebrados, quedando los más resistentes, y da lugar al correspondiente aumento de densidad de los que toleran las condiciones contaminadas, normalmente una baja concentración de oxígeno disuelto.
           .row.justify-content-center
             .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-6.png' alt='Imagen decorativa')
-            p Limitaciones e interferencias. Limitaciones en la separación: dado el gran volumen de muestra y para economizar tiempo en una labor tan dispendiosa algunos investigadores recomiendan no observar toda la muestra, sino la separación y observación de submuestras de la muestra integrada. Sin embargo, otros científicos desaprueban esta práctica. Debido a que el nivel de conocimiento en Colombia de la flora y fauna acuática de agua dulce es aún escaso e incompleto, se propone utilizar un método intermedio.
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-3.png' alt='')
+            p Por otra parte, el cieno y la contaminación química tóxica pueden no sólo reducir, sino incluso eliminar la comunidad macroinvertebrada completa de una zona afectada.
           .row.justify-content-center
             .col-md-2.col-6.mb-3
-              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-7.png' alt='Imagen decorativa')
-            p Limitación por el nivel de determinación: debe tenerse en cuenta que dentro de los métodos existentes los hay desde los más simples, en los cuales bastaría utilizar sólo grupos mayores de organismos (por ejemplo, al nivel de órdenes y familias), hasta los más complejos como el sistema saprobio alemán, el cual exige llegar hasta el nivel de especie.    
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-6.png' alt='')
+            h4 Limitaciones e interferencias
+            p Limitaciones en la separación: dado el gran volumen de muestra y para economizar tiempo en una labor tan dispendiosa algunos investigadores recomiendan no observar toda la muestra, sino la separación y observación de submuestras de la muestra integrada. Sin embargo, otros científicos desaprueban esta práctica. Debido a que el nivel de conocimiento en Colombia de la flora y fauna acuática de agua dulce es aún escaso e incompleto, se propone utilizar un método intermedio.
+          .row.justify-content-center
+            .col-md-2.col-6.mb-3
+              img.mx-auto.px-3(src='@/assets/curso/temas/tema5/slide-b2-7.png' alt='')
+            h4 Limitación por el nivel de determinación
+            p debe tenerse en cuenta que dentro de los métodos existentes los hay desde los más simples, en los cuales bastaría utilizar sólo grupos mayores de organismos (por ejemplo, al nivel de órdenes y familias), hasta los más complejos como el sistema saprobio alemán, el cual exige llegar hasta el nivel de especie.    
       .col-md-5(data-aos="fade-left")   
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-22.png' alt='Imagen decorativa')
-
-
-
-
+          img.mx-auto(src='@/assets/curso/temas/tema5/img-5-1-22.png' alt='')
 
 
 
@@ -616,7 +612,24 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.2 Manejo de residuos, características de peligrosidad 
 
-    p(data-aos="fade") Los residuos de laboratorios de análisis de agua se clasifican en diversas categorías en función de su naturaleza, peligrosidad y destino final. Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
+    p.mb-4(data-aos="fade") Los residuos de laboratorios de análisis de agua se clasifican en diversas categorías en función de su naturaleza, peligrosidad y destino final. Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
+
+    .row(data-aos="fade-down")
+      .col-md-8
+        .tarjeta.bg-degrade-green.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img.px-md-2(src="@/assets/curso/temas/tema6/icono.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h4.mb-1 Manejo de residuos, característica de peligrosidad
+                  p.text-small.mb-0 Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla5_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
 
     Separador
 
@@ -630,7 +643,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-1.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-1.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         AcordionA(data-aos="fade-down" tipo="a" clase-tarjeta="tarjeta bg-gris3")
           .row.justify-content-center(titulo="BMWP / Clasificación de contaminación orgánica")
@@ -653,7 +666,7 @@
               p La principal diferencia entre ambos índices es que el ASPT no depende de la riqueza familiar. Una vez que se calculan BMWP y ASPT, se utiliza el Índice de Calidad de Lincoln (LQI) para evaluar la calidad del agua en el área de la Autoridad de Agua de Anglian.
       .col-md-3.mb-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-3-2.png' alt='')
         
 
 

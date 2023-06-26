@@ -24,7 +24,7 @@
                 .col-md-8.mb-4.mb-md-0
                   h4 Los no peligrosos
                   p Los no peligrosos no conllevan ningún tipo de riesgo para la población o el medio ambiente de forma contundente y estos se clasifican en…
-                  ul.lista-ul
+                  ul.lista-ul.fa-ul
                     li
                       i.lista-ul__vineta
                       span.mb-0 #[b Ordinarios:] los cuales son los que se producen en las actividades rutinarias en los hogares, oficinas, hospitales o centros educativos.
@@ -42,7 +42,7 @@
                 .col-md-8.mb-4.mb-md-0
                   h4 La gestión de residuos
                   p La gestión de los residuos sólidos implica un protocolo, iniciando en la separación y almacenamiento en el origen, la recogida (por la empresa recolectora), el transporte y la eliminación o transformación.
-                  ul.lista-ul
+                  ul.lista-ul.fa-ul
                     li
                       i.lista-ul__vineta
                       | Selección y separación. 
@@ -112,7 +112,7 @@
           .col-md-10.px-md-3
             p #[b El concepto de evaluación involucra un factor adicional]: la medición. Evaluar es medir resultados obtenidos contra un parámetro establecido. Sin embargo, resulta poco objetivo tratar de evaluar los resultados contra un parámetro cuantitativo único, pues se deben considerar también elementos cualitativos que son difíciles de medir, (Fernández, 2007).
         p Lo dicho hasta aquí, supone que las métricas del marketing pueden aclarar algunas de las cuestiones clave como: 
-        ul.lista-ul--color.ps-4
+        ul.lista-ul--color.ps-4.fa-ul
           li 
             i.fas.fa-check
             | ¿Cuál es el valor real de la organización
@@ -124,7 +124,7 @@
             | ¿Están las estrategias orientadas a los clientes adecuados?
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img.png' alt='')
 
     Separador
 
@@ -150,7 +150,7 @@
               p Ferrosos y no ferrosos. Vidrio: vidrio blanco, ámbar y verde. Otros: papel laminado, tetra pak, carbón y cenizas, carbón de fotocopiadora. Peligrosos: químicos, pilas, baterías, fármacos, etc. Materiales pétreos.
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1.png' alt='')
    
     .row.fondo-tema10-1.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4 
@@ -165,7 +165,7 @@
               span.text-bold.mb-0 - Según Yepes (2007)
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-1.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-1.png' alt='')
 
     h3.subt.text-white.mb-4.mx-2(data-aos="fade") Preservación y transporte de las muestras  
     .row.align-items-center.mb-5
@@ -176,7 +176,7 @@
           span.text-bold.mb-0 - Según Cano L (2017)
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-2.png' alt='')
 
     .row.fondo-tema10-1-1.align-items-center.mb-5.py-5
       .col-lg-12.col-12.px-lg-5.px-4 
@@ -189,7 +189,7 @@
               span.text-bold.mb-0 - Según CXano (2017)
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-3.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-3.png' alt='')
               
     h3.subt.text-white.mb-4.mx-2(data-aos="fade") Determinación de humedad y cenizas 
     .row.align-items-center.mb-5
@@ -200,13 +200,13 @@
           span.text-bold.mb-0 - De acuerdo a MinAmbiente (2017)
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-4.png' alt='Imagen decorativa')    
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-4.png' alt='')    
     
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8.bg-green2.p-4.p-md-5
         h5 Según Cano (2016): 
         p Después de picar la muestra y obtener los 100g de residuos homogenizado, se procede de la siguiente manera:  
-        ul.lista-ul--color.color-primario.ps-3
+        ul.lista-ul--color.color-primario.ps-3.fa-ul
           li 
             i.fas.fa-check
             | Se toman tres crisoles de porcelana de 50 mL, se los etiqueta y se los pesa en la balanza analítica.  
@@ -306,7 +306,7 @@
               td 
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-5.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-5.png' alt='')
 
     p.mb-5(data-aos="fade") Hasta este punto, usted ha estudiado 6 acciones para desarrollar muestreo de sólidos en el laboratorio. Para completar el estudio de los elementos de caracterización y muestreo de los residuos sólidos. Desarrolle la actividad que se propone a continuación; allí encontrará otras acciones para llevar a cabo ese proceso. 
 
@@ -329,7 +329,7 @@
               p El pH puede definirse como una medida que expresa el grado de acidez o basicidad. El valor de pH representa el menos logaritmo en base diez de la concentración (actividad) de iones hidrógeno [H+ ]. Como la escala es logarítmica, la caída en una unidad de pH es equivalente a un aumento de 10 veces en la concentración de H+ . Entonces, una muestra de agua con un pH de 5 tiene 10 veces más H+ que una de pH 6 y 100 veces más que una de pH 7.
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-6.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-6.png' alt='')
 
 
     h3.subt.text-white.mb-4.mx-2(data-aos="fade") Procedimiento en el laboratorio
@@ -342,7 +342,7 @@
           span.text-bold.mb-0 - Según determinación de pH (2007)
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-7.png' alt='Imagen decorativa')    
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-7.png' alt='')    
 
     p.mb-5(data-aos="fade") El otro procedimiento se basa en colocar la muestra en un vaso de precipitado, introducir el electrodo del potenciómetro y realizar la lectura.  
 
@@ -354,10 +354,10 @@
           p.mb-4 La densidad hace referencia a la cantidad de masa ocupada en un volumen determinado y su relación es referenciada al peso: g/mL; kg/m3 …etc.  
           .col-md-3.mb-4(data-aos="fade-right")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-8.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-8.png' alt='')
           .col-md-9(data-aos="fade-left")
             p Para la determinación se realiza el siguiente protocolo.  
-            ul.lista-ul--color.color-primario.ps-3
+            ul.lista-ul--color.color-primario.ps-3.fa-ul
               li 
                 i.fas.fa-check
                 | Utilizar un recipiente con capacidad conocida de preferencia cilindros 150 u 200 litros y con lados homogéneos. 
@@ -410,7 +410,7 @@
               span.text-bold.mb-0 - Según Mantilla, C. (2010)
           .col-md-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-9.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-9.png' alt='')
 
 
     h3.subt.text-white.mb-4.mx-2(data-aos="fade") Relación carbono nitrógeno
@@ -420,12 +420,12 @@
         p La relación C/N tiene gran importancia, ya que ayuda a la descomposición de los residuos, evitando a la vez que se generen olores desagradables.
       .col-md-6(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-10.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-10.png' alt='')
 
     .row.align-items-center.mb-4        
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-11.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-11.png' alt='')
       .col-md-8(data-aos="fade-left")
         p Habiendo estudiado con atención las acciones de muestreo de sólidos en el laboratorio, es momento de conocer la importancia del carbono.
         p El carbono es la fuente de energía para los microorganismos; el carbono se puede encontrar en residuos con altos contenidos de carbohidratos, generalmente se asocian con materiales de color café o amarillo, entre estos están aserrín, hojarasca, cascarilla de arroz, paja, papel, etc.
@@ -455,15 +455,15 @@
         p Otro procedimiento para la determinación de la humedad y por otra parte de las cenizas es en el laboratorio con el uso de la mufla y el horno, una vez llevadas las muestras al laboratorio, recuerde seguir los protocolos de cadena de custodia.  
       .col-md-6(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2.png' alt='')
 
     .row.align-items-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-1.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-1.png' alt='')
       .col-md-7(data-aos="fade-left")
         p Procure homogeneizar 100 g que se necesita de muestra para los análisis de laboratorio, con el fin de tener una muestra representativa. Posteriormente se realiza el picado de las muestras de cada categoría en pedazos no mayores a 1cm con la ayuda de la espátula de laboratorio para después trasladarlas a los crisoles de porcelana.  
-        p.bg-blue2.px-4.py-3.mb-3 Los crisoles deben estar previamente tarados, este procesos se lleva a cabo lavándose muy bien, luego colocarlos en el horno a 105 ªC por 40 min, posteriormente, con las pinzas para crisol llévalos al desecador para la absorción de la humedad que pueda tener el crisol , en el desecador debe pasar más o menos 20 min a 30 min.  
+        p.bg-blue2.px-4.py-3.mb-3 Los crisoles deben estar previamente tarados, este procesos se lleva a cabo lavándose muy bien, luego colocarlos en el horno a 105 ªC por 40 min, posteriormente, con las pinzas para crisol llévalos al desecador para la absorción de la humedad que pueda tener el crisol, en el desecador debe pasar más o menos 20 min a 30 min.  
         p Pese los crisoles en una balanza analítica y registre los datos con las 5 cifras significativas, es recomendable realizar la prueba por triplicado. 
         .tabla-c.borde-tabla.sin-sombra.tema-10-1
           table
@@ -501,7 +501,7 @@
             p Para la determinación de las cenizas se realiza el mismo procedimiento anterior, pero con ciertas diferencias, como, cuando afore los crisoles con las muestras, llévalas a la mufla, que previamente está  encendida a los 900 ºC. Debe tener mucha precaución utilizando las pinzas correspondientes, deje las muestras por 6 horas, pasado este tiempo, apague la mufla y espere 45 min a que se enfríe y con la ayuda de las pinzas lleve los crisoles al desecador y espere de 20 min a 25 min, pese de nuevo los crisoles con las muestras y registre.  
           .col-md-6(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-2.png' alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-2.png' alt='')
 
     h3.subt.text-white.mb-4.mx-2 pH 
     .row.align-items-center.mb-5
@@ -512,14 +512,14 @@
           span.text-bold.mb-0 - Según Cuervo J (2014)
       .col-md-4(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-3.png' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-3.png' alt='')
 
     p.mb-5(data-aos="fade") La medición de este parámetro se puede hacer mediante cintas de papel tornasol, esta es una tecnología de bajo costo, que puede ser utilizada por cualquier persona. El procedimiento para medir este parámetro es poner la cinta humedecida sobre los residuos o sobre el material ya degradado.        
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-6
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema10/medicion.svg' alt='Imagen decorativa')
+          img.mx-auto(src='@/assets/curso/temas/tema10/medicion.svg' alt='')
 
     p.mb-5(data-aos="fade") Para procesos más tecnificados lo mejor es contar con un pH metro digital para suelos o residuos sólidos, que se introduce en la mezcla y da el valor de pH
 
