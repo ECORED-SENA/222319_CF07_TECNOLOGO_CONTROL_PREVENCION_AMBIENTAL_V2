@@ -260,7 +260,7 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-md-6.col-sm-8.col-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 2.] Cationes y aniones
+          p.mb-0 #[b Tabla 1.] Cationes y aniones
         table(data-aos="fade-down")
           caption
             p.mb-0 Nota. Lievano E, (2020)
@@ -624,7 +624,8 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h4.mb-1 Manejo de residuos, característica de peligrosidad
-                  p.text-small.mb-0 Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
+                  p.text-small.mb-0 Le invitamos a revisar el Anexo 6 para que afiance su comprensión al respecto del Manejo de 
+                    em residuos, característica de peligrosidad.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla5_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
                     span Descargar
@@ -677,8 +678,7 @@
     .row.justify-content-center.mb-5
       .col-md-6(data-aos="fade-right")
         p Las técnicas instrumentales de análisis tienen gran relevancia en el monitoreo de la calidad del agua, como también durante el proceso de tratamiento de agua residual. La concentración de metales y aniones en el agua se pueden detectar, empleando técnicas modernas de análisis.
-        p.bg-green3.p-4.mb-0 Es de gran importancia hallar las concentraciones de estos componentes para tener un conocimiento de su calidad y corroborar si se cumple con los límites máximos permisibles nacionales e internacionales.
-        p.mt-3 Visita la tabla 7 en el anexo 8 donde se muestran algunos equipos utilizados en los análisis de agua.
+        p.bg-green3.p-4.mb-4 Es de gran importancia hallar las concentraciones de estos componentes para tener un conocimiento de su calidad y corroborar si se cumple con los límites máximos permisibles nacionales e internacionales.
         .tarjeta.bg-degrade-green.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -687,7 +687,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h4.mb-1 Equipos utilizados en los análisis de agua
-                  p.text-small.mb-0 Visita la tabla 7 en el anexo 8 donde se muestran algunos equipos utilizados en los análisis de agua.
+                  p.text-small.mb-0 Visite el anexo 8, donde se muestran algunos equipos utilizados en los análisis de agua.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla7-Equipos-instrumentales-analisis.pdf')" target="_blank")
                     span Descargar

@@ -98,7 +98,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h4.mb-1 Equipos utilizados en los análisis del suelo
-                  p.text-small.mb-0 En la tabla 9, contenida en el anexo 12, se muestran algunos equipos utilizados en los análisis del suelo. Conózcalos.
+                  p.text-small.mb-0 En el anexo 12, se muestran algunos equipos utilizados en los análisis del suelo. Conózcalos.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla9-Equipos-utilizados-en-analisis-suelo.pdf')" target="_blank")
                     span Descargar
