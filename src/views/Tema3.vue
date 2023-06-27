@@ -32,7 +32,7 @@
                   h4.mb-1 Parámetros análisis del agua
                   p.text-small.mb-0 Conozca los Parámetros de análisis físico, químico y microbiológico del agua.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Parametros-analisis-agua.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_ParametrosAnalisisAgua.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
       .col-md-5(data-aos="fade-left")
@@ -59,7 +59,7 @@
                     h4.mb-1 Parámetros análisis del suelo
                     p.text-small.mb-0 Conozca los Parámetros de análisis físico, químico y microbiológico del suelo.
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Parametros analisis-suelo.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_ParametrosAnalisisSuelo.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -254,13 +254,9 @@
               figure
                 img(src='@/assets/curso/temas/tema4/acord3.png')       
 
-    p.mb-5(data-aos="fade") En la siguiente tabla se enuncian algunos procedimientos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión:
+    p.mb-4(data-aos="fade") En la siguiente tabla se enuncian algunos procedimientos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión:
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      h5 Tabla 1. 
-      span Elementos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión
-
-    .tabla-c.tema4.mb-4(data-aos="fade-down")
+    .tabla-c.tema4.mb-3(data-aos="fade-down")
       table
         tr.bg-green8
           td(colspan="2")

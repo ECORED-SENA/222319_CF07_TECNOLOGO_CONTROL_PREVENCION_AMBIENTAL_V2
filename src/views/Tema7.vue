@@ -545,7 +545,7 @@
                     h4.mb-1 Tratamiento y disposición residuos
                     p.text-small.mb-0 Para profundizar en el tema “tratamiento y disposición de los residuos generados en el laboratorio”, le invitamos a estudiar con atención este documento. 
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tratamiento-disposicion-de-residuos-generados-en-laboratorio.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_5_TratamientoYDisposicionResiduos.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 

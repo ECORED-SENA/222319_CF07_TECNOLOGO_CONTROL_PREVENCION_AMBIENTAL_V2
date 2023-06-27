@@ -627,7 +627,7 @@
                   p.text-small.mb-0 Le invitamos a revisar el Anexo 6 para que afiance su comprensión al respecto del Manejo de 
                     em residuos, característica de peligrosidad.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla5_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_6_Tabla_5_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -689,12 +689,12 @@
                   h4.mb-1 Equipos utilizados en los análisis de agua
                   p.text-small.mb-0 Visite el anexo 8, donde se muestran algunos equipos utilizados en los análisis de agua.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla7-Equipos-instrumentales-analisis.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_8_EquiposInstrumentalesAnalisis.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
       .col-md-6(data-aos="fade-left")
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema6/img.png' alt='Imagen tema6')
+          img.mx-auto(src='@/assets/curso/temas/tema6/img.png' alt='')
     
 
 </template>

@@ -56,7 +56,7 @@
                   h4.mb-1 Protocolo de análisis de suelos
                   p.text-small.mb-0 Para profundizar en el tema “Protocolo de análisis de suelos”, le invitamos a estudiar con atención este documento. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Protocolo-analisis-suelos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3_ProtocolosAnalisisSuelos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
       .col-md-4(data-aos="fade-left")
@@ -100,7 +100,7 @@
                   h4.mb-1 Equipos utilizados en los análisis del suelo
                   p.text-small.mb-0 En el anexo 12, se muestran algunos equipos utilizados en los análisis del suelo. Conózcalos.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tabla9-Equipos-utilizados-en-analisis-suelo.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_12_EquiposInstrumentalesAnalisisSuelo.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download    
 

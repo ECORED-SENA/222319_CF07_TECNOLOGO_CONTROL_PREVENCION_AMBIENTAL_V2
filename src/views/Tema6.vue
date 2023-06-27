@@ -24,7 +24,7 @@
                     h4.mb-1 Protocolo para análisis de olores
                     p.text-small.mb-0 Para profundizar en el tema “Protocolo para análisis de olores”, le invitamos a estudiar con atención este documento. 
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Protocolo-analisis-olores.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_4_ProtocolosAnalisisOlores.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
