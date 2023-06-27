@@ -627,7 +627,7 @@
                   p.text-small.mb-0 Le invitamos a revisar el Anexo 6 para que afiance su comprensión al respecto del Manejo de 
                     em residuos, característica de peligrosidad.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_6_Tabla_5_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_6_ResiduosQuimicosLaboratorio.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
