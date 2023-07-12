@@ -139,6 +139,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/222319_CF07_DU.zip',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -263,25 +268,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Asociación Española para la calidad AEC (2010) Contaminación Odorífera  p.1-2',
+        'Asociación Española para la calidad AEC (2010) Contaminación Odorífera  p.1-2 ',
       link:
         'https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128',
     },
     {
       referencia:
-        'Bascón,M(2016). La cromatografía de gases-olfatometría como herramienta en la evaluación del aroma de los alimentos. Trabajo de grado.',
+        'Bascón,M(2016). La cromatografía de gases-olfatometría como herramienta en la evaluación del aroma de los alimentos. Trabajo de grado. ',
       link:
         'https://idus.us.es/bitstream/handle/11441/54627/La%20cromatograf%C3%ADa.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Caballero. M.-Universidad Nacional del litoral (s, f) Introducción a la química analítica',
+        'Caballero. M.-Universidad Nacional del litoral (s, f) Introducción a la química analítica ',
       link:
         'https://drive.google.com/file/d/1Whan95W6nbJuyEBByRvJkeSKPOFMSCyM/view?usp=sharing:',
     },
     {
       referencia:
-        'Diaz. A. - Monteiro. T - Ministerio de Salud y Protección Social - Organización Panamericana de la Salud. 2012).',
+        'Diaz. A. - Monteiro. T - Ministerio de Salud y Protección Social - Organización Panamericana de la Salud. 2012). ',
     },
     {
       referencia:
@@ -291,33 +296,35 @@ export default {
     },
     {
       referencia:
-        'Fernández L.C-Instituto Mexicano del Petróleo Secretaría de Medio Ambiente y Recursos Naturales Instituto Nacional de Ecología. (2006). Manual de técnicas de análisis de suelos aplicadas a la remediación de sitios contaminados. Ciudad de México D.F. México.p.13.',
+        'Fernández L.C-Instituto Mexicano del Petróleo Secretaría de Medio Ambiente y Recursos Naturales Instituto Nacional de Ecología. (2006). Manual de técnicas de análisis de suelos aplicadas a la remediación de sitios contaminados. Ciudad de México D.F. México.p.13. ',
       link:
         'http://biblioteca.semarnat.gob.mx/janium/Documentos/Ciga/Libros2011/CG008215.pdf',
     },
     {
       referencia:
-        'Fenavi.org. (2014). Resolución-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf. Colombia.p.9',
+        'Fenavi.org. (2014). Resolución-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf. Colombia.p.9 ',
       link:
         'https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf',
     },
     {
       referencia:
-        'Gómez J.C. - SENA . (2013). Manual de Prácticas de Campo y del Laboratorio de Suelos. Espinal. Colombia.p.7.',
+        'Gómez J.C. - SENA . (2013). Manual de Prácticas de Campo y del Laboratorio de Suelos. Espinal. Colombia.p.7. ',
       link:
         'https://repositorio.sena.edu.co/bitstream/11404/2785/1/practicas_campo_laboratorio_suelos.pdf',
     },
     {
-      referencia: 'IDEAM.GOV.CO (s, f) metodos-analiticos.',
-      link: 'http://www.ideam.gov.co/web/agua/metodos-analiticos',
+      referencia: 'IDEAM.GOV.CO (s, f) metodos-analiticos. ',
+      link:
+        'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf',
     },
     {
-      referencia: 'IDEAM (2007). Toma de muestras de aguas residuales.',
-      link: 'http://www.ideam.gov.co/web/agua/metodos-analiticos',
+      referencia: 'IDEAM (2007). Toma de muestras de aguas residuales. ',
+      link:
+        'http://www.ideam.gov.co/documents/14691/38158/Toma_Muestras_AguasResiduales.pdf/f5baddf0-7d86-4598-bebd-0e123479d428',
     },
     {
       referencia:
-        '[IDEAM]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas. ',
+        '[IDEAM]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.  ',
       link:
         'http://www.corponor.gov.co/control_calidad/2014/Guia_monitoreo_IDEAM.pdf',
     },
@@ -328,12 +335,11 @@ export default {
     },
     {
       referencia:
-        'Instituto de Hidrología, Metereología y Estudios Ambientales [IDEAM]. (2017). Toma de muestras de aguas superficiales para la red de calidad.',
-      link: 'http://sgi.ideam.gov.co/documents/412030/35488871',
+        'Instituto de Hidrología, Metereología y Estudios Ambientales [IDEAM]. (2017). Toma de muestras de aguas superficiales para la red de calidad. ',
     },
     {
       referencia:
-        'Instituto Nacional de Salud ( 2007).  Manual de Instrucciones para la Toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio.',
+        'Instituto Nacional de Salud ( 2007).  Manual de Instrucciones para la Toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio. ',
     },
     {
       referencia:
@@ -343,22 +349,19 @@ export default {
     },
     {
       referencia:
-        'SENA (2013 ). Manual de prácticas de campo y del laboratorio de suelos. Centro Agropecuario “La granja” Regional Tolima',
+        'SENA (2013 ). Manual de prácticas de campo y del laboratorio de suelos. Centro Agropecuario “La granja” Regional Tolima ',
     },
     {
       referencia:
-        'Torres. H.- universidad libre (s, f) Guía 1 química analítica.',
-      link: 'http://www.redjbm.com/catedra/guias/quimica/QUI-ANA-GUI1.pdf',
+        'Torres. H.- universidad libre (s, f) Guía 1 química analítica. ',
     },
     {
       referencia:
-        'Thomas, L (2019, febrero 26). Técnicas de la química analítica. News Medical Life science.',
-      link:
-        'https://www.news-medical.net/life-sciences/Analytical-Chemistry-Techniques-(Spanish).aspx',
+        'Thomas, L (2019, febrero 26). Técnicas de la química analítica. News Medical Life science. ',
     },
     {
       referencia:
-        'Universidad Carlos III de Madrid ( s.f ) Determinación de los parámetros físico-químicos de calidad de las aguas',
+        'Universidad Carlos III de Madrid ( s.f ) Determinación de los parámetros físico-químicos de calidad de las aguas ',
       link: 'https://www.upct.es/~minaeees/analisis_aguas.pdf',
     },
   ],
