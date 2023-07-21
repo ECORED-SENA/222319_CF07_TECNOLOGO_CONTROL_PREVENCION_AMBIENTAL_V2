@@ -115,7 +115,7 @@
         ul.lista-ul--color.ps-4.fa-ul
           li 
             i.fas.fa-check
-            | ¿Cuál es el valor real de la organización
+            | ¿Cuál es el valor real de la organización?
           li 
             i.fas.fa-check
             | ¿Somos competitivos en innovación y marca? 
@@ -229,6 +229,8 @@
             i.fas.fa-check
             | Una vez llenados los datos en la tabla siguiente  y se halla el porcentaje de humedad contenido en los RS. (p.30)
 
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 3.] Formato para determinar la humedad
         .tabla-c.borde-tabla.sin-sombra.tema-10-1
           table
             tr
@@ -326,7 +328,7 @@
         .row.justify-content-center.align-items-center
           .col-md-8.mb-4(data-aos="fade-right")
               h3.subt.text-white.mb-4 Determinación de pH 
-              p El pH puede definirse como una medida que expresa el grado de acidez o basicidad. El valor de pH representa el menos logaritmo en base diez de la concentración (actividad) de iones hidrógeno [H+ ]. Como la escala es logarítmica, la caída en una unidad de pH es equivalente a un aumento de 10 veces en la concentración de H+ . Entonces, una muestra de agua con un pH de 5 tiene 10 veces más H+ que una de pH 6 y 100 veces más que una de pH 7.
+              p El pH puede definirse como una medida que expresa el grado de acidez o basicidad. El valor de pH representa el menos logaritmo en base diez de la concentración (actividad) de iones hidrógeno [H+ ]. Como la escala es logarítmica, la caída en una unidad de pH es equivalente a un aumento de 10 veces en la concentración de H+. Entonces, una muestra de agua con un pH de 5 tiene 10 veces más H+ que una de pH 6 y 100 veces más que una de pH 7.
           .col-md-4(data-aos="fade-left")
             figure
               img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-6.png' alt='')
@@ -337,7 +339,7 @@
       .col-md-8.mb-4.mb-md-0(data-aos="fade-right")
         .bloque-texto-c.bg-blue2.p-4
           i.fas.fa-quote-right.mb-2
-          p El pH puede ser analizado en el campo o en el laboratorio. No olvide utilizar recipientes bien limpios para tomar y acarrear las muestras de suelo (preferentemente lávalas previamente y enjuáguese con agua destilada) Si la muestra es llevada al laboratorio, la determinación debe ser realizada preferentemente dentro de las 2 primeras horas a partir de la colecta, ya que puede cambiar por interacción con el anhídrido carbónico (CO2) atmosférico. Conserve las muestras refrigeradas para su transporte. (como se ya se indicó) 
+          p El pH puede ser analizado en el campo o en el laboratorio. No olvide utilizar recipientes bien limpios para tomar y acarrear las muestras de suelo (preferentemente lávalas previamente y enjuáguese con agua destilada) Si la muestra es llevada al laboratorio, la determinación debe ser realizada preferentemente dentro de las 2 primeras horas a partir de la colecta, ya que puede cambiar por interacción con el anhídrido carbónico (CO2) atmosférico. Conserve las muestras refrigeradas para su transporte. (como ya se indicó) 
           p.mb-4 La determinación será realizada con tiras indicadoras. Estas simplemente se sumergen por un instante en la muestra de agua, lo que provoca un cambio de color. Posteriormente se comparan con el patrón de coloración impreso en la caja para asignarles un pH. (p.2) 
           span.text-bold.mb-0 - Según determinación de pH (2007)
       .col-md-4(data-aos="fade-left")
@@ -351,7 +353,7 @@
         .row.align-items-center
           h3.subt.text-white.mb-4.mx-2 Densidad 
           p De acuerdo al Ministerio de Medio Ambiente Perú (2014): 
-          p.mb-4 La densidad hace referencia a la cantidad de masa ocupada en un volumen determinado y su relación es referenciada al peso: g/mL; kg/m3 …etc.  
+          p.mb-4 La densidad hace referencia a la cantidad de masa ocupada en un volumen determinado y su relación es referenciada al peso: g/mL; kg/m3…etc.  
           .col-md-3.mb-4(data-aos="fade-right")
             figure
               img.mx-auto(src='@/assets/curso/temas/tema10/img10-1-8.png' alt='')
@@ -463,8 +465,10 @@
           img.mx-auto(src='@/assets/curso/temas/tema10/img10-2-1.png' alt='')
       .col-md-7(data-aos="fade-left")
         p Procure homogeneizar 100 g que se necesita de muestra para los análisis de laboratorio, con el fin de tener una muestra representativa. Posteriormente se realiza el picado de las muestras de cada categoría en pedazos no mayores a 1cm con la ayuda de la espátula de laboratorio para después trasladarlas a los crisoles de porcelana.  
-        p.bg-blue2.px-4.py-3.mb-3 Los crisoles deben estar previamente tarados, este procesos se lleva a cabo lavándose muy bien, luego colocarlos en el horno a 105 ªC por 40 min, posteriormente, con las pinzas para crisol llévalos al desecador para la absorción de la humedad que pueda tener el crisol, en el desecador debe pasar más o menos 20 min a 30 min.  
+        p.bg-blue2.px-4.py-3.mb-3 Los crisoles deben estar previamente tarados, este proceso se lleva a cabo lavándose muy bien, luego colocarlos en el horno a 105 ªC por 40 min, posteriormente, con las pinzas para crisol llévalos al desecador para la absorción de la humedad que pueda tener el crisol, en el desecador debe pasar más o menos 20 min a 30 min.  
         p Pese los crisoles en una balanza analítica y registre los datos con las 5 cifras significativas, es recomendable realizar la prueba por triplicado. 
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 4.] Formato para la medición de humedad en residuos sólidos
         .tabla-c.borde-tabla.sin-sombra.tema-10-1
           table
             tr
@@ -517,7 +521,9 @@
     p.mb-5(data-aos="fade") La medición de este parámetro se puede hacer mediante cintas de papel tornasol, esta es una tecnología de bajo costo, que puede ser utilizada por cualquier persona. El procedimiento para medir este parámetro es poner la cinta humedecida sobre los residuos o sobre el material ya degradado.        
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-6
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Figura 3.] Escala de un pH
         figure
           img.mx-auto(src='@/assets/curso/temas/tema10/medicion.svg' alt='')
 

@@ -114,8 +114,7 @@
                   li.mb-1 
                     i.lista-ul__vineta
                     | Norma Alemana VDI 3884 de 2015  
-                p.mb-0 Citado de: tqi.co (s, f). Soluciones-confiables-olfatometría 
-                a(:href="('https://tqi.co/soluciones-confiables/olfatometria/#')" target="_blank") https://tqi.co/soluciones-confiables/olfatometria/#
+                p.mb-0 Citado de: tqi.co (s.f). 
               .tarjeta.bg-yellow.p-3(x="71%" y="15.5%" numero="+")
                 .h4.mb-2 Normas técnicas colombianas
                 ul.lista-ul.fa-ul
@@ -173,11 +172,10 @@
               .col-md-2.col-5.mb-3.mb-md-0
                 img.px-2(src="@/assets/curso/temas/tema4/icono.svg")
               .col-md-10.p-md-3
-                p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación.
-                p.mb-0 Citado de: Asociación Española para la calidad AEC (2010) Contaminación Odorífera  p.1-2
-                a(:href="('https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128')" target="_blank") https://www.aec.es/c/document_library/get_file?uuid=3527643c-0525-42fd-9943-1c881254e44f&groupId=10128
+                p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación. . (Asociación Española para la calidad AEC, 2010, p.1-2)
+                
 
-    p Es momento de adentrarse en las Técnicas físico químicas de análisis olfatométricos. La caracterización de los olores se puede realizar mediante dos técnicas esencialmente: sensoriales y analíticas.
+    p Es momento de adentrarse en las Técnicas físicoquímicas de análisis olfatométricos. La caracterización de los olores se puede realizar mediante dos técnicas esencialmente: sensoriales y analíticas.
 
     .row.fondo-tema4-3-1.align-items-center.mb-4
       .col-lg-12.col-12.px-lg-5.px-4
@@ -256,6 +254,8 @@
 
     p.mb-4(data-aos="fade") En la siguiente tabla se enuncian algunos procedimientos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión:
 
+    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+      p.mb-0 #[b Tabla 1.] Elementos para la determinación de la concentración de sustancias de olores ofensivos en calidad del aire o inmisión
     .tabla-c.tema4.mb-3(data-aos="fade-down")
       table
         tr.bg-green8
@@ -301,10 +301,7 @@
             p.mb-0 Método Denuders. Medición de amoniaco por muestreo denuder anular con análisis en línea.
 
     .bg-gris3.text-small.p-2.mb-5
-      p.mb-1 Citado de: fenavi.org. (2014). Resolución-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf. Colombia.p.9
-      a(:href="('https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf')" target="_blank").mb-0 https://fenavi.org/wp-content/uploads/2018/05/Resoluci%C3%B3n-2087-de-2014-Protocolo-Monitoreo-control-y-Vigilancia-de-Olores-Ofensivos-1.pdf         
-
-
+      p.mb-1 Fenavi.org. (2014). 
 
    
     h3.subt.text-white.mb-4(data-aos="fade") Parámetros de análisis físicos y químicos de los residuos sólidos

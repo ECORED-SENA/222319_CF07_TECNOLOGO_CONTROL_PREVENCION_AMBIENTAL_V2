@@ -22,7 +22,7 @@
     .row.mb-5
       .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
         p Las cifras significativas de una medida indican, implícitamente, la incertidumbre o inexactitud de la medida sin necesidad de incluir el símbolo “±”. El reporte debe contener un solo dígito incierto o inexacto: el último, que corresponde a la apreciación del instrumento.
-        p “Las cifras significativas son los dígitos significativos en una cantidad medida o calculada”) y se sobreentiende que el último dígito es incierto o inexacto. En el caso mostrado en la siguiente imagen, con la pipeta A (4 mL) se está reportando una sola cifra significativa; con la pipeta B (4,0 mL) se están reportando dos cifras significativas.
+        p “Las cifras significativas son los dígitos significativos en una cantidad medida o calculada” y se sobreentiende que el último dígito es incierto o inexacto. En el caso mostrado en la siguiente imagen, con la pipeta A (4 mL) se está reportando una sola cifra significativa; con la pipeta B (4,0 mL) se están reportando dos cifras significativas.
       .col-md-7(data-aos="fade-left")
         figure
           img.mx-auto(src='@/assets/curso/temas/tema12/img12-1.svg' alt='')    
@@ -68,7 +68,9 @@
     p.mb-4(data-aos="fade") Una forma sencilla de diferenciar cuales ceros son cifras significativas, es cambiar de notación decimal a notación científica ya que las cifras significativas se mantienen sin importar la notación.
 
     .row.justify-content-center.mb-5
-      .col-lg-7.col-md-8.col-sm-10.col-12
+      .col-lg-7.col-md-10.col-12
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 5.] Tipos de notaciones
         .tabla-c.tema-10-1.sin-sombra.borde-tabla(data-aos="fade-down-right")
           table
             tr
@@ -131,7 +133,7 @@
                 img(src="@/assets/curso/temas/tema12/3.svg", alt="alt").img100
             .col
               h5.mb-0 Cuando se resuelven problemas, las cifras significativas deberán indicarse en el enunciado.
-              p.mb-0 En caso de duda se recomienda al estudiante utilizar al menos tres cifras. significativas en todos los cálculos.
+              p.mb-0 . En caso de duda se recomienda al estudiante utilizar al menos tres cifras significativas en todos los cálculos
         .crd.crd--avatarHorizontal.crd--4.py-4
           .row.align-items-center
             .col-auto
@@ -159,7 +161,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-10.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 Exactitud y precisión
+          p.mb-0 #[b Figura 4.] Exactitud y precisión
         .tabla-c.sin-sombra.borde-tabla.tema-12-3(data-aos="fade-down")
           table
             caption.mt-2
@@ -187,7 +189,9 @@
     p.mb-5(data-aos="fade") En un laboratorio de análisis ambientales, tecnología en prevención y control ambiental del SENA, se desea determinar el contenido de hierro en el agua de una laguna, para lo cual se toman diez muestras y se analizan en el laboratorio. Un laboratorio externo de control de carácter oficial reporta que el contenido de cloro en la laguna es de 250,0 mg/L de Cl. Del análisis se obtuvieron los siguientes resultados:
 
     .row.justify-content-center.mb-5
-      .col-lg-8.col-md-10.col-sm-12
+      .col-lg-8.col-md-11.col-sm-12
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 6.] Resultados del ejemplo
         .tabla-c.sin-sombra.borde-tabla.tema-12-3(data-aos="fade-down")
           table
             tr
@@ -239,8 +243,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-10.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 4. 
-          span Mediana
+          h5 Tabla 7. 
+          span Valores ordenados para tomar la mediana
         .tabla-c.sin-sombra.borde-tabla.tema-12-3(data-aos="fade-down")
           table.text-center
             caption.mt-2 
@@ -317,8 +321,8 @@
     .row.justify-content-center.mb-5
       .col-lg-9.col-md-10.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 5. 
-          span Tabla 18 Desviación
+          h5 Tabla 8. 
+          span Valores ordenados para la desviación absoluta
         .tabla-c.sin-sombra.borde-tabla.tema12-tabla-5(data-aos="fade-down-right")
           table.text-center
             caption
@@ -407,7 +411,7 @@
               figure
                 img.mx-auto(src='@/assets/curso/temas/tema12/form.svg' alt='Formula')
             .col-md-5
-              p Para grupos mayores de veinte datos, se usa n en lugar de (n ─ 1). Algunas calculadoras científicas utilizan n o n-1 como fórmula predeterminada, sin tomar en cuenta el número de valores utilizados; por ello es recomendable consultar el manual de cada calculadora antes de utilizar esa función.
+              p Para grupos mayores de veinte datos, se usa n en lugar de (n ─ 1). Algunas calculadoras científicas utilizan (n) o (n-1) como fórmula predeterminada, sin tomar en cuenta el número de valores utilizados; por ello es recomendable consultar el manual de cada calculadora antes de utilizar esa función.
 
     p.mb-4 Se puede reportar la desviación estándar relativa a la media. Este valor no tiene unidades:
 
@@ -419,6 +423,9 @@
 
     .row.justify-content-center.my-5.mb-5
       .col-xl-10.col-lg-12.mb-4
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          h5 Tabla 9. 
+          span Valores ordenados para la desviación estándar
         .tabla-c.sin-sombra.borde-tabla.tema12-tabla-6(data-aos="fade-down")
           table.text-center
             tr
@@ -587,8 +594,11 @@
           .col-md-3.mb-4
             figure
               img.mx-auto.px-3(src='@/assets/curso/temas/tema12/form3.svg' alt='')
-          p.text-center.mb-5 Donde s es la desviación estándar y z se obtiene de la siguiente tabla:
+          p.text-center.mb-4 Donde s es la desviación estándar y z se obtiene de la siguiente tabla:
           .col-md-4
+            .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+              h5 Tabla 10. 
+              span Niveles de confianza
             .div.table
               table.text-center
                 caption.bg-gris3.py-1  
@@ -664,7 +674,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-md-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 Disoluciones del analito de concentración conocida y creciente
+          p.mb-0 #[b Figura 5.] Disoluciones del analito de concentración conocida y creciente
         .row.bg-blue2.p-3  
           .col-md-6
             figure
@@ -687,11 +697,11 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center(data-aos="fade-down")
           h4.t-green.mb-4(data-aos="fade") Señal-concentración y recta
-          p.mb-5(data-aos="fade") Se traza un gráfico con las señales frente a la concentración de analito y se calcula la recta que “mejor” se ajusta a los datos mediante un ajuste por mínimos cuadrados. De esta forma se obtiene la pendiente (b) y la ordenada (a) en el origen que definen la recta.s
+          p.mb-5(data-aos="fade") Se traza un gráfico con las señales frente a la concentración de analito y se calcula la recta que “mejor” se ajusta a los datos mediante un ajuste por mínimos cuadrados. De esta forma se obtiene la pendiente (b) y la ordenada (a) en el origen que definen la recta.
           .row.justify-content-center(data-aos="fade-down") 
             .col-md-8
               .titulo-sexto.color-acento-contenido
-                p.mb-0 Señal-concentración y recta ajustada por mínimos cuadrados
+                p.mb-0 #[b Figura 6.] Señal-concentración y recta ajustada por mínimos cuadrados
               .row.bg-gris.justify-content-center.p-3  
                 .col-md-10
                   figure
@@ -719,7 +729,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-md-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 Figura 2. Señal-concentración y recta ajustada por mínimos cuadrados
+          p.mb-0 #[b Figura 7.] Señal-concentración y recta ajustada por mínimos cuadrados
         .row.bg-green3.justify-content-center.p-3  
           .col-md-11
             figure

@@ -86,7 +86,7 @@
               |, según la cual los ácidos se definen como especies capaces de ceder protones y bases como especies capaces de aceptar protones.
           .tarjeta.bg-green4.p-4(titulo="Reacciones de formación de complejos")
             h5 Reacciones de formación de complejos
-            p En estas se producen transferencia de iones o moléculas. A pesar de lo amplio del concepto de compuesto complejo se considera normalmente una reacción de formación de complejos aquélla en que una o varias moléculas del disolvente son reemplazadas por otras especies químicas; estas especies unidas a un ion central se denominan ligandos. El ligando puede ser una molécula neutra o un ion.
+            p En estas se producen transferencia de iones o moléculas. A pesar de lo amplio del concepto de compuesto complejo se considera normalmente una reacción de formación de complejos aquella en que una o varias moléculas del disolvente son reemplazadas por otras especies químicas; estas especies unidas a un ion central se denominan ligandos. El ligando puede ser una molécula neutra o un ion.
           .tarjeta.bg-green4.p-4(titulo="Reacciones de precipitación")
             h5 Reacciones de precipitación
             p Son aquellas en las que además de haber un intercambio de iones o de moléculas tiene lugar la aparición de una fase sólida. La aparición de una fase sólida en el seno de un líquido, bien por adición de un reactivo que forme un producto insoluble con alguno de los iones de la solución, o bien por concentración del mismo líquido hasta sobrepasar la saturación, recibe el nombre de precipitación, y se llama precipitado al producto sólido que se ha formado.
@@ -143,7 +143,7 @@
         .row.justify-content-center.py-5
           .col-12(data-aos="fade")
             h3.subt.text-white.mb-4 Equivalencias
-            p.mb-0 En la volumetría se agrega un volumen de la solución patrón que reacciona con la solución problema equivalentemente. Esta situación se alcanza en el llamado punto de equivalencia es decir en el punto estequiométrico de la reacción.
+            p.mb-0 En la volumetría se agrega un volumen de la solución patrón que reacciona con la solución problema equivalentemente. Esta situación se alcanza en el llamado punto de equivalencia, es decir, en el punto estequiométrico de la reacción.
 
     .row.justify-content-center.mb-4
       .col-md-7.mb-4(data-aos="fade-right")

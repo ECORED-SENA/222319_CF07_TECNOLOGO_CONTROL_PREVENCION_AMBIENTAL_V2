@@ -207,7 +207,7 @@ export default {
     {
       termino: 'Ficha de seguridad (FDS) u Hoja de datos de seguridad',
       significado:
-        'es una fuente que proporciona información completa sobre una sustancia o mezcla con miras al control y reglamentación de su utilización en el lugar de trabajo. Adicional a lo anterior aporta información sobre peligros, incluidos aquéllos para el medio ambiente, y sobre las medidas de seguridad correspondientes. (ICBF, 2020).',
+        'es una fuente que proporciona información completa sobre una sustancia o mezcla con miras al control y reglamentación de su utilización en el lugar de trabajo. Adicional a lo anterior aporta información sobre peligros, incluidos aquellos para el medio ambiente, y sobre las medidas de seguridad correspondientes. (ICBF, 2020).',
     },
     {
       termino: 'Horizonte del suelo',
@@ -250,12 +250,12 @@ export default {
         'muestras obtenidas del terreno usando un método diseñado para preservar la estructura del suelo; es decir se usa equipo de muestreo especial en tal forma que no se deja que las partículas y los vacíos cambien con respecto a la distribución existente en el terreno antes del muestreo. (NTC 4113-1).',
     },
     {
-      termino: 'Muestreo ',
+      termino: 'Muestreo',
       significado:
         'proceso de toma de muestras que son analizadas en laboratorios para obtener información sobre la calidad del agua del sitio concertado en que fueron tomadas  (INS, 2011, p.9).',
     },
     {
-      termino: 'Perfil del suelo ',
+      termino: 'Perfil del suelo',
       significado:
         'exposición vertical de horizontes de un suelo individual que son el resultado de la edafogénesis durante el período de formación del suelo (NTC 3656).',
     },

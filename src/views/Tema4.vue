@@ -70,7 +70,9 @@
 
     h4.t-green.mb-4(data-aos="fade") Potencial de hidrógeno pH
     .row.justify-content-center.mb-5
-      .col-md-8
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Figura 1.] Potencial de hidrógeno pH
         figure
           img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-4.svg' alt='')
 
@@ -79,7 +81,7 @@
         .row.align-items-center
           h4.t-green.mb-4 El pH
           .col-md-9.mb-4(data-aos="fade-right")
-            p El término pH es una forma de expresar la concentración de ion hidrógeno o , más exactamente, la actividad del ión hidrógeno. En general se usa para expresar la intensidad de la condición ácida o alcalina de una solución, sin que esto quiera decir que mida la acidez total o la alcalinidad total.  
+            p El término pH es una forma de expresar la concentración de ion hidrógeno o, más exactamente, la actividad del ión hidrógeno. En general se usa para expresar la intensidad de la condición ácida o alcalina de una solución, sin que esto quiera decir que mida la acidez total o la alcalinidad total.  
             p Hasta este punto, le hemos mostrado 5 de los tipos de agrupación de los protocolos de análisis. Es momento de continuar con otros, adicionales, de suma importancia.             
           .col-md-3(data-aos="fade-left")
             figure
@@ -89,9 +91,11 @@
     h4.t-green.mb-4 Suministro de aguas
     p.mb-4 El suministro de aguas es un factor que debe considerarse con respecto a la coagulación química, la desinfección, el ablandamiento y el control de corrosión. En las plantas de tratamiento de aguas residuales que emplean procesos biológicos, el pH debe controlarse dentro de un intervalo favorable a los organismos. Tanto por estos factores como por las relaciones que existen entre pH, alcalinidad y acidez es importante entender los aspectos teóricos y prácticos del pH. 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-8
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Figura 2.] Escala de un pH
         figure
-          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-6.svg' alt='Suministro de aguas')
+          img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-6.svg' alt='Escala de un pH')
 
     .row.align-items-center.mb-5
       .col-md-4.mb-4(data-aos="fade-right")
@@ -153,7 +157,7 @@
             h3.subt.text-white.mb-4 Parámetros químicos
             p La calidad química del agua está determinada por las sustancias químicas presentes en la muestra   analizada en un tiempo determinado y un punto específico.
             h4.t-green.mb-4 Oxígeno disuelto
-            p El oxígeno disuelto (OD) es necesario para la respiración de los microorganismos aerobios así como para otras formas de vida aerobia. No obstante, el oxígeno es ligeramente soluble en el agua; la cantidad real de oxígeno que puede estar presente en la solución está determinada por:
+            p El oxígeno disuelto (OD) es necesario para la respiración de los microorganismos aerobios, así como para otras formas de vida aerobia. No obstante, el oxígeno es ligeramente soluble en el agua; la cantidad real de oxígeno que puede estar presente en la solución está determinada por:
             ol.lista-ol.ps-4.fa-ul
               li 
                 span.text-bold a. 
@@ -231,7 +235,7 @@
             figure
               img.mx-auto(src='@/assets/curso/temas/tema5/img5-1-15.png' alt='')
 
-        p Los iones hidroxilo presentes en una muestra como resultado de disociación o hidrólisis de solutos reaccionan con adiciones de ácido estándar. En consecuencia la alcalinidad depende del pH de punto final empleado. La alcalinidad de una muestra se determina mediante el volumen de un ácido estándar requerido para titular una porción a un pH seleccionado.
+        p Los iones hidroxilo presentes en una muestra como resultado de disociación o hidrólisis de solutos reaccionan con adiciones de ácido estándar. En consecuencia, la alcalinidad depende del pH de punto final empleado. La alcalinidad de una muestra se determina mediante el volumen de un ácido estándar requerido para titular una porción a un pH seleccionado.
 
         .row.align-items-center          
           .col-md-5.mb-4(data-aos="fade-right")
@@ -260,7 +264,7 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-md-6.col-sm-8.col-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 1.] Cationes y aniones
+          p.mb-0 #[b Tabla 2.] Cationes y aniones
         table(data-aos="fade-down")
           caption
             p.mb-0 Nota. Lievano E, (2020)
@@ -325,8 +329,8 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center.justify-content-center
           h4.t-green.mb-4(data-aos="fade") Grasas y aceites
-          p Le presentamos, ahora, elementos importantes sobre el método de extracción Soxhlet para la determinación de grasas y aceites.
-          p.mb-4 El método de extracción Soxhlet para la determinación de grasas y aceites es aplicable para determinar lípidos biológicos, hidrocarburos ya sea fracciones pesadas o relativamente polares del petróleo y cuando los niveles de grasas no volátiles pueden alterar el límite de solubilidad del solvente. 
+          p Le presentamos, ahora, elementos importantes sobre el método de extracción #[em Soxhlet] para la determinación de grasas y aceites.
+          p.mb-4 El método de extracción #[em Soxhlet] para la determinación de grasas y aceites es aplicable para determinar lípidos biológicos, hidrocarburos ya sea fracciones pesadas o relativamente polares del petróleo y cuando los niveles de grasas no volátiles pueden alterar el límite de solubilidad del solvente. 
 
           SlyderF(columnas="col-lg-6 col-xl-4" data-aos="fade-down")
             .row
@@ -334,13 +338,13 @@
                 img(src='@/assets/curso/temas/tema5/slide-f-ico1.svg' alt='Grasas y aceites')
                 .tarjeta.bg-green11
                   .p-4
-                    p El método es aplicable en aguas residuales o afluentes tratados que contengan estos materiales, aunque la complejidad de la muestra puede producir resultados desviados a causa de la falta de especificidad Los jabones metálicos solubles son hidrolizados por acidificación. Sólo los aceites y las grasas sólidas o viscosas presentes se separan de la muestra líquida por filtración sobre una matriz sólida absorbente.
+                    p El método es aplicable en aguas residuales o afluentes tratados que contengan estos materiales, aunque la complejidad de la muestra puede producir resultados desviados a causa de la falta de especificidad. Los jabones metálicos solubles son hidrolizados por acidificación. Sólo los aceites y las grasas sólidas o viscosas presentes se separan de la muestra líquida por filtración sobre una matriz sólida absorbente.
             .row
               .tarjeta-avatar.text-center.h-tem5-tarj3
                 img(src='@/assets/curso/temas/tema5/slide-f-ico2.svg' alt='Grasas y aceites')
                 .tarjeta.bg-green11
                   .p-4
-                    p Después de la extracción en un aparato Soxhlet con solvente orgánico, se pesa el residuo que queda de la evaporación del solvente para determinar el contenido en grasa y aceite. En la determinación de grasas y aceites no se mide una cantidad absoluta de una sustancia específica; se determinan grupos de sustancias con características físicas similares con base en su solubilidad en el solvente.
+                    p Después de la extracción en un aparato #[em Soxhlet] con solvente orgánico, se pesa el residuo que queda de la evaporación del solvente para determinar el contenido en grasa y aceite. En la determinación de grasas y aceites no se mide una cantidad absoluta de una sustancia específica; se determinan grupos de sustancias con características físicas similares con base en su solubilidad en el solvente.
             .row
               .tarjeta-avatar.text-center.h-tem5-tarj3
                 img(src='@/assets/curso/temas/tema5/slide-f-ico3.svg' alt='Grasas y aceites')
@@ -379,7 +383,7 @@
                     p Las concentraciones de ortofosfatos mayores de 25 mg/L interfieren por precipitación de fosfato de plata. Las concentraciones de hierro mayores de 10 mg/L interfieren enmascarando el punto final en la titulación.
 
 
-    p.mb-5(data-aos="fade") Luego de conocer sobre el método de extracción Soxhlet para la determinación de grasas y aceites, le invitamos a conocer, en la siguiente gráfica, algunos factores de importancia respecto a Sulfatos y Nitritos.
+    p.mb-5(data-aos="fade") Luego de conocer sobre el método de extracción #[em Soxhlet] para la determinación de grasas y aceites, le invitamos a conocer, en la siguiente gráfica, algunos factores de importancia respecto a Sulfatos y Nitritos.
     
     h4.t-green.mb-4(data-aos="fade") Factores de importancia respecto a sulfatos, nitritos y nitratos
 
@@ -422,9 +426,9 @@
           li 
             i.fas.fa-check
             span La acidez se titula mediante la adición de iones OH- provenientes de una disolución de NaOH 0,02N. Dando paso a la siguiente reacción. #[br]#[br]
-              strong.bg-green7.mb-0.p-2 2NaOH + CO<sub>2</sub>→ Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O #[br]
-              strong.bg-green7.mb-0.p-2 Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O -→ 2NaHCO<sub>3</sub> #[br]
-              strong.bg-green7.mb-0.p-2 NaOH + CO<sub>2</sub> → -NaHCO<sub>3</sub>
+              strong.bg-green7.mb-0.px-2.py-1 2NaOH + CO<sub>2</sub>→ Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O #[br]
+              strong.bg-green7.mb-0.px-2.py-1 Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O -→ 2NaHCO<sub>3</sub> #[br]
+              strong.bg-green7.mb-0.px-2.py-1 NaOH + CO<sub>2</sub> → -NaHCO<sub>3</sub>
           li 
             i.fas.fa-check
             | En una muestra que contenga únicamente dióxido de carbono, bicarbonatos y carbonatos, la titulación hasta pH 8.3 a 25ºC corresponde a la neutralización estequiometria del ácido carbónico a bicarbonato, por esta razón, el cambio de color del indicador. (P.1).
@@ -505,7 +509,7 @@
       .row.justify-content-center
         .col-md-5.mb-4.mb-md-0
           p La prueba de enzima – sustrato definido, se fundamenta en la actividad enzimática de los Coliformes totales y los coliformes fecales (E. coli) Los coliformes totales se diferencian según su capacidad para fermentar lactosa, así:
-          p Fermentadores rápidos: E. coli, klebsiella, enterobacter, poseen 2 enzimas, la betagalactósido - permeasa, su actividad es permitir que la lactosa se difunda a través de la membrana celular. La otra es la beta-galactosidasa la cual descompone por hidrólisis el enlace beta - galactósido que une las moléculas de glucosa y galactosa para formar el disacárido de lactosa, liberando así la glucosa que de esta manera puede ser fermentada. Los fermentadores lentos: carecen de la enzima beta -galactósido - permeasa.
+          p Fermentadores rápidos: E. coli, klebsiella, enterobacter, poseen 2 enzimas, la betagalactósido - permeasa, su actividad es permitir que la lactosa se difunda a través de la membrana celular. La otra es la beta-galactosidasa, la cual descompone por hidrólisis el enlace beta - galactósido que une las moléculas de glucosa y galactosa para formar el disacárido de lactosa, liberando así la glucosa que de esta manera puede ser fermentada. Los fermentadores lentos: carecen de la enzima beta -galactósido - permeasa.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema5/slide-b-3.png', alt='')               
@@ -612,7 +616,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.2 Manejo de residuos, características de peligrosidad 
 
-    p.mb-4(data-aos="fade") Los residuos de laboratorios de análisis de agua se clasifican en diversas categorías en función de su naturaleza, peligrosidad y destino final. Le invitamos a revisar la Tabla 5 del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
+    p.mb-4(data-aos="fade") Los residuos de laboratorios de análisis de agua se clasifican en diversas categorías en función de su naturaleza, peligrosidad y destino final. Le invitamos a revisar la Tabla del Anexo 6 para que afiance su comprensión al respecto del Manejo de residuos, característica de peligrosidad.
 
     .row(data-aos="fade-down")
       .col-md-8
@@ -639,7 +643,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.3 Método <em>Biological Monitoring Working Party BMWP</em>
 
-    p.mb-4 Este método se basa en el principio de que diferentes invertebrados acuáticos tienen distinta tolerancia a los contaminantes . En el caso de BMWP, esto se basa en la sensibilidad / tolerancia a la contaminación orgánica (es decir, enriquecimiento de nutrientes que puede afectar la disponibilidad de oxígeno disuelto) Es importante reconocer que la clasificación de sensibilidad / tolerancia variará para los diferentes tipos de contaminación.  
+    p.mb-4 Este método se basa en el principio de que diferentes invertebrados acuáticos tienen distinta tolerancia a los contaminantes. En el caso de BMWP, esto se basa en la sensibilidad / tolerancia a la contaminación orgánica (es decir, enriquecimiento de nutrientes que puede afectar la disponibilidad de oxígeno disuelto) Es importante reconocer que la clasificación de sensibilidad / tolerancia variará para los diferentes tipos de contaminación.  
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
@@ -652,7 +656,7 @@
               p En el caso de BMWP / Clasificación de contaminación orgánica, la presencia de moscas de mayo o moscas de piedra, por ejemplo, indica las vías fluviales más limpias y se les da un puntaje de tolerancia de 10. [2] Los invertebrados con menor puntuación son los gusanos (Oligochaeta) que puntúan 1. El número de macroinvertebrados diferentes también es un factor importante, porque se supone que una mejor calidad del agua contiene menos contaminantes que incluirían especies “sensibles”, lo que da como resultado una mayor diversidad.
           .row.justify-content-center(titulo="Muestreo de patada")
             .col-md-11
-              p Se emplea el muestreo de patada, donde se coloca una red de aguas abajo del muestreador y el lecho del río se agita con el pie durante un período de tiempo determinado (el estándar es de 3 minutos) Todos los macroinvertebrados atrapados en la red se almacenan y conservan con una solución de alcohol, y se identifican a nivel familiar , esto también se puede hacer con los organismos vivos.
+              p Se emplea el muestreo de patada, donde se coloca una red de aguas abajo del muestreador y el lecho del río se agita con el pie durante un período de tiempo determinado (el estándar es de 3 minutos) Todos los macroinvertebrados atrapados en la red se almacenan y conservan con una solución de alcohol, y se identifican a nivel familiar, esto también se puede hacer con los organismos vivos.
 
     p.text-center.mb-5(data-aos="fade") Recolección de macroinvertebrados. 
 

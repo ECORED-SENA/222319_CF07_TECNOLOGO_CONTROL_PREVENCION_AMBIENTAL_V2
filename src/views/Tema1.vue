@@ -88,7 +88,7 @@
                 span.mb-0 #[b Semimicroanálisis:] cantidad comprendida aproximadamente entre 0.01 a 0.05 g (10 a 50 mg).
               li 
                 i.fas.fa-check
-                span.mb-0 #[b Microanálisis:] de 1 a unos pocos miligramos (0.001g).
+                span.mb-0 #[b Microanálisis:] de 1 a unos pocos miligramos (0.001 g).
               li 
                 i.fas.fa-check
                 span.mb-0 #[b Ultra Microanálisis:] Determina una cantidad de material del orden de unos cuantos miligramos (0.001 mg = 1 g).     
