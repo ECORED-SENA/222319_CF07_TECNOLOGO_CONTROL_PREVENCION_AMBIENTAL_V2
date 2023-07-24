@@ -172,7 +172,7 @@
               .col-md-2.col-5.mb-3.mb-md-0
                 img.px-2(src="@/assets/curso/temas/tema4/icono.svg")
               .col-md-10.p-md-3
-                p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación. . (Asociación Española para la calidad AEC, 2010, p.1-2)
+                p Los estudios olfato métricos constituyen una herramienta de gran utilidad para el control y reducción de los malos olores emitidos por distinto tipo de fuentes. Estos estudios permiten no sólo determinar el grado de molestia creado en el entorno, sino también identificar las fuentes de olor realmente importantes y adoptar sistemas eficaces de eliminación. (Asociación Española para la calidad AEC, 2010, p.1-2)
                 
 
     p Es momento de adentrarse en las Técnicas físicoquímicas de análisis olfatométricos. La caracterización de los olores se puede realizar mediante dos técnicas esencialmente: sensoriales y analíticas.

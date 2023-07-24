@@ -281,6 +281,8 @@
         p Pasado este periodo de tiempo, se espera mínimo 45 minutos antes de extraer los crisoles de la mufla. Este procedimiento se lo realiza con las pinzas para el crisol. 
         p Pesar y anotar el peso. 
         p.mb-4 Una vez llenado los datos en la tabla siguiente y basados en la ecuación, se procede a determinar el porcentaje de cenizas obtenidas del proceso de incineración de los RS. (p.48).
+        .titulo-sexto.color-acento-contenido.mx-md-4(data-aos="fade-down")
+          p.mb-0 #[b Tabla 4.] Forma para determinar el porcentaje de cenizas
         .tabla-c.borde-tabla.sin-sombra.tema-10-1.mx-md-4
           table
             tr
@@ -468,7 +470,7 @@
         p.bg-blue2.px-4.py-3.mb-3 Los crisoles deben estar previamente tarados, este proceso se lleva a cabo lavándose muy bien, luego colocarlos en el horno a 105 ªC por 40 min, posteriormente, con las pinzas para crisol llévalos al desecador para la absorción de la humedad que pueda tener el crisol, en el desecador debe pasar más o menos 20 min a 30 min.  
         p Pese los crisoles en una balanza analítica y registre los datos con las 5 cifras significativas, es recomendable realizar la prueba por triplicado. 
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 4.] Formato para la medición de humedad en residuos sólidos
+          p.mb-0 #[b Tabla 5.] Formato para la medición de humedad en residuos sólidos
         .tabla-c.borde-tabla.sin-sombra.tema-10-1
           table
             tr

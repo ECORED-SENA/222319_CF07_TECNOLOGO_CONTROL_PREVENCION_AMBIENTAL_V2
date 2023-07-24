@@ -70,7 +70,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.col-md-10.col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 5.] Tipos de notaciones
+          p.mb-0 #[b Tabla 6.] Tipos de notaciones
         .tabla-c.tema-10-1.sin-sombra.borde-tabla(data-aos="fade-down-right")
           table
             tr
@@ -191,7 +191,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-11.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 6.] Resultados del ejemplo
+          p.mb-0 #[b Tabla 7.] Resultados del ejemplo
         .tabla-c.sin-sombra.borde-tabla.tema-12-3(data-aos="fade-down")
           table
             tr
@@ -243,7 +243,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-10.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 7. 
+          h5 Tabla 8. 
           span Valores ordenados para tomar la mediana
         .tabla-c.sin-sombra.borde-tabla.tema-12-3(data-aos="fade-down")
           table.text-center
@@ -321,7 +321,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9.col-md-10.col-sm-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 8. 
+          h5 Tabla 9. 
           span Valores ordenados para la desviación absoluta
         .tabla-c.sin-sombra.borde-tabla.tema12-tabla-5(data-aos="fade-down-right")
           table.text-center
@@ -424,7 +424,7 @@
     .row.justify-content-center.my-5.mb-5
       .col-xl-10.col-lg-12.mb-4
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 9. 
+          h5 Tabla 10. 
           span Valores ordenados para la desviación estándar
         .tabla-c.sin-sombra.borde-tabla.tema12-tabla-6(data-aos="fade-down")
           table.text-center
@@ -597,7 +597,7 @@
           p.text-center.mb-4 Donde s es la desviación estándar y z se obtiene de la siguiente tabla:
           .col-md-4
             .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-              h5 Tabla 10. 
+              h5 Tabla 11. 
               span Niveles de confianza
             .div.table
               table.text-center

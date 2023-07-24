@@ -165,13 +165,13 @@ export default {
       link:
         'https://idus.us.es/bitstream/handle/11441/54627/La%20cromatograf%C3%ADa.pdf?sequence=1&isAllowed=y',
     },
-    {
+    /*{
       tema: 'Aplicación de protocolos de análisis de muestras',
       referencia:
         'Instituto de Hidrología, Meteorología y Estudios Ambientales (s.f.). <em>Métodos analíticos</em>. IDEAM.',
       tipo: 'Página web',
       link: 'http://www.ideam.gov.co/web/agua/metodos-analiticos',
-    },
+    },*/
     {
       tema: 'Protocolos de análisis de suelos',
       referencia:
@@ -313,7 +313,8 @@ export default {
         'https://repositorio.sena.edu.co/bitstream/11404/2785/1/practicas_campo_laboratorio_suelos.pdf',
     },
     {
-      referencia: 'IDEAM.GOV.CO (s, f) metodos-analiticos. ',
+      referencia:
+        'IDEAM (2007). Manual de Instrucciones para la toma, preservación y transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio. ',
       link:
         'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf',
     },
@@ -358,6 +359,10 @@ export default {
     {
       referencia:
         'Thomas, L (2019, febrero 26). Técnicas de la química analítica. News Medical Life science. ',
+    },
+    {
+      referencia: 'Tqi.co (s, f). Soluciones-confiables-olfatometría ',
+      link: 'https://tqi.co/soluciones-confiables/olfatometria/',
     },
     {
       referencia:
